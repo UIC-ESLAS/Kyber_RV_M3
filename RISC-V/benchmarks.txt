@@ -1,0 +1,47 @@
+% Benchmarking measurements written on 2023-03-14 08:44:06.069614+00:00, Iterations=100
+
+%RISC-V results for crypto_kem_kyber512_fstack (type=kem)
+\DefineVar{crypto_kem_kyber512_fstackkeygen}{1\,497k}
+\DefineVar{crypto_kem_kyber512_fstackencaps}{1\,812k}
+\DefineVar{crypto_kem_kyber512_fstackdecaps}{1\,601k}
+\DefineVar{crypto_kem_kyber512_fstackntt}{15\,888}
+\DefineVar{crypto_kem_kyber512_fstackinvntt}{15\,719}
+\DefineVar{crypto_kem_kyber512_fstackbasemul}{10\,015}
+
+%RISC-V results for crypto_kem_kyber512_fspeed (type=kem)
+\DefineVar{crypto_kem_kyber512_fspeedkeygen}{1\,597k}
+\DefineVar{crypto_kem_kyber512_fspeedencaps}{1\,903k}
+\DefineVar{crypto_kem_kyber512_fspeeddecaps}{1\,674k}
+\DefineVar{crypto_kem_kyber512_fspeedntt}{15\,888}
+\DefineVar{crypto_kem_kyber512_fspeedinvntt}{15\,719}
+\DefineVar{crypto_kem_kyber512_fspeedpoly_basemul_opt_16_32}{4\,895}
+\DefineVar{crypto_kem_kyber512_fspeedpoly_basemul_acc_opt_32_32}{5\,669}
+\DefineVar{crypto_kem_kyber512_fspeedpoly_basemul_acc_opt_32_16}{9\,322}
+
+%RISC-V results for crypto_kem_kyber768_fstack (type=kem)
+\DefineVar{crypto_kem_kyber768_fstackkeygen}{2\,413k}
+\DefineVar{crypto_kem_kyber768_fstackencaps}{2\,929k}
+\DefineVar{crypto_kem_kyber768_fstackdecaps}{2\,635k}
+\DefineVar{crypto_kem_kyber768_fstackntt}{15\,888}
+\DefineVar{crypto_kem_kyber768_fstackinvntt}{16\,236}
+\DefineVar{crypto_kem_kyber768_fstackbasemul}{10\,017}
+
+%RISC-V results for crypto_kem_kyber768_fspeed (type=kem)
+\DefineVar{crypto_kem_kyber768_fspeedkeygen}{2\,731k}
+\DefineVar{crypto_kem_kyber768_fspeedencaps}{3\,203k}
+\DefineVar{crypto_kem_kyber768_fspeeddecaps}{2\,919k}
+\DefineVar{crypto_kem_kyber768_fspeedntt}{15\,888}
+\DefineVar{crypto_kem_kyber768_fspeedinvntt}{15\,719}
+\DefineVar{crypto_kem_kyber768_fspeedpoly_basemul_opt_16_32}{4\,893}
+\DefineVar{crypto_kem_kyber768_fspeedpoly_basemul_acc_opt_32_32}{5\,667}
+\DefineVar{crypto_kem_kyber768_fspeedpoly_basemul_acc_opt_32_16}{9\,322}
+
+%RISC-V results for crypto_kem_kyber1024_fstack (type=kem)
+\DefineVar{crypto_kem_kyber1024_fstackkeygen}{3\,794k}
+\DefineVar{crypto_kem_kyber1024_fstackencaps}{4\,435k}
+\DefineVar{crypto_kem_kyber1024_fstackdecaps}{4\,045k}
+\DefineVar{crypto_kem_kyber1024_fstackntt}{15\,888}
+\DefineVar{crypto_kem_kyber1024_fstackinvntt}{16\,246}
+\DefineVar{crypto_kem_kyber1024_fstackbasemul}{10\,018}
+
+

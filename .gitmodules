@@ -1,0 +1,3 @@
+[submodule "pqm3"]
+	path = pqm3
+	url = git@github.com:JunhaoHuang/pqm3.git
