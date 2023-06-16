@@ -1,5 +1,5 @@
-# Faster Kyber on Low-end 32-bit IoT Devices
-This repository provides code for our Kyber implementation on three low-end 32-bit IoT devices: the ARM Cortex-M3, SiFive E310 board, and PQRISCV.
+# Yet another Improvement of Plantard Arithmetic for Faster Kyber on Low-end 32-bit IoT Devices
+This repository provides code for our faster Kyber implementation on three low-end 32-bit IoT devices: the ARM Cortex-M3, SiFive E310 board, and PQRISCV.
 Authors: 
  - [Junhao Huang](https://github.com/JunhaoHuang) `<huangjunhao@uic.edu.cn>` 
  - Haosong Zhao `<zhaohaosonguic@gmail.com>`
@@ -176,4 +176,3 @@ The following files are the main files we used in this paper
    - `results_vexriscv.txt`: results for PQRISCV
    - `listen.py`: receives output from the SiFive board
    - `jlink.sh`: flashes the binary to the SiFive board
-
