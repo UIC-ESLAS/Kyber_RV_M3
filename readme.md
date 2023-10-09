@@ -4,7 +4,8 @@ Authors:
  - [Junhao Huang](https://github.com/JunhaoHuang) `<huangjunhao@uic.edu.cn>` 
  - Haosong Zhao `<zhaohaosonguic@gmail.com>`
  - [Jipeng Zhang](https://github.com/Ji-Peng) `<jp-zhang@outlook.com>`
- - Zhe Liu `<zhe.liu@nuaa.edu.cn>` 
+ - Wangchen Dai `<w.dai@my.cityu.edu.hk>`
+ - Lu Zhou `<lu.zhou@nuaa.edu.cn>`
  - Ray C. C. Cheung `<r.cheung@cityu.edu.hk>`
  - Çetin Kaya Koç `<cetinkoc@ucsb.edu>`
  - Donglong Chen `<donglongchen@uic.edu.cn>` (Corresponding Author)
