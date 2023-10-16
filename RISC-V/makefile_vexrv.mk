@@ -55,7 +55,7 @@ LDFLAGS      += \
 
 
 PROGRAM_SRCS = $(wildcard $(CRYPTO_PATH)/*.c) $(wildcard $(CRYPTO_PATH)/*.S)
-COMMON_SRCS = $(COMMON_DIR)/aes.c $(COMMON_DIR)/sha2.c $(COMMON_DIR)/fips202.c $(COMMON_DIR)/keccakf1600.c $(COMMON_DIR)/keccakf1600_asm.S $(COMMON_DIR)/randombytes.c $(COMMON_DIR)/hal-vexriscv.c
+COMMON_SRCS = $(COMMON_DIR)/aes_encrypt.S $(COMMON_DIR)/aes_keyschedule.S  $(COMMON_DIR)/aes.c $(COMMON_DIR)/sha2.c $(COMMON_DIR)/fips202.c $(COMMON_DIR)/keccakf1600.c $(COMMON_DIR)/keccakf1600_asm.S $(COMMON_DIR)/randombytes.c $(COMMON_DIR)/hal-vexriscv.c
 
 
 .PHONY: all

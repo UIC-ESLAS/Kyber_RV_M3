@@ -4,7 +4,11 @@
 
 
 #define AES256CTR_BLOCKBYTES 64
+#ifdef PQRISCV_PLATFORM
+#include "aes_vexrv.h"
+#else
 #include "aes.h"
+#endif
 #include <stddef.h>
 #include <stdint.h>
 
