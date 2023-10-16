@@ -8,9 +8,9 @@
 
 typedef aes256xof_ctx xof_state;
 
-void kyber_aes256xof_absorb(aes256xof_ctx *state, const uint8_t seed[32], uint8_t x, uint8_t y);
+// void kyber_aes256xof_absorb(aes256xof_ctx *state, const uint8_t seed[32], uint8_t x, uint8_t y);
 
-void kyber_aes256ctr_prf(uint8_t *out, size_t outlen, const uint8_t key[32], uint8_t nonce);
+// void kyber_aes256ctr_prf(uint8_t *out, size_t outlen, const uint8_t key[32], uint8_t nonce);
 
 #define XOF_BLOCKBYTES AES256CTR_BLOCKBYTES
 

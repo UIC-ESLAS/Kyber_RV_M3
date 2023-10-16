@@ -48,7 +48,6 @@ static void matacc(poly* r, polyvec *b, unsigned char i, const unsigned char *se
       xof_absorb(&state, seed, i, j);
     else
       xof_absorb(&state, seed, j, i);
-
     xof_squeezeblocks(buf, 1, &state);
     buflen = XOF_BLOCKBYTES;
     k = 0;
@@ -87,6 +86,7 @@ static void matacc(poly* r, polyvec *b, unsigned char i, const unsigned char *se
         pos = 0;
       }
     }
+    xof_ctx_release(&state);
   }
 }
 
@@ -107,7 +107,6 @@ void indcpa_keypair(unsigned char *pk, unsigned char *sk) {
     unsigned char *noiseseed = buf + KYBER_SYMBYTES;
     int i;
     unsigned char nonce = 0;
-
     randombytes(buf, KYBER_SYMBYTES);
     hash_g(buf, buf, KYBER_SYMBYTES);
 
@@ -115,7 +114,6 @@ void indcpa_keypair(unsigned char *pk, unsigned char *sk) {
         poly_getnoise(skpv.vec + i, noiseseed, nonce++);
 
     polyvec_ntt(&skpv);
-
     for (i = 0; i < KYBER_K; i++) {
         matacc(&pkp, &skpv, i, publicseed, 0);
         

@@ -45,3 +45,83 @@
 \DefineVar{crypto_kem_kyber1024_fstackbasemul}{10\,018}
 
 
+% Benchmarking measurements written on 2023-10-16 03:12:27.374698+00:00, Iterations=100
+
+%RISC-V results for crypto_kem_kyber512_fstack (type=kem)
+\DefineVar{crypto_kem_kyber512_fstackkeygen}{1\,497k}
+\DefineVar{crypto_kem_kyber512_fstackencaps}{1\,811k}
+\DefineVar{crypto_kem_kyber512_fstackdecaps}{1\,603k}
+\DefineVar{crypto_kem_kyber512_fstackntt}{15\,878}
+\DefineVar{crypto_kem_kyber512_fstackinvntt}{15\,736}
+\DefineVar{crypto_kem_kyber512_fstackbasemul}{10\,015}
+
+%RISC-V results for crypto_kem_kyber512_fspeed (type=kem)
+\DefineVar{crypto_kem_kyber512_fspeedkeygen}{1\,595k}
+\DefineVar{crypto_kem_kyber512_fspeedencaps}{1\,910k}
+\DefineVar{crypto_kem_kyber512_fspeeddecaps}{1\,677k}
+\DefineVar{crypto_kem_kyber512_fspeedntt}{15\,884}
+\DefineVar{crypto_kem_kyber512_fspeedinvntt}{15\,724}
+\DefineVar{crypto_kem_kyber512_fspeedpoly_basemul_opt_16_32}{4\,893}
+\DefineVar{crypto_kem_kyber512_fspeedpoly_basemul_acc_opt_32_32}{5\,669}
+\DefineVar{crypto_kem_kyber512_fspeedpoly_basemul_acc_opt_32_16}{9\,322}
+
+%RISC-V results for crypto_kem_kyber768_fstack (type=kem)
+\DefineVar{crypto_kem_kyber768_fstackkeygen}{2\,413k}
+\DefineVar{crypto_kem_kyber768_fstackencaps}{2\,926k}
+\DefineVar{crypto_kem_kyber768_fstackdecaps}{2\,634k}
+\DefineVar{crypto_kem_kyber768_fstackntt}{15\,887}
+\DefineVar{crypto_kem_kyber768_fstackinvntt}{16\,248}
+\DefineVar{crypto_kem_kyber768_fstackbasemul}{10\,017}
+
+%RISC-V results for crypto_kem_kyber768_fspeed (type=kem)
+\DefineVar{crypto_kem_kyber768_fspeedkeygen}{2\,709k}
+\DefineVar{crypto_kem_kyber768_fspeedencaps}{3\,193k}
+\DefineVar{crypto_kem_kyber768_fspeeddecaps}{2\,899k}
+\DefineVar{crypto_kem_kyber768_fspeedntt}{15\,897}
+\DefineVar{crypto_kem_kyber768_fspeedinvntt}{15\,730}
+\DefineVar{crypto_kem_kyber768_fspeedpoly_basemul_opt_16_32}{4\,893}
+\DefineVar{crypto_kem_kyber768_fspeedpoly_basemul_acc_opt_32_32}{5\,663}
+\DefineVar{crypto_kem_kyber768_fspeedpoly_basemul_acc_opt_32_16}{9\,319}
+
+%RISC-V results for crypto_kem_kyber1024_fstack (type=kem)
+\DefineVar{crypto_kem_kyber1024_fstackkeygen}{3\,794k}
+\DefineVar{crypto_kem_kyber1024_fstackencaps}{4\,435k}
+\DefineVar{crypto_kem_kyber1024_fstackdecaps}{4\,052k}
+\DefineVar{crypto_kem_kyber1024_fstackntt}{15\,882}
+\DefineVar{crypto_kem_kyber1024_fstackinvntt}{16\,239}
+\DefineVar{crypto_kem_kyber1024_fstackbasemul}{10\,018}
+
+% Benchmarking measurements written on 2023-10-16 03:21:20.170910+00:00, Iterations=100
+
+% Benchmarking measurements written on 2023-10-16 07:17:53.517190+00:00, Iterations=100
+
+%RISC-V results for crypto_kem_kyber512-90s_fstack (type=kem)
+\DefineVar{crypto_kem_kyber51290s_fstackkeygen}{8\,326k}
+\DefineVar{crypto_kem_kyber51290s_fstackencaps}{8\,619k}
+\DefineVar{crypto_kem_kyber51290s_fstackdecaps}{8\,884k}
+\DefineVar{crypto_kem_kyber51290s_fstackntt}{15\,968}
+\DefineVar{crypto_kem_kyber51290s_fstackinvntt}{15\,804}
+\DefineVar{crypto_kem_kyber51290s_fstackbasemul}{10\,033}
+
+%RISC-V results for crypto_kem_kyber512-90s_fspeed (type=kem)
+\DefineVar{crypto_kem_kyber51290s_fspeedkeygen}{8\,438k}
+\DefineVar{crypto_kem_kyber51290s_fspeedencaps}{8\,757k}
+\DefineVar{crypto_kem_kyber51290s_fspeeddecaps}{9\,046k}
+\DefineVar{crypto_kem_kyber51290s_fspeedntt}{15\,960}
+\DefineVar{crypto_kem_kyber51290s_fspeedinvntt}{15\,782}
+\DefineVar{crypto_kem_kyber51290s_fspeedpoly_basemul_opt_16_32}{4\,906}
+\DefineVar{crypto_kem_kyber51290s_fspeedpoly_basemul_acc_opt_32_32}{5\,674}
+\DefineVar{crypto_kem_kyber51290s_fspeedpoly_basemul_acc_opt_32_16}{9\,332}
+
+%RISC-V results for crypto_kem_kyber768-90s_fstack (type=kem)
+\DefineVar{crypto_kem_kyber76890s_fstackkeygen}{11\,443k}
+\DefineVar{crypto_kem_kyber76890s_fstackencaps}{11\,758k}
+\DefineVar{crypto_kem_kyber76890s_fstackdecaps}{12\,061k}
+\DefineVar{crypto_kem_kyber76890s_fstackntt}{15\,965}
+\DefineVar{crypto_kem_kyber76890s_fstackinvntt}{16\,321}
+\DefineVar{crypto_kem_kyber76890s_fstackbasemul}{10\,028}
+
+% Benchmarking measurements written on 2023-10-16 08:11:47.818424+00:00, Iterations=100
+
+% Benchmarking measurements written on 2023-10-16 09:00:15.765043+00:00, Iterations=100
+

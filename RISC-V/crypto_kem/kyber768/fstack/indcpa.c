@@ -87,6 +87,7 @@ static void matacc(poly* r, polyvec *b, unsigned char i, const unsigned char *se
         pos = 0;
       }
     }
+    xof_ctx_release(&state);
   }
 }
 

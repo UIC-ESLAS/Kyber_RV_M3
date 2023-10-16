@@ -1,0 +1,42 @@
+{
+	"files.associations": {
+		"*.tex": "latex",
+		"sha2.h": "c",
+		"stddef.h": "c"
+	},
+	"files.exclude": {
+		"**/.git": false,
+		"**/.svn": false,
+		"**/.hg": false,
+		"**/CVS": false,
+		"**/.DS_Store": false,
+		"**/Thumbs.db": false,
+		".idea": false,
+		".vscode": false,
+		"**/*.aux": false,
+		"**/*.bat": false,
+		"**/*.bbl": false,
+		"**/*.blg": false,
+		"**/*.bst": false,
+		"**/*.dtx": false,
+		"**/*.fdb_latexmk": false,
+		"**/*.fls": false,
+		"**/*.gz": false,
+		"**/*.lof": false,
+		"**/*.log": false,
+		"**/*.lot": false,
+		"**/*.out": false,
+		"**/*.rar": false,
+		"**/*.sh": false,
+		"**/*.toc": false,
+		"**/*.xdv": false,
+		"**/Makefile": false,
+		"demo_chs/Makefile": false,
+		"LICENSE": false,
+		"Makefile": false,
+		"latexmkrc": false,
+		"**/*.cls": false,
+		"demo_chs/latexmkrc": false
+	},
+	"explorerExclude.backup": {}
+}

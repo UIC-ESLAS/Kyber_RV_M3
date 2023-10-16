@@ -183,7 +183,7 @@ void matacc_cache32(poly *r, int32_t *r_tmp, polyvec *b, polyvec_half *b_prime, 
 	xof_squeezeblocks(buf, 1, &state);
 
 	matacc_cache_32(r->coeffs, r_tmp, b->vec[j].coeffs, c, buf, zetas, &state, b_prime->vec[j].coeffs, 0);
-
+	xof_ctx_release(&state);
 	// 32-32 KYBER_K - 2 times
 	for (j = 1; j < KYBER_K - 1; j++)
 	{
@@ -194,6 +194,7 @@ void matacc_cache32(poly *r, int32_t *r_tmp, polyvec *b, polyvec_half *b_prime, 
 
 		xof_squeezeblocks(buf, 1, &state);
 		matacc_cache_32(r->coeffs, r_tmp, b->vec[j].coeffs, c, buf, zetas, &state, b_prime->vec[j].coeffs, 1);
+		xof_ctx_release(&state);
 	}
 
 	// 32-16
@@ -205,6 +206,7 @@ void matacc_cache32(poly *r, int32_t *r_tmp, polyvec *b, polyvec_half *b_prime, 
 
 	xof_squeezeblocks(buf, 1, &state);
 	matacc_cache_32(r->coeffs, r_tmp, b->vec[j].coeffs, c, buf, zetas, &state, b_prime->vec[j].coeffs, 2);
+	xof_ctx_release(&state);
 }
 
 /*************************************************
@@ -239,11 +241,10 @@ void matacc_opt32(poly *r, int32_t* r_tmp, polyvec *b, polyvec_half *b_prime, un
 	xof_squeezeblocks(buf, 1, &state);
 
 	matacc_opt_32(r->coeffs, r_tmp, b->vec[j].coeffs, c, buf, &state, b_prime->vec[j].coeffs, 0);
-
+	xof_ctx_release(&state);
 	// 32-32 KYBER_K - 2 times
 	for (j = 1; j < KYBER_K - 1; j++)
 	{
-
 		if (transposed)
 			xof_absorb(&state, seed, i, j);
 		else
@@ -252,10 +253,10 @@ void matacc_opt32(poly *r, int32_t* r_tmp, polyvec *b, polyvec_half *b_prime, un
 		xof_squeezeblocks(buf, 1, &state);
 
 		matacc_opt_32(r->coeffs, r_tmp, b->vec[j].coeffs, c, buf, &state, b_prime->vec[j].coeffs, 1);
+		xof_ctx_release(&state);
 	}
 
 	// 32-16
-
 	if (transposed)
 		xof_absorb(&state, seed, i, j);
 	else
@@ -264,4 +265,5 @@ void matacc_opt32(poly *r, int32_t* r_tmp, polyvec *b, polyvec_half *b_prime, un
 	xof_squeezeblocks(buf, 1, &state);
 
 	matacc_opt_32(r->coeffs, r_tmp, b->vec[j].coeffs, c, buf, &state, b_prime->vec[j].coeffs, 2);
+	xof_ctx_release(&state);
 }

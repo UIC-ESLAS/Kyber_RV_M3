@@ -123,12 +123,16 @@ with open(f"benchmarks.txt", "a") as outfile:
 
     # uncomment the scheme variants that should be build and evaluated
     for scheme_path in [
-        "crypto_kem/kyber512/fstack",
-        "crypto_kem/kyber512/fspeed",
-        "crypto_kem/kyber768/fstack",
-        "crypto_kem/kyber768/fspeed",
-        "crypto_kem/kyber1024/fstack",
-        # "crypto_kem/kyber1024/fspeed"
+        # "crypto_kem/kyber512/fstack",
+        # "crypto_kem/kyber512/fspeed",
+        # "crypto_kem/kyber768/fstack",
+        # "crypto_kem/kyber768/fspeed",
+        # "crypto_kem/kyber1024/fstack",
+        "crypto_kem/kyber512-90s/fstack",
+        "crypto_kem/kyber512-90s/fspeed",
+        "crypto_kem/kyber768-90s/fstack",
+        "crypto_kem/kyber768-90s/fspeed",
+        "crypto_kem/kyber1024-90s/fstack"
     ]:
         scheme_name = scheme_path.replace("/", "_")
         scheme_type = re.search('crypto_(.*?)_', scheme_name).group(1)

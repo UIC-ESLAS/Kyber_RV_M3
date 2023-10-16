@@ -7,7 +7,7 @@
 
 #include <stddef.h>
 #include <stdint.h>
-
+#include <stdio.h>
 /*************************************************
 * Name:        crypto_kem_keypair
 *
@@ -22,7 +22,8 @@
 int crypto_kem_keypair(unsigned char *pk, unsigned char *sk) {
     size_t i;
     indcpa_keypair(pk, sk);
-    for (i = 0; i < KYBER_INDCPA_PUBLICKEYBYTES; i++) {
+    for (i = 0; i < KYBER_INDCPA_PUBLICKEYBYTES; i++)
+    {
         sk[i + KYBER_INDCPA_SECRETKEYBYTES] = pk[i];
     }
     hash_h(sk + KYBER_SECRETKEYBYTES - 2 * KYBER_SYMBYTES, pk, KYBER_PUBLICKEYBYTES);
