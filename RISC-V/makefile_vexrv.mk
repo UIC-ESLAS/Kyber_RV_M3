@@ -11,7 +11,7 @@ ifndef CRYPTO_PATH
 CRYPTO_PATH = crypto_kem/kyber512/fstack
 endif
 ifndef CRYPTO_ITERATIONS
-CRYPTO_ITERATIONS = 100
+CRYPTO_ITERATIONS = 1
 endif
 
 RISCV_ARCH ?= rv32im

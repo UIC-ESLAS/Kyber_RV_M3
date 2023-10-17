@@ -160,3 +160,159 @@ encaps stack usage 19528
 decaps stack usage 21144
 NTT stack usage 64
 INTT stack usage 64
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber1024-90s_fstack_stack.bin"
+keypair stack:
+4204 
+encaps stack:
+4268 
+decaps stack:
+4284
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber512-90s_fstack_stack.bin"
+keypair stack:
+3180 
+encaps stack:
+3260 
+decaps stack:
+3292
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber768-90s_fstack_stack.bin"
+keypair stack:
+3692 
+encaps stack:
+3756 
+decaps stack:
+3772
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber1024-90s_fspeed_stack.bin"
+keypair stack:
+5772 
+encaps stack:
+6348 
+decaps stack:
+6396
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber512-90s_fspeed_stack.bin"
+keypair stack:
+4220 
+encaps stack:
+4812 
+decaps stack:
+4828
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber768-90s_fspeed_stack.bin"
+keypair stack:
+5004 
+encaps stack:
+5596 
+decaps stack:
+5628
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber1024-90s_fspeed_speed_vexrv.bin"
+keypair cycles: 32197272 
+encaps cycles: 32778779 
+decaps cycles: 32703417 
+ntt cycles: 21975 
+poly_basemul_opt_16_32 cycles: 7747 
+poly_basemul_acc_opt_32_32 cycles: 9795 
+poly_basemul_acc_opt_32_16 cycles: 13068 
+invntt cycles: 23666
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber512-90s_fspeed_speed_vexrv.bin"
+keypair cycles: 8960224 
+encaps cycles: 9266412 
+decaps cycles: 9218557 
+ntt cycles: 21975 
+poly_basemul_opt_16_32 cycles: 7747 
+poly_basemul_acc_opt_32_32 cycles: 9795 
+poly_basemul_acc_opt_32_16 cycles: 13068 
+invntt cycles: 23666
+
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber768-90s_fspeed_speed_vexrv.bin"
+keypair cycles: 18608983 
+encaps cycles: 19092320 
+decaps cycles: 19028092 
+ntt cycles: 21975 
+poly_basemul_opt_16_32 cycles: 7747 
+poly_basemul_acc_opt_32_32 cycles: 9795 
+poly_basemul_acc_opt_32_16 cycles: 13068 
+invntt cycles: 23666
+
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber1024-90s_fspeed_speed_vexrv.bin"
+keypair cycles: 32197272 
+encaps cycles: 32778779 
+decaps cycles: 32703417 
+ntt cycles: 21975 
+poly_basemul_opt_16_32 cycles: 7747 
+poly_basemul_acc_opt_32_32 cycles: 9795 
+poly_basemul_acc_opt_32_16 cycles: 13068 
+invntt cycles: 23666
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber512-90s_fspeed_speed_vexrv.bin"
+keypair cycles: 8960224 
+encaps cycles: 9266412 
+decaps cycles: 9218557 
+ntt cycles: 21975 
+poly_basemul_opt_16_32 cycles: 7747 
+poly_basemul_acc_opt_32_32 cycles: 9795 
+poly_basemul_acc_opt_32_16 cycles: 13068 
+invntt cycles: 23666
+
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber768-90s_fspeed_speed_vexrv.bin"
+keypair cycles: 18608983 
+encaps cycles: 19092320 
+decaps cycles: 19028092 
+ntt cycles: 21975 
+poly_basemul_opt_16_32 cycles: 7747 
+poly_basemul_acc_opt_32_32 cycles: 9795 
+poly_basemul_acc_opt_32_16 cycles: 13068 
+invntt cycles: 23666
+
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber1024-90s_fstack_speed_vexrv.bin"
+keypair cycles: 32276970 
+encaps cycles: 32873629 
+decaps cycles: 32798705 
+ntt cycles: 21975 
+basemul cycles: 12236 
+invntt cycles: 24146
+
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber512-90s_fstack_speed_vexrv.bin"
+keypair cycles: 8978679 
+encaps cycles: 9281904 
+decaps cycles: 9234081 
+ntt cycles: 21975 
+basemul cycles: 12236 
+invntt cycles: 23666
+
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber768-90s_fstack_speed_vexrv.bin"
+keypair cycles: 18653414 
+encaps cycles: 19147158 
+decaps cycles: 19083382 
+ntt cycles: 21975 
+basemul cycles: 12236 
+invntt cycles: 24146
+
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber1024-90s_fstack_stack.bin"
+keypair stack:
+4204 
+encaps stack:
+4268 
+decaps stack:
+4284
+
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber512-90s_fstack_stack.bin"
+keypair stack:
+3180 
+encaps stack:
+3260 
+decaps stack:
+3292

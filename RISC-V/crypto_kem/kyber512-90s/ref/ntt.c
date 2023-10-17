@@ -3,6 +3,16 @@
 #include "ntt.h"
 #include "reduce.h"
 
+const int32_t barrett_const = (1U << 26)/KYBER_Q + 1;
+
+extern void ntt_2(int16_t *p, int16_t *zetas, int32_t KQ, int32_t qinv, int16_t *new_zeta_31,const int32_t barret_constant);
+extern void invntt_2(int16_t *p,int16_t *zetas, int32_t KQ, int32_t qinv,const int32_t barret_constant,int16_t *new_omega_r2);
+
+//ROUND 2 zetas for asm fwNTT level 3-1 
+int16_t new_zeta_31[112] = {573, 1223, 652, 2226, 430, 555, 843, 2004, 2777, 1015, 2078, 871, 1550, 105, 264, 2036, 1491, 422, 587, 177, 3094, 383, 3047, 1785, 3038, 2869, 1574, 1653, 2500, 516, 3321, 3083, 778, 1159, 3182, 1458, 3009, 2663, 2552, 1483, 2727, 1119, 1727, 1711, 2167, 1739, 644, 2457, 349, 3199, 126, 1469, 418, 329, 3173, 3254, 2648, 2476, 3239, 817, 1097, 603, 610, 1017, 3058, 830, 1322, 2044, 1864, 384, 732, 107, 1908, 2114, 3193, 1218, 1994, 608, 3082, 2378, 2455, 220, 2142, 1670, 1787, 2931, 961, 2144, 1799, 2051, 794, 411, 1821, 2604, 1819, 2475, 2459, 478, 3124, 448, 2264, 3221, 3021, 996, 991, 1758, 677, 2054, 958, 1869, 1522, 1628};
+//ROUND 2 omegas for asm invNTT level 1-3 
+int16_t new_omega_r2[112] = {1701, 1807, 1460, 2371, 1275, 2652, 1571, 2338, 2333, 308, 108, 1065, 2881, 205, 2851, 870, 854, 1510, 725, 1508, 2918, 2535, 1278, 1530, 1185, 2368, 398, 1542, 1659, 1187, 3109, 874, 951, 247, 2721, 1335, 2111, 136, 1215, 1421, 3222, 2597, 2945, 1465, 1285, 2007, 2499, 271, 2312, 2719, 2726, 2232, 2512, 90, 853, 681, 75, 156, 3000, 2911, 1860, 3203, 130, 2980, 872, 2685, 1590, 1162, 1618, 1602, 2210, 602, 1846, 777, 666, 320, 1871, 147, 2170, 2551, 246, 8, 2813, 829, 1676, 1755, 460, 291, 1544, 282, 2946, 235, 3152, 2742, 2907, 1838, 1293, 3065, 3224, 1779, 2458, 1251, 2314, 552, 1325, 2486, 2774, 2899, 1103, 2677, 2106, 2756};
+
 /* Code to generate zetas and zetas_inv used in the number-theoretic transform:
 
 #define KYBER_ROOT_OF_UNITY 17
@@ -74,7 +84,7 @@ int16_t zetas_inv[128] = {
 * Returns 16-bit integer congruent to a*b*R^{-1} mod q
 **************************************************/
 static int16_t fqmul(int16_t a, int16_t b) {
-  return montgomery_reduce((int32_t)a*b);
+  return montgomery_reduce((int32_t)a*b); 
 }
 
 /*************************************************
@@ -86,7 +96,10 @@ static int16_t fqmul(int16_t a, int16_t b) {
 * Arguments:   - int16_t r[256]: pointer to input/output vector of elements of Zq
 **************************************************/
 void ntt(int16_t r[256]) {
-  unsigned int len, start, j, k;
+
+ ntt_2(r,zetas, KYBER_Q<<16, QINV<<16,new_zeta_31,barrett_const);
+ 
+/* unsigned int len, start, j, k;
   int16_t t, zeta;
 
   k = 1;
@@ -99,7 +112,7 @@ void ntt(int16_t r[256]) {
         r[j] = r[j] + t;
       }
     }
-  }
+  }*/
 }
 
 /*************************************************
@@ -111,7 +124,9 @@ void ntt(int16_t r[256]) {
 * Arguments:   - int16_t r[256]: pointer to input/output vector of elements of Zq
 **************************************************/
 void invntt(int16_t r[256]) {
-  unsigned int start, len, j, k;
+   invntt_2(r, zetas_inv, KYBER_Q, QINV<<16,barrett_const, new_omega_r2);
+
+  /*unsigned int start, len, j, k;
   int16_t t, zeta;
 
   k = 0;
@@ -128,7 +143,7 @@ void invntt(int16_t r[256]) {
   }
 
   for(j = 0; j < 256; ++j)
-    r[j] = fqmul(r[j], zetas_inv[127]);
+    r[j] = fqmul(r[j], zetas_inv[127]);*/
 }
 
 /*************************************************

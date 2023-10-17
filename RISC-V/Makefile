@@ -28,6 +28,9 @@ MTIME_RATE_HZ_DEF=32768
 PROGRAM_SRCS = $(wildcard $(CRYPTO_PATH)/*.c) $(wildcard $(CRYPTO_PATH)/*.S)
 COMMON_SRCS = $(COMMON_DIR)/aes.c $(COMMON_DIR)/sha2.c $(COMMON_DIR)/fips202.c $(COMMON_DIR)/keccakf1600.c $(COMMON_DIR)/randombytes.c $(COMMON_DIR)/getcycles.S
 
+TARGET_NAME = $(shell echo $(CRYPTO_PATH) | sed 's@/@_@g')
+DEST=bin
+
 RISCV_CFLAGS	+=	$(ARCH_FLAGS) \
 					-ffunction-sections -fdata-sections \
 					-I$(BSP_DIR)/install/include -I$(COMMON_DIR) -I$(CRYPTO_PATH) \
@@ -62,27 +65,47 @@ RISCV_LDFLAGS	+=	-Wl,--gc-sections -Wl,-Map,$(basename $@).map \
 RISCV_LDLIBS	+=	-Wl,--start-group -lc -lgcc -lm -lmetal -lmetal-gloss -Wl,--end-group
 
 .PHONY: all
-all: test speed stack testvectors
+all:
+	@echo "Please use the scripts in this directory instead of using the Makefile"
+	@echo
+	@echo "If you really want to use it, please specify CRYPTO_PATH=path/to/impl"
+	@echo "and a target binary, e.g.,"
+	@echo "make CRYPTO_PATH=crypto_kem/kyber768/new bin/crypto_kem_kyber768_new_test.hex"
+	@echo "make clean also works"
 
-test: bin/test.elf
-stack: bin/stack.elf
-speed: bin/speed.elf
-testvectors: bin/testvectors.elf
+# test: bin/test.elf
+# stack: bin/stack.elf
+# speed: bin/speed.elf
+# testvectors: bin/testvectors.elf
 
 # benchmark/*.c
+$(DEST)/%.hex: elf/%.elf
+	mkdir -p $(DEST)
+	$(RISCV_OBJCOPY) -O ihex $^ $(basename $@).hex
 
-bin/%.elf: \
-		benchmark/%.c \
-		$(COMMON_SRCS) $(PROGRAM_SRCS) \
-		common/libmetal.a \
-		common/libmetal-gloss.a \
-		common/metal.default.lds
-	mkdir -p $(dir $@)
+
+elf/$(TARGET_NAME)_%.elf: benchmark/%.c \
+	$(COMMON_SRCS) $(PROGRAM_SRCS) \
+	common/libmetal.a \
+	common/libmetal-gloss.a \
+	common/metal.default.lds
+	mkdir -p elf
 	$(RISCV_GCC) $(RISCV_CFLAGS) $(RISCV_LDFLAGS) \
 		$(filter %.c,$^) $(filter %.S,$^) \
 		$(RISCV_LDLIBS) -o $@
-	$(RISCV_OBJCOPY) -O ihex $@ $(basename $@).hex
-	$(RISCV_OBJDUMP) -D $@ > $(basename $@).s
+
+# bin/%.elf: \
+# 		benchmark/%.c \
+# 		$(COMMON_SRCS) $(PROGRAM_SRCS) \
+# 		common/libmetal.a \
+# 		common/libmetal-gloss.a \
+# 		common/metal.default.lds
+# 	mkdir -p $(dir $@)
+# 	$(RISCV_GCC) $(RISCV_CFLAGS) $(RISCV_LDFLAGS) \
+# 		$(filter %.c,$^) $(filter %.S,$^) \
+# 		$(RISCV_LDLIBS) -o $@
+# 	$(RISCV_OBJCOPY) -O ihex $@ $(basename $@).hex
+# 	$(RISCV_OBJDUMP) -D $@ > $(basename $@).s
 
 .PHONY: clean-software
 clean-software:
@@ -93,6 +116,6 @@ clean: clean-software
 
 .PHONY: run
 run: 
-	./jlink.sh --hex bin/*.hex --jlink JLinkExe
+	./jlink.sh --hex $(word 2,$(MAKECMDGOALS)) --jlink JLinkExe
 
 

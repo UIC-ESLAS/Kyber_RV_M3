@@ -62,26 +62,26 @@ We followed the experimental setup in [SiFive Freedom-E-SDK](https://github.com/
 The scripts `benchmarks.py` and `stack_benchmarks.py` cover the benchmarks in our paper.
 In case separate, manual testing is required, the binaries for a scheme can be build using
 ```shell
-# must use make clean first if you want to use the make run command
+
 make clean 
 
 # compile code in CRYPTO_PATH and firmware for CRYPTO_ITERATIONS times.
-make CRYPTO_PATH=crypto_kem/{scheme}/{variant} {CRYPTO_ITERATIONS=100} {firmware}
+make CRYPTO_PATH=crypto_kem/{scheme}/{variant}  bin/crypto_kem_{scheme}_{variant}_{firmware}.hex {CRYPTO_ITERATIONS=100} 
 
 # You can flash the binary to board in the following two ways
-1. make run # must use make clean first if you want to use the make run command
-2. ./jlink.sh --hex bin/{firmware}.hex --jlink JLinkExe
+1. make run bin/crypto_kem_{scheme}_{variant}_{firmware}.hex
+2. ./jlink.sh --hex bin/crypto_kem_{scheme}_{variant}_{firmware}.hex --jlink JLinkExe
 ```
 where `scheme` can be one of the `{kyber512, kyber768, kyber1024}`, `variant` belongs to `{fspeed, fstack}`, `firmware` is one of `{test, testvectors, speed, stack}`.
 
 ### Example
 For building, flashing and evaluating the `testvectors` firmware for our stack-version of `kyber768` the following command can be used:
 ```shell
-make clean && make CRYPTO_PATH=crypto_kem/kyber768/fstack CRYPTO_ITERATIONS=2 testvectors
+make clean && make CRYPTO_PATH=crypto_kem/kyber768/fstack crypto_kem_kyber768_fstack_testvectors.bin CRYPTO_ITERATIONS=2
 
 # Flash the binary jlink.
-1. make run # must use make clean first if you want to use the make run command
-2. ./jlink.sh --hex bin/testvectors.hex --jlink JLinkExe
+1. make run bin/crypto_kem_kyber768_fstack_testvectors.hex
+2. ./jlink.sh --hex bin/crypto_kem_kyber768_fstack_testvectors.hex --jlink JLinkExe
 
 # Open the serial monitor.
 python3 listen.py
@@ -90,7 +90,7 @@ python3 listen.py
 ### Code Size
 
 ```bash
-riscv64-unknown-elf-nm bin/speed.elf --print-size --size-sort --radix=d | \
+riscv64-unknown-elf-nm bin/crypto_kem_kyber768_fstack_speed.elf --print-size --size-sort --radix=d | \
 grep -v '\<_\|\<metal\|\<pll_configs' | \
 awk '{sum+=$2 ; print $0} END{print "Total size =", sum, "bytes =", sum/1024, "kB"}'
 ```
@@ -110,15 +110,15 @@ We followed the experimental setup in [Kyber_RISC_V_Thesis](https://github.com/d
 ### Usage
 Manual testing is required to obtain the benchmarks in this paper, the binaries for a scheme can be build using
 ```shell
-# must use make clean first if you want to use the make run command
+
 make -f makefile_vexrv.mk clean 
 
 # compile code in CRYPTO_PATH and firmware for CRYPTO_ITERATIONS times.
-make -f makefile_vexrv.mk CRYPTO_PATH=crypto_kem/{scheme}/{variant} {CRYPTO_ITERATIONS=100} {firmware}
+make -f makefile_vexrv.mk CRYPTO_PATH=crypto_kem/{scheme}/{variant}  bin/crypto_kem_{scheme}_{variant}_{firmware}.bin {CRYPTO_ITERATIONS=100} 
 
 # Go to the pqriscv-vexriscv directory and run the following; 
 # Flash the binary using sbt.
-sbt "runMain mupq.PQVexRiscvSim --init ../Kyber_RV_M3/RISC-V/bin/{firmware}.bin"
+sbt "runMain mupq.PQVexRiscvSim --init ../Kyber_RV_M3/RISC-V/bin/crypto_kem_{scheme}_{variant}_{firmware}.bin"
 ```
 where `scheme` can be one of the `{kyber512, kyber768, kyber1024}`, `variant` belongs to `{fspeed, fstack}`, `firmware` is one of `{test, stack, speed_vexrv, testvectors}`.
 

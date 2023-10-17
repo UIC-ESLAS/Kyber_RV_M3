@@ -26,7 +26,7 @@ def toMacro(name, value, k=None):
 
 def run_bench(scheme_path, scheme_name, scheme_type, iterations):
     subprocess.check_call(f"make clean", shell=True)
-    subprocess.check_call(f"make CRYPTO_PATH={scheme_path} CRYPTO_ITERATIONS={iterations} speed", shell=True)
+    subprocess.check_call(f"make CRYPTO_PATH={scheme_path} bin/{scheme_path}_speed.hex CRYPTO_ITERATIONS={iterations}", shell=True)
     try:
         subprocess.check_call(f"make run", shell=True)
     except:
