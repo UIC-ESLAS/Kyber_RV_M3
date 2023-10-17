@@ -64,7 +64,7 @@ all:
 	@echo
 	@echo "If you really want to use it, please specify CRYPTO_PATH=path/to/impl"
 	@echo "and a target binary, e.g.,"
-	@echo "make CRYPTO_PATH=crypto_kem/kyber768/new bin/crypto_kem_kyber768_new_test.bin"
+	@echo "make -f makefile_vexrv.mk CRYPTO_PATH=crypto_kem/kyber768/new bin/crypto_kem_kyber768_new_test.bin"
 	@echo "make clean also works"
 # all: bin/ntt_test.elf bin/hello.elf
 # all: test stack speed_vexrv testvectors
