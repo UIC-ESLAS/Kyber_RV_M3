@@ -123,18 +123,7 @@ void speedNTT()
     printcycles("ntt cycles: ", (sum / N));
     hal_send_str("\n");
 
-#ifdef optstack
-    sum = 0;
-    for (int i = 0; i < N; i++)
-    {
-        t0 = hal_get_time();
-        poly_basemul(&b, &a, &a);
-        t1 = hal_get_time();
-        sum += (t1 - t0);
-    }
-    printcycles("basemul cycles: ", (sum / N));
-    hal_send_str("\n");
-#elif defined(optspeed)
+#ifdef optspeed
     int32_t r_tmp[KYBER_N];
     poly_half a_prime;
     sum = 0;
@@ -168,6 +157,17 @@ void speedNTT()
         sum += (t1 - t0);
     }
     printcycles("poly_basemul_acc_opt_32_16 cycles: ", (sum / N));
+    hal_send_str("\n");
+#else
+    sum = 0;
+    for (int i = 0; i < N; i++)
+    {
+        t0 = hal_get_time();
+        poly_basemul(&b, &a, &a);
+        t1 = hal_get_time();
+        sum += (t1 - t0);
+    }
+    printcycles("basemul cycles: ", (sum / N));
     hal_send_str("\n");
 #endif
 

@@ -26,9 +26,9 @@ def toMacro(name, value, k=None):
 
 def run_bench(scheme_path, scheme_name, scheme_type):
     subprocess.check_call(f"make clean", shell=True)
-    subprocess.check_call(f"make CRYPTO_PATH={scheme_path} stack", shell=True)
+    subprocess.check_call(f"make CRYPTO_PATH={scheme_path} bin/{scheme_name}_stack.hex", shell=True)
     try:
-        subprocess.check_call(f"make run", shell=True)
+        subprocess.check_call(f"make run bin/{scheme_name}_stack.hex", shell=True)
     except:
         print("flash failed --> retry")
         return run_bench(scheme_path, scheme_name, scheme_type)
@@ -115,17 +115,17 @@ with open(f"stack_benchmarks.txt", "a") as outfile:
 
     # uncomment the scheme variants that should be build and evaluated
     for scheme_path in [
-        # "crypto_kem/kyber512/fstack",
-        # "crypto_kem/kyber512/fspeed",
-        # "crypto_kem/kyber768/fstack",
-        # "crypto_kem/kyber768/fspeed",
-        # "crypto_kem/kyber1024/fstack",
-        # "crypto_kem/kyber1024/fspeed",
+        "crypto_kem/kyber512/fstack",
+        "crypto_kem/kyber512/fspeed",
+        "crypto_kem/kyber768/fstack",
+        "crypto_kem/kyber768/fspeed",
+        "crypto_kem/kyber1024/fstack",
+        "crypto_kem/kyber1024/fspeed",
         "crypto_kem/kyber512-90s/fstack",
         "crypto_kem/kyber512-90s/fspeed",
         "crypto_kem/kyber768-90s/fstack",
-        "crypto_kem/kyber768-90s/fspeed",
-        "crypto_kem/kyber1024-90s/fstack"
+        # "crypto_kem/kyber768-90s/fspeed"
+        # "crypto_kem/kyber1024-90s/fstack"
     ]:
         scheme_name = scheme_path.replace("/", "_")
         scheme_type = re.search('crypto_(.*?)_', scheme_name).group(1)

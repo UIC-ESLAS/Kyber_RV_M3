@@ -9,7 +9,7 @@ ifndef CRYPTO_PATH
 CRYPTO_PATH = crypto_kem/kyber768/fspeed
 endif
 ifndef CRYPTO_ITERATIONS
-CRYPTO_ITERATIONS = 3
+CRYPTO_ITERATIONS = 1
 endif
 
 
@@ -26,7 +26,7 @@ ARCH_FLAGS = -march=rv32imac -mabi=ilp32 -mcmodel=medlow
 SPEC=nano
 MTIME_RATE_HZ_DEF=32768
 PROGRAM_SRCS = $(wildcard $(CRYPTO_PATH)/*.c) $(wildcard $(CRYPTO_PATH)/*.S)
-COMMON_SRCS = $(COMMON_DIR)/aes.c $(COMMON_DIR)/sha2.c $(COMMON_DIR)/fips202.c $(COMMON_DIR)/keccakf1600.c $(COMMON_DIR)/randombytes.c $(COMMON_DIR)/getcycles.S
+COMMON_SRCS =  $(COMMON_DIR)/aes.c $(COMMON_DIR)/sha2.c $(COMMON_DIR)/fips202.c $(COMMON_DIR)/keccakf1600.c $(COMMON_DIR)/randombytes.c $(COMMON_DIR)/getcycles.S
 
 TARGET_NAME = $(shell echo $(CRYPTO_PATH) | sed 's@/@_@g')
 DEST=bin
@@ -43,7 +43,8 @@ RISCV_CFLAGS	+=	$(ARCH_FLAGS) \
 # 512, 768, 1024; change __stack_size automatically using the SCHEME_TYPE and BUILD_TYPE (if it is build by stack)
 SCHEME_TYPE := $(shell echo $(CRYPTO_PATH) | sed 's/[^0-9]//g')
 STACK_SIZE:=0x1b00
-ifeq (stack, $(filter stack, $(MAKECMDGOALS)))
+
+ifdef (,$(findstring stack.hex, $(MAKECMDGOALS)))
 	STACK_SIZE:=0x1a00
 else
 	ifeq ($(shell expr $(SCHEME_TYPE) == 1024), 1)
@@ -51,7 +52,7 @@ else
 	else ifeq ($(shell expr $(SCHEME_TYPE) == 768), 1)
 		STACK_SIZE:=0x2600
 	else
-		STACK_SIZE:=0x1F00
+		STACK_SIZE:=0x2000
 	endif
 endif
 

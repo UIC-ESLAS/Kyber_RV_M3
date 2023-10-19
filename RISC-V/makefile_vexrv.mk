@@ -55,7 +55,11 @@ LDFLAGS      += \
 
 TARGET_NAME = $(shell echo $(CRYPTO_PATH) | sed 's@/@_@g')
 PROGRAM_SRCS = $(wildcard $(CRYPTO_PATH)/*.c) $(wildcard $(CRYPTO_PATH)/*.S)
-COMMON_SRCS = $(COMMON_DIR)/aes_encrypt.S $(COMMON_DIR)/aes_keyschedule.S  $(COMMON_DIR)/aes.c $(COMMON_DIR)/sha2.c $(COMMON_DIR)/fips202.c $(COMMON_DIR)/keccakf1600.c $(COMMON_DIR)/keccakf1600_asm.S $(COMMON_DIR)/randombytes.c $(COMMON_DIR)/hal-vexriscv.c
+COMMON_SRCS = $(COMMON_DIR)/sha2.c $(COMMON_DIR)/fips202.c \
+$(COMMON_DIR)/keccakf1600.c $(COMMON_DIR)/keccakf1600_asm.S $(COMMON_DIR)/randombytes.c $(COMMON_DIR)/hal-vexriscv.c $(COMMON_DIR)/getcycles.S \
+$(COMMON_DIR)/aes_vexrv.c  \
+$(COMMON_DIR)/aes_keyschedule.S  $(COMMON_DIR)/aes_encrypt.S 
+
 DEST=bin
 
 .PHONY: all
@@ -64,8 +68,8 @@ all:
 	@echo
 	@echo "If you really want to use it, please specify CRYPTO_PATH=path/to/impl"
 	@echo "and a target binary, e.g.,"
-	@echo "make -f makefile_vexrv.mk CRYPTO_PATH=crypto_kem/kyber768/new bin/crypto_kem_kyber768_new_test.bin"
-	@echo "make clean also works"
+	@echo "make -f makefile_vexrv.mk CRYPTO_PATH=crypto_kem/kyber768/fstack bin/crypto_kem_kyber768_fstack_test.bin"
+	@echo "make -f makefile_vexrv.mk clean also works"
 # all: bin/ntt_test.elf bin/hello.elf
 # all: test stack speed_vexrv testvectors
 
@@ -78,8 +82,6 @@ $(DEST)/%.bin: elf/%.elf
 	mkdir -p $(DEST)
 	$(OBJCOPY) -Obinary $^ $@
 
-
-# benchmark/*.c
 elf/$(TARGET_NAME)_%.elf: benchmark/%.c \
 		$(COMMON_SRCS) $(PROGRAM_SRCS) \
 		$(PLATFORM_LINKDEP)
@@ -87,6 +89,8 @@ elf/$(TARGET_NAME)_%.elf: benchmark/%.c \
 	$(RISCV_GCC) -o $@ $(CFLAGS) \
 		$(filter %.c,$^) $(filter %.S,$^) \
 		$(LDFLAGS)
+
+# $(COMMON_DIR)/aes_vexrv.c: $(COMMON_DIR)/aes_encrypt.S $(COMMON_DIR)/aes_keyschedule.S
 
 # bin/%.elf: \
 # 		benchmark/%.c \

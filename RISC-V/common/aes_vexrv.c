@@ -1,6 +1,6 @@
 #include <stdint.h>
 #include <string.h>
-#include "aes.h"
+#include "aes_vexrv.h"
 
 #ifdef PROFILE_HASHING
 #include "hal.h"

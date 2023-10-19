@@ -121,7 +121,124 @@
 \DefineVar{crypto_kem_kyber76890s_fstackinvntt}{16\,321}
 \DefineVar{crypto_kem_kyber76890s_fstackbasemul}{10\,028}
 
-% Benchmarking measurements written on 2023-10-16 08:11:47.818424+00:00, Iterations=100
 
-% Benchmarking measurements written on 2023-10-16 09:00:15.765043+00:00, Iterations=100
+% Benchmarking measurements written on 2023-10-19 08:46:54.547847+00:00, Iterations=100
+%RISC-V results for crypto_kem_kyber512-90s_fstack (type=kem)
+\DefineVar{crypto_kem_kyber51290s_fstackkeygen}{8\,410k}
+\DefineVar{crypto_kem_kyber51290s_fstackencaps}{8\,924k}
+\DefineVar{crypto_kem_kyber51290s_fstackdecaps}{8\,978k}
+\DefineVar{crypto_kem_kyber51290s_fstackntt}{15\,958}
+\DefineVar{crypto_kem_kyber51290s_fstackinvntt}{15\,804}
+
+%RISC-V results for crypto_kem_kyber512-90s_fspeed (type=kem)
+\DefineVar{crypto_kem_kyber51290s_fspeedkeygen}{8\,584k}
+\DefineVar{crypto_kem_kyber51290s_fspeedencaps}{9\,011k}
+\DefineVar{crypto_kem_kyber51290s_fspeeddecaps}{9\,063k}
+\DefineVar{crypto_kem_kyber51290s_fspeedntt}{15\,950}
+\DefineVar{crypto_kem_kyber51290s_fspeedinvntt}{15\,788}
+\DefineVar{crypto_kem_kyber51290s_fspeedpoly_basemul_opt_16_32}{4\,904}
+\DefineVar{crypto_kem_kyber51290s_fspeedpoly_basemul_acc_opt_32_32}{5\,669}
+\DefineVar{crypto_kem_kyber51290s_fspeedpoly_basemul_acc_opt_32_16}{9\,330}
+
+% Benchmarking measurements written on 2023-10-19 09:53:58.128913+00:00, Iterations=1
+
+%RISC-V results for crypto_kem_kyber768-90s_fstack (type=kem)
+\DefineVar{crypto_kem_kyber76890s_fstackkeygen}{11\,506k}
+\DefineVar{crypto_kem_kyber76890s_fstackencaps}{12\,133k}
+\DefineVar{crypto_kem_kyber76890s_fstackdecaps}{12\,136k}
+\DefineVar{crypto_kem_kyber76890s_fstackntt}{15\,957}
+\DefineVar{crypto_kem_kyber76890s_fstackinvntt}{16\,314}
+\DefineVar{crypto_kem_kyber76890s_fstackbasemul}{10\,034}
+
+% Benchmarking measurements written on 2023-10-19 09:54:31.897170+00:00, Iterations=1
+
+%RISC-V results for crypto_kem_kyber512_fstack (type=kem)
+\DefineVar{crypto_kem_kyber512_fstackkeygen}{2\,583k}
+\DefineVar{crypto_kem_kyber512_fstackencaps}{2\,282k}
+\DefineVar{crypto_kem_kyber512_fstackdecaps}{2\,133k}
+\DefineVar{crypto_kem_kyber512_fstackntt}{15\,889}
+\DefineVar{crypto_kem_kyber512_fstackinvntt}{15\,738}
+
+%RISC-V results for crypto_kem_kyber512_fspeed (type=kem)
+\DefineVar{crypto_kem_kyber512_fspeedkeygen}{2\,642k}
+\DefineVar{crypto_kem_kyber512_fspeedencaps}{2\,437k}
+\DefineVar{crypto_kem_kyber512_fspeeddecaps}{2\,164k}
+\DefineVar{crypto_kem_kyber512_fspeedntt}{15\,892}
+\DefineVar{crypto_kem_kyber512_fspeedinvntt}{15\,730}
+\DefineVar{crypto_kem_kyber512_fspeedpoly_basemul_opt_16_32}{4\,893}
+\DefineVar{crypto_kem_kyber512_fspeedpoly_basemul_acc_opt_32_32}{5\,671}
+\DefineVar{crypto_kem_kyber512_fspeedpoly_basemul_acc_opt_32_16}{9\,322}
+
+%RISC-V results for crypto_kem_kyber768_fstack (type=kem)
+\DefineVar{crypto_kem_kyber768_fstackkeygen}{3\,567k}
+\DefineVar{crypto_kem_kyber768_fstackencaps}{3\,371k}
+\DefineVar{crypto_kem_kyber768_fstackdecaps}{3\,130k}
+\DefineVar{crypto_kem_kyber768_fstackntt}{15\,882}
+\DefineVar{crypto_kem_kyber768_fstackinvntt}{16\,249}
+
+%RISC-V results for crypto_kem_kyber768_fspeed (type=kem)
+\DefineVar{crypto_kem_kyber768_fspeedkeygen}{3\,702k}
+\DefineVar{crypto_kem_kyber768_fspeedencaps}{3\,651k}
+\DefineVar{crypto_kem_kyber768_fspeeddecaps}{3\,334k}
+\DefineVar{crypto_kem_kyber768_fspeedntt}{15\,890}
+\DefineVar{crypto_kem_kyber768_fspeedinvntt}{15\,723}
+\DefineVar{crypto_kem_kyber768_fspeedpoly_basemul_opt_16_32}{4\,891}
+\DefineVar{crypto_kem_kyber768_fspeedpoly_basemul_acc_opt_32_32}{5\,667}
+\DefineVar{crypto_kem_kyber768_fspeedpoly_basemul_acc_opt_32_16}{9\,324}
+
+%RISC-V results for crypto_kem_kyber1024_fstack (type=kem)
+\DefineVar{crypto_kem_kyber1024_fstackkeygen}{4\,826k}
+\DefineVar{crypto_kem_kyber1024_fstackencaps}{4\,844k}
+\DefineVar{crypto_kem_kyber1024_fstackdecaps}{4\,609k}
+\DefineVar{crypto_kem_kyber1024_fstackntt}{15\,877}
+\DefineVar{crypto_kem_kyber1024_fstackinvntt}{16\,248}
+
+%RISC-V results for crypto_kem_kyber512-90s_fstack (type=kem)
+\DefineVar{crypto_kem_kyber51290s_fstackkeygen}{8\,409k}
+\DefineVar{crypto_kem_kyber51290s_fstackencaps}{8\,939k}
+\DefineVar{crypto_kem_kyber51290s_fstackdecaps}{8\,883k}
+\DefineVar{crypto_kem_kyber51290s_fstackntt}{15\,968}
+\DefineVar{crypto_kem_kyber51290s_fstackinvntt}{15\,804}
+
+%RISC-V results for crypto_kem_kyber512-90s_fspeed (type=kem)
+\DefineVar{crypto_kem_kyber51290s_fspeedkeygen}{8\,440k}
+\DefineVar{crypto_kem_kyber51290s_fspeedencaps}{9\,079k}
+\DefineVar{crypto_kem_kyber51290s_fspeeddecaps}{9\,129k}
+\DefineVar{crypto_kem_kyber51290s_fspeedntt}{15\,964}
+\DefineVar{crypto_kem_kyber51290s_fspeedinvntt}{15\,776}
+\DefineVar{crypto_kem_kyber51290s_fspeedpoly_basemul_opt_16_32}{4\,904}
+\DefineVar{crypto_kem_kyber51290s_fspeedpoly_basemul_acc_opt_32_32}{5\,669}
+\DefineVar{crypto_kem_kyber51290s_fspeedpoly_basemul_acc_opt_32_16}{9\,330}
+
+%RISC-V results for crypto_kem_kyber768-90s_fstack (type=kem)
+\DefineVar{crypto_kem_kyber76890s_fstackkeygen}{11\,506k}
+\DefineVar{crypto_kem_kyber76890s_fstackencaps}{12\,133k}
+\DefineVar{crypto_kem_kyber76890s_fstackdecaps}{12\,136k}
+\DefineVar{crypto_kem_kyber76890s_fstackntt}{15\,957}
+\DefineVar{crypto_kem_kyber76890s_fstackinvntt}{16\,314}
+\DefineVar{crypto_kem_kyber76890s_fstackbasemul}{10\,034}
+
+% Benchmarking measurements written on 2023-10-19 09:59:40.395799+00:00, Iterations=1
+
+%RISC-V results for crypto_kem_kyber768-90s_fstack (type=kem)
+\DefineVar{crypto_kem_kyber76890s_fstackkeygen}{11\,529k}
+\DefineVar{crypto_kem_kyber76890s_fstackencaps}{12\,083k}
+\DefineVar{crypto_kem_kyber76890s_fstackdecaps}{11\,916k}
+\DefineVar{crypto_kem_kyber76890s_fstackntt}{15\,964}
+\DefineVar{crypto_kem_kyber76890s_fstackinvntt}{16\,316}
+\DefineVar{crypto_kem_kyber76890s_fstackbasemul}{10\,032}
+
+% Benchmarking measurements written on 2023-10-19 09:59:56.521632+00:00, Iterations=1
+
+% Benchmarking measurements written on 2023-10-19 10:00:12.296424+00:00, Iterations=1
+
+% Benchmarking measurements written on 2023-10-19 10:01:39.096380+00:00, Iterations=1
+
+%RISC-V results for crypto_kem_kyber768-90s_fstack (type=kem)
+\DefineVar{crypto_kem_kyber76890s_fstackkeygen}{11\,506k}
+\DefineVar{crypto_kem_kyber76890s_fstackencaps}{12\,133k}
+\DefineVar{crypto_kem_kyber76890s_fstackdecaps}{12\,136k}
+\DefineVar{crypto_kem_kyber76890s_fstackntt}{15\,957}
+\DefineVar{crypto_kem_kyber76890s_fstackinvntt}{16\,314}
+\DefineVar{crypto_kem_kyber76890s_fstackbasemul}{10\,034}
 

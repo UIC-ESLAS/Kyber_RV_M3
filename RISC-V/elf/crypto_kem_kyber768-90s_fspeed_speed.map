@@ -1,23 +1,23 @@
 Archive member included to satisfy reference by file (symbol)
 
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
-                              /tmp/ccfSlXVX.o (exit)
+                              /tmp/cc1lNCze.o (exit)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-impure.o)
                               /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-malloc.o)
-                              /tmp/ccfSlXVX.o (malloc)
+                              /tmp/cc1lNCze.o (malloc)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memcpy-asm.o)
-                              /tmp/ccfSlXVX.o (memcpy)
+                              /tmp/cc1lNCze.o (memcpy)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memset.o)
-                              /tmp/ccfSlXVX.o (memset)
+                              /tmp/cc1lNCze.o (memset)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-freer.o)
                               /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-malloc.o) (_free_r)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-mallocr.o)
                               /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-malloc.o) (_malloc_r)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
-                              /tmp/ccptQwVe.o (printf)
+                              /tmp/cc3tveY2.o (printf)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
-                              /tmp/ccptQwVe.o (puts)
+                              /tmp/cc3tveY2.o (puts)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-sbrkr.o)
                               /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
@@ -65,13 +65,13 @@ Archive member included to satisfy reference by file (symbol)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-msizer.o)
                               /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_lshrdi3.o)
-                              /tmp/cceBQ7tc.o (__lshrdi3)
+                              /tmp/ccESOQqh.o (__lshrdi3)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_ashldi3.o)
-                              /tmp/cceBQ7tc.o (__ashldi3)
+                              /tmp/ccESOQqh.o (__ashldi3)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
-                              /tmp/ccptQwVe.o (__udivdi3)
+                              /tmp/cc3tveY2.o (__udivdi3)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_umoddi3.o)
-                              /tmp/ccptQwVe.o (__umoddi3)
+                              /tmp/cc3tveY2.o (__umoddi3)
 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_clz.o)
                               /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_udivdi3.o) (__clz_tab)
 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(entry.o)
@@ -173,214 +173,218 @@ __metal_dt_pmp      0x20              /home/hjh/Documents/Kyber_RV_M3/RISC-V/com
 
 Discarded input sections
 
- .text          0x0000000000000000        0x0 /tmp/ccptQwVe.o
- .data          0x0000000000000000        0x0 /tmp/ccptQwVe.o
- .bss           0x0000000000000000        0x0 /tmp/ccptQwVe.o
- .text          0x0000000000000000        0x0 /tmp/ccfSlXVX.o
- .data          0x0000000000000000        0x0 /tmp/ccfSlXVX.o
- .bss           0x0000000000000000        0x0 /tmp/ccfSlXVX.o
+ .text          0x0000000000000000        0x0 /tmp/cc3tveY2.o
+ .data          0x0000000000000000        0x0 /tmp/cc3tveY2.o
+ .bss           0x0000000000000000        0x0 /tmp/cc3tveY2.o
+ .text          0x0000000000000000        0x0 /tmp/cc1lNCze.o
+ .data          0x0000000000000000        0x0 /tmp/cc1lNCze.o
+ .bss           0x0000000000000000        0x0 /tmp/cc1lNCze.o
  .text.aes128_ecb_keyexp
-                0x0000000000000000       0x5a /tmp/ccfSlXVX.o
+                0x0000000000000000       0x5a /tmp/cc1lNCze.o
  .text.aes128_ctr_keyexp
-                0x0000000000000000        0x8 /tmp/ccfSlXVX.o
+                0x0000000000000000        0x8 /tmp/cc1lNCze.o
  .text.aes192_ecb_keyexp
-                0x0000000000000000       0x5a /tmp/ccfSlXVX.o
+                0x0000000000000000       0x5a /tmp/cc1lNCze.o
  .text.aes192_ctr_keyexp
-                0x0000000000000000        0x8 /tmp/ccfSlXVX.o
+                0x0000000000000000        0x8 /tmp/cc1lNCze.o
  .text.aes128_ecb
-                0x0000000000000000        0xc /tmp/ccfSlXVX.o
+                0x0000000000000000        0xc /tmp/cc1lNCze.o
  .text.aes128_ctr
-                0x0000000000000000        0xc /tmp/ccfSlXVX.o
+                0x0000000000000000        0xc /tmp/cc1lNCze.o
  .text.aes192_ecb
-                0x0000000000000000        0xc /tmp/ccfSlXVX.o
+                0x0000000000000000        0xc /tmp/cc1lNCze.o
  .text.aes192_ctr
-                0x0000000000000000        0xc /tmp/ccfSlXVX.o
+                0x0000000000000000        0xc /tmp/cc1lNCze.o
  .text.aes128_ctx_release
-                0x0000000000000000        0xa /tmp/ccfSlXVX.o
+                0x0000000000000000        0xa /tmp/cc1lNCze.o
  .text.aes192_ctx_release
-                0x0000000000000000        0xa /tmp/ccfSlXVX.o
+                0x0000000000000000        0xa /tmp/cc1lNCze.o
  .rodata.aes128_ecb_keyexp.str1.4
-                0x0000000000000000       0x1c /tmp/ccfSlXVX.o
+                0x0000000000000000       0x1c /tmp/cc1lNCze.o
  .rodata.aes192_ecb_keyexp.str1.4
-                0x0000000000000000       0x1c /tmp/ccfSlXVX.o
- .text          0x0000000000000000        0x0 /tmp/cce6nmIQ.o
- .data          0x0000000000000000        0x0 /tmp/cce6nmIQ.o
- .bss           0x0000000000000000        0x0 /tmp/cce6nmIQ.o
+                0x0000000000000000       0x1c /tmp/cc1lNCze.o
+ .text          0x0000000000000000        0x0 /tmp/ccTlLnpG.o
+ .data          0x0000000000000000        0x0 /tmp/ccTlLnpG.o
+ .bss           0x0000000000000000        0x0 /tmp/ccTlLnpG.o
  .text.sha224_inc_init
-                0x0000000000000000       0x46 /tmp/cce6nmIQ.o
+                0x0000000000000000       0x46 /tmp/ccTlLnpG.o
  .text.sha384_inc_init
-                0x0000000000000000       0x46 /tmp/cce6nmIQ.o
+                0x0000000000000000       0x46 /tmp/ccTlLnpG.o
  .text.sha256_inc_blocks
-                0x0000000000000000       0x5c /tmp/cce6nmIQ.o
+                0x0000000000000000       0x5c /tmp/ccTlLnpG.o
  .text.sha224_inc_blocks
-                0x0000000000000000        0x8 /tmp/cce6nmIQ.o
+                0x0000000000000000        0x8 /tmp/ccTlLnpG.o
  .text.sha512_inc_blocks
-                0x0000000000000000       0x5c /tmp/cce6nmIQ.o
+                0x0000000000000000       0x5c /tmp/ccTlLnpG.o
  .text.sha384_inc_blocks
-                0x0000000000000000        0x8 /tmp/cce6nmIQ.o
+                0x0000000000000000        0x8 /tmp/ccTlLnpG.o
  .text.sha224_inc_finalize
-                0x0000000000000000       0x3a /tmp/cce6nmIQ.o
+                0x0000000000000000       0x3a /tmp/ccTlLnpG.o
  .text.sha384_inc_finalize
-                0x0000000000000000       0x3c /tmp/cce6nmIQ.o
- .text.sha224   0x0000000000000000       0x30 /tmp/cce6nmIQ.o
- .text.sha384   0x0000000000000000       0x30 /tmp/cce6nmIQ.o
+                0x0000000000000000       0x3c /tmp/ccTlLnpG.o
+ .text.sha224   0x0000000000000000       0x30 /tmp/ccTlLnpG.o
+ .text.sha384   0x0000000000000000       0x30 /tmp/ccTlLnpG.o
  .rodata.iv_224
-                0x0000000000000000       0x20 /tmp/cce6nmIQ.o
+                0x0000000000000000       0x20 /tmp/ccTlLnpG.o
  .rodata.iv_384
-                0x0000000000000000       0x40 /tmp/cce6nmIQ.o
- .text          0x0000000000000000        0x0 /tmp/ccCdvcW2.o
- .data          0x0000000000000000        0x0 /tmp/ccCdvcW2.o
- .bss           0x0000000000000000        0x0 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x40 /tmp/ccTlLnpG.o
+ .text          0x0000000000000000        0x0 /tmp/cc2esiVx.o
+ .data          0x0000000000000000        0x0 /tmp/cc2esiVx.o
+ .bss           0x0000000000000000        0x0 /tmp/cc2esiVx.o
  .text.keccak_inc_init
-                0x0000000000000000       0x22 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x22 /tmp/cc2esiVx.o
  .text.keccak_inc_finalize
-                0x0000000000000000       0x5c /tmp/ccCdvcW2.o
+                0x0000000000000000       0x5c /tmp/cc2esiVx.o
  .text.keccak_inc_absorb
-                0x0000000000000000       0x98 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x98 /tmp/cc2esiVx.o
  .text.keccak_inc_squeeze
-                0x0000000000000000       0xa4 /tmp/ccCdvcW2.o
+                0x0000000000000000       0xa4 /tmp/cc2esiVx.o
  .text.keccak_absorb
-                0x0000000000000000       0xa2 /tmp/ccCdvcW2.o
+                0x0000000000000000       0xa2 /tmp/cc2esiVx.o
  .text.keccak_squeezeblocks
-                0x0000000000000000       0x44 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x44 /tmp/cc2esiVx.o
  .text.shake128_inc_init
-                0x0000000000000000        0x8 /tmp/ccCdvcW2.o
+                0x0000000000000000        0x8 /tmp/cc2esiVx.o
  .text.shake128_inc_absorb
-                0x0000000000000000       0x10 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x10 /tmp/cc2esiVx.o
  .text.shake128_inc_finalize
-                0x0000000000000000        0xe /tmp/ccCdvcW2.o
+                0x0000000000000000        0xe /tmp/cc2esiVx.o
  .text.shake128_inc_squeeze
-                0x0000000000000000        0xc /tmp/ccCdvcW2.o
+                0x0000000000000000        0xc /tmp/cc2esiVx.o
  .text.shake256_inc_init
-                0x0000000000000000        0x8 /tmp/ccCdvcW2.o
+                0x0000000000000000        0x8 /tmp/cc2esiVx.o
  .text.shake256_inc_absorb
-                0x0000000000000000       0x10 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x10 /tmp/cc2esiVx.o
  .text.shake256_inc_finalize
-                0x0000000000000000        0xe /tmp/ccCdvcW2.o
+                0x0000000000000000        0xe /tmp/cc2esiVx.o
  .text.shake256_inc_squeeze
-                0x0000000000000000        0xc /tmp/ccCdvcW2.o
+                0x0000000000000000        0xc /tmp/cc2esiVx.o
  .text.cshake128_simple_absorb
-                0x0000000000000000       0x70 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x70 /tmp/cc2esiVx.o
  .text.cshake128_simple
-                0x0000000000000000       0x92 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x92 /tmp/cc2esiVx.o
  .text.shake128_absorb
-                0x0000000000000000       0x2a /tmp/ccCdvcW2.o
+                0x0000000000000000       0x2a /tmp/cc2esiVx.o
  .text.shake128_squeezeblocks
-                0x0000000000000000        0xc /tmp/ccCdvcW2.o
+                0x0000000000000000        0xc /tmp/cc2esiVx.o
  .text.cshake128_simple_squeezeblocks
-                0x0000000000000000        0x8 /tmp/ccCdvcW2.o
+                0x0000000000000000        0x8 /tmp/cc2esiVx.o
  .text.shake128
-                0x0000000000000000       0xb2 /tmp/ccCdvcW2.o
+                0x0000000000000000       0xb2 /tmp/cc2esiVx.o
  .text.shake256_absorb
-                0x0000000000000000       0x2a /tmp/ccCdvcW2.o
+                0x0000000000000000       0x2a /tmp/cc2esiVx.o
  .text.shake256_squeezeblocks
-                0x0000000000000000        0xc /tmp/ccCdvcW2.o
+                0x0000000000000000        0xc /tmp/cc2esiVx.o
  .text.shake256
-                0x0000000000000000       0xb2 /tmp/ccCdvcW2.o
+                0x0000000000000000       0xb2 /tmp/cc2esiVx.o
  .text.sha3_256
-                0x0000000000000000       0x76 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x76 /tmp/cc2esiVx.o
  .text.sha3_256_inc_init
-                0x0000000000000000        0x8 /tmp/ccCdvcW2.o
+                0x0000000000000000        0x8 /tmp/cc2esiVx.o
  .text.sha3_256_inc_absorb
-                0x0000000000000000       0x10 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x10 /tmp/cc2esiVx.o
  .text.sha3_256_inc_finalize
-                0x0000000000000000       0x54 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x54 /tmp/cc2esiVx.o
  .text.sha3_384_inc_init
-                0x0000000000000000        0x8 /tmp/ccCdvcW2.o
+                0x0000000000000000        0x8 /tmp/cc2esiVx.o
  .text.sha3_384_inc_absorb
-                0x0000000000000000       0x10 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x10 /tmp/cc2esiVx.o
  .text.sha3_384_inc_finalize
-                0x0000000000000000       0x54 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x54 /tmp/cc2esiVx.o
  .text.sha3_384
-                0x0000000000000000       0x5a /tmp/ccCdvcW2.o
+                0x0000000000000000       0x5a /tmp/cc2esiVx.o
  .text.sha3_512
-                0x0000000000000000       0x76 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x76 /tmp/cc2esiVx.o
  .text.sha3_512_inc_init
-                0x0000000000000000        0x8 /tmp/ccCdvcW2.o
+                0x0000000000000000        0x8 /tmp/cc2esiVx.o
  .text.sha3_512_inc_absorb
-                0x0000000000000000       0x10 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x10 /tmp/cc2esiVx.o
  .text.sha3_512_inc_finalize
-                0x0000000000000000       0x54 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x54 /tmp/cc2esiVx.o
  .text.cshake256_simple_absorb
-                0x0000000000000000       0x70 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x70 /tmp/cc2esiVx.o
  .text.cshake256_simple_squeezeblocks
-                0x0000000000000000        0x8 /tmp/ccCdvcW2.o
+                0x0000000000000000        0x8 /tmp/cc2esiVx.o
  .text.cshake256_simple
-                0x0000000000000000       0x92 /tmp/ccCdvcW2.o
- .comment       0x0000000000000000       0x29 /tmp/ccCdvcW2.o
+                0x0000000000000000       0x92 /tmp/cc2esiVx.o
+ .comment       0x0000000000000000       0x29 /tmp/cc2esiVx.o
  .riscv.attributes
-                0x0000000000000000       0x2b /tmp/ccCdvcW2.o
- .text          0x0000000000000000        0x0 /tmp/cceBQ7tc.o
- .data          0x0000000000000000        0x0 /tmp/cceBQ7tc.o
- .bss           0x0000000000000000        0x0 /tmp/cceBQ7tc.o
+                0x0000000000000000       0x2b /tmp/cc2esiVx.o
+ .text          0x0000000000000000        0x0 /tmp/ccESOQqh.o
+ .data          0x0000000000000000        0x0 /tmp/ccESOQqh.o
+ .bss           0x0000000000000000        0x0 /tmp/ccESOQqh.o
  .text.KeccakF1600_StateExtractBytes
-                0x0000000000000000       0x54 /tmp/cceBQ7tc.o
+                0x0000000000000000       0x54 /tmp/ccESOQqh.o
  .text.KeccakF1600_StateXORBytes
-                0x0000000000000000       0x5e /tmp/cceBQ7tc.o
+                0x0000000000000000       0x5e /tmp/ccESOQqh.o
  .text.KeccakF1600_StatePermute
-                0x0000000000000000     0x1060 /tmp/cceBQ7tc.o
+                0x0000000000000000     0x1060 /tmp/ccESOQqh.o
  .rodata.KeccakF_RoundConstants
-                0x0000000000000000       0xc0 /tmp/cceBQ7tc.o
- .comment       0x0000000000000000       0x29 /tmp/cceBQ7tc.o
+                0x0000000000000000       0xc0 /tmp/ccESOQqh.o
+ .comment       0x0000000000000000       0x29 /tmp/ccESOQqh.o
  .riscv.attributes
-                0x0000000000000000       0x2b /tmp/cceBQ7tc.o
- .text          0x0000000000000000        0x0 /tmp/ccSAOzgg.o
- .data          0x0000000000000000        0x0 /tmp/ccSAOzgg.o
- .bss           0x0000000000000000        0x0 /tmp/ccSAOzgg.o
- .text          0x0000000000000000        0x0 /tmp/ccFUCVyE.o
- .data          0x0000000000000000        0x0 /tmp/ccFUCVyE.o
- .bss           0x0000000000000000        0x0 /tmp/ccFUCVyE.o
- .text          0x0000000000000000        0x0 /tmp/ccobnKcu.o
- .data          0x0000000000000000        0x0 /tmp/ccobnKcu.o
- .bss           0x0000000000000000        0x0 /tmp/ccobnKcu.o
- .text          0x0000000000000000        0x0 /tmp/ccNvuzTZ.o
- .data          0x0000000000000000        0x0 /tmp/ccNvuzTZ.o
- .bss           0x0000000000000000        0x0 /tmp/ccNvuzTZ.o
- .text          0x0000000000000000        0x0 /tmp/ccv44QDw.o
- .data          0x0000000000000000        0x0 /tmp/ccv44QDw.o
- .bss           0x0000000000000000        0x0 /tmp/ccv44QDw.o
- .text          0x0000000000000000        0x0 /tmp/ccdWMSXX.o
- .data          0x0000000000000000        0x0 /tmp/ccdWMSXX.o
- .bss           0x0000000000000000        0x0 /tmp/ccdWMSXX.o
- .text          0x0000000000000000        0x0 /tmp/cc5dZcpt.o
- .data          0x0000000000000000        0x0 /tmp/cc5dZcpt.o
- .bss           0x0000000000000000        0x0 /tmp/cc5dZcpt.o
+                0x0000000000000000       0x2b /tmp/ccESOQqh.o
+ .text          0x0000000000000000        0x0 /tmp/cckgJnBQ.o
+ .data          0x0000000000000000        0x0 /tmp/cckgJnBQ.o
+ .bss           0x0000000000000000        0x0 /tmp/cckgJnBQ.o
+ .text          0x0000000000000000        0x0 /tmp/ccnoZA8J.o
+ .data          0x0000000000000000        0x0 /tmp/ccnoZA8J.o
+ .bss           0x0000000000000000        0x0 /tmp/ccnoZA8J.o
+ .text          0x0000000000000000        0x0 /tmp/ccO0kTYU.o
+ .data          0x0000000000000000        0x0 /tmp/ccO0kTYU.o
+ .bss           0x0000000000000000        0x0 /tmp/ccO0kTYU.o
+ .text          0x0000000000000000        0x0 /tmp/ccBhTznn.o
+ .data          0x0000000000000000        0x0 /tmp/ccBhTznn.o
+ .bss           0x0000000000000000        0x0 /tmp/ccBhTznn.o
+ .text          0x0000000000000000        0x0 /tmp/ccRtqMiI.o
+ .data          0x0000000000000000        0x0 /tmp/ccRtqMiI.o
+ .bss           0x0000000000000000        0x0 /tmp/ccRtqMiI.o
+ .text          0x0000000000000000        0x0 /tmp/cc3mZZ97.o
+ .data          0x0000000000000000        0x0 /tmp/cc3mZZ97.o
+ .bss           0x0000000000000000        0x0 /tmp/cc3mZZ97.o
+ .text          0x0000000000000000        0x0 /tmp/ccAYUKwz.o
+ .data          0x0000000000000000        0x0 /tmp/ccAYUKwz.o
+ .bss           0x0000000000000000        0x0 /tmp/ccAYUKwz.o
+ .text.poly_zeroize
+                0x0000000000000000       0x10 /tmp/ccAYUKwz.o
+ .text          0x0000000000000000        0x0 /tmp/ccScaVJL.o
+ .data          0x0000000000000000        0x0 /tmp/ccScaVJL.o
+ .bss           0x0000000000000000        0x0 /tmp/ccScaVJL.o
  .text.polyvec_compress
-                0x0000000000000000       0xa0 /tmp/cc5dZcpt.o
+                0x0000000000000000       0xa0 /tmp/ccScaVJL.o
  .text.polyvec_decompress
-                0x0000000000000000       0xb0 /tmp/cc5dZcpt.o
+                0x0000000000000000       0xb0 /tmp/ccScaVJL.o
  .text.polyvec_frombytes
-                0x0000000000000000       0x2c /tmp/cc5dZcpt.o
+                0x0000000000000000       0x3c /tmp/ccScaVJL.o
  .text.polyvec_invntt
-                0x0000000000000000       0x22 /tmp/cc5dZcpt.o
+                0x0000000000000000       0x2e /tmp/ccScaVJL.o
  .text.polyvec_reduce
-                0x0000000000000000       0x22 /tmp/cc5dZcpt.o
+                0x0000000000000000       0x2e /tmp/ccScaVJL.o
  .text.polyvec_add
-                0x0000000000000000       0x36 /tmp/cc5dZcpt.o
- .text          0x0000000000000000        0x0 /tmp/ccKopl6v.o
- .data          0x0000000000000000        0x0 /tmp/ccKopl6v.o
- .bss           0x0000000000000000        0x0 /tmp/ccKopl6v.o
- .text          0x0000000000000000        0x0 /tmp/cchMAUUI.o
- .data          0x0000000000000000        0x0 /tmp/cchMAUUI.o
- .bss           0x0000000000000000        0x0 /tmp/cchMAUUI.o
- .text.verify   0x0000000000000000       0x28 /tmp/cchMAUUI.o
- .data          0x0000000000000000        0x0 /tmp/ccSnWkg4.o
- .bss           0x0000000000000000        0x0 /tmp/ccSnWkg4.o
- .data          0x0000000000000000        0x0 /tmp/ccRIc5XP.o
- .bss           0x0000000000000000        0x0 /tmp/ccRIc5XP.o
- .text          0x0000000000000000      0xc20 /tmp/ccNaKAyx.o
- .data          0x0000000000000000        0x0 /tmp/ccNaKAyx.o
- .bss           0x0000000000000000        0x0 /tmp/ccNaKAyx.o
- .riscv.attributes
-                0x0000000000000000       0x29 /tmp/ccNaKAyx.o
- .data          0x0000000000000000        0x0 /tmp/cce4XZmG.o
- .bss           0x0000000000000000        0x0 /tmp/cce4XZmG.o
- .data          0x0000000000000000        0x0 /tmp/cckbR6wS.o
- .bss           0x0000000000000000        0x0 /tmp/cckbR6wS.o
- .data          0x0000000000000000        0x0 /tmp/cctvnLeW.o
- .bss           0x0000000000000000        0x0 /tmp/cctvnLeW.o
- .data          0x0000000000000000        0x0 /tmp/ccp1I8iG.o
- .bss           0x0000000000000000        0x0 /tmp/ccp1I8iG.o
+                0x0000000000000000       0x46 /tmp/ccScaVJL.o
+ .text          0x0000000000000000        0x0 /tmp/ccgt1gcj.o
+ .data          0x0000000000000000        0x0 /tmp/ccgt1gcj.o
+ .bss           0x0000000000000000        0x0 /tmp/ccgt1gcj.o
+ .text          0x0000000000000000        0x0 /tmp/ccxkTuCW.o
+ .data          0x0000000000000000        0x0 /tmp/ccxkTuCW.o
+ .bss           0x0000000000000000        0x0 /tmp/ccxkTuCW.o
+ .text.verify   0x0000000000000000       0x28 /tmp/ccxkTuCW.o
+ .data          0x0000000000000000        0x0 /tmp/ccpV9K2k.o
+ .bss           0x0000000000000000        0x0 /tmp/ccpV9K2k.o
+ .data          0x0000000000000000        0x0 /tmp/ccklq0DG.o
+ .bss           0x0000000000000000        0x0 /tmp/ccklq0DG.o
+ .data          0x0000000000000000        0x0 /tmp/ccVSIkwH.o
+ .bss           0x0000000000000000        0x0 /tmp/ccVSIkwH.o
+ .data          0x0000000000000000        0x0 /tmp/ccw3uivW.o
+ .bss           0x0000000000000000        0x0 /tmp/ccw3uivW.o
+ .data          0x0000000000000000        0x0 /tmp/ccJk2X3K.o
+ .bss           0x0000000000000000        0x0 /tmp/ccJk2X3K.o
+ .data          0x0000000000000000        0x0 /tmp/ccJlvNt0.o
+ .bss           0x0000000000000000        0x0 /tmp/ccJlvNt0.o
+ .data          0x0000000000000000        0x0 /tmp/ccIze48H.o
+ .bss           0x0000000000000000        0x0 /tmp/ccIze48H.o
+ .data          0x0000000000000000        0x0 /tmp/cc4YXf1h.o
+ .bss           0x0000000000000000        0x0 /tmp/cc4YXf1h.o
  .text          0x0000000000000000        0x0 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
  .data          0x0000000000000000        0x0 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
  .bss           0x0000000000000000        0x0 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
@@ -1613,29 +1617,31 @@ rom              0x0000000020010000 0x000000000006a120 xrl !aw
 
 Linker script and memory map
 
-                0x0000000000002000                __stack_size = 0x2000
+                0x0000000000002600                __stack_size = 0x2600
                 0x0000000000000001                __heap_max = 0x1
-LOAD /tmp/ccptQwVe.o
-LOAD /tmp/ccfSlXVX.o
-LOAD /tmp/cce6nmIQ.o
-LOAD /tmp/ccCdvcW2.o
-LOAD /tmp/cceBQ7tc.o
-LOAD /tmp/ccSAOzgg.o
-LOAD /tmp/ccFUCVyE.o
-LOAD /tmp/ccobnKcu.o
-LOAD /tmp/ccNvuzTZ.o
-LOAD /tmp/ccv44QDw.o
-LOAD /tmp/ccdWMSXX.o
-LOAD /tmp/cc5dZcpt.o
-LOAD /tmp/ccKopl6v.o
-LOAD /tmp/cchMAUUI.o
-LOAD /tmp/ccSnWkg4.o
-LOAD /tmp/ccRIc5XP.o
-LOAD /tmp/ccNaKAyx.o
-LOAD /tmp/cce4XZmG.o
-LOAD /tmp/cckbR6wS.o
-LOAD /tmp/cctvnLeW.o
-LOAD /tmp/ccp1I8iG.o
+LOAD /tmp/cc3tveY2.o
+LOAD /tmp/cc1lNCze.o
+LOAD /tmp/ccTlLnpG.o
+LOAD /tmp/cc2esiVx.o
+LOAD /tmp/ccESOQqh.o
+LOAD /tmp/cckgJnBQ.o
+LOAD /tmp/ccnoZA8J.o
+LOAD /tmp/ccO0kTYU.o
+LOAD /tmp/ccBhTznn.o
+LOAD /tmp/ccRtqMiI.o
+LOAD /tmp/cc3mZZ97.o
+LOAD /tmp/ccAYUKwz.o
+LOAD /tmp/ccScaVJL.o
+LOAD /tmp/ccgt1gcj.o
+LOAD /tmp/ccxkTuCW.o
+LOAD /tmp/ccpV9K2k.o
+LOAD /tmp/ccklq0DG.o
+LOAD /tmp/ccVSIkwH.o
+LOAD /tmp/ccw3uivW.o
+LOAD /tmp/ccJk2X3K.o
+LOAD /tmp/ccJlvNt0.o
+LOAD /tmp/ccIze48H.o
+LOAD /tmp/cc4YXf1h.o
 START GROUP
 LOAD /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a
 LOAD /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a
@@ -1643,7 +1649,7 @@ LOAD /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubunt
 LOAD /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a
 LOAD /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a
 END GROUP
-                0x0000000000002000                __stack_size = DEFINED (__stack_size)?__stack_size:0x400
+                0x0000000000002600                __stack_size = DEFINED (__stack_size)?__stack_size:0x400
                 [!provide]                        PROVIDE (__stack_size = __stack_size)
                 0x0000000000000800                __heap_size = DEFINED (__heap_size)?__heap_size:0x800
                 0x0000000000000000                PROVIDE (__metal_boot_hart = 0x0)
@@ -1738,903 +1744,919 @@ END GROUP
  *(.dtors)
  *(.metal.dtors .metal.dtors.*)
 
-.rodata         0x0000000020010368     0x11f0
+.rodata         0x0000000020010368     0x1258
  *(.rdata)
  *(.rodata .rodata.*)
  .rodata.main.str1.4
-                0x0000000020010368       0x1e /tmp/ccptQwVe.o
+                0x0000000020010368       0x1e /tmp/cc3tveY2.o
  *fill*         0x0000000020010386        0x2 
  .rodata.speedKEM.str1.4
-                0x0000000020010388       0x36 /tmp/ccptQwVe.o
+                0x0000000020010388       0x36 /tmp/cc3tveY2.o
  *fill*         0x00000000200103be        0x2 
  .rodata.speedNTT.str1.4
-                0x00000000200103c0       0x1a /tmp/ccptQwVe.o
- *fill*         0x00000000200103da        0x2 
+                0x00000000200103c0       0x82 /tmp/cc3tveY2.o
+ *fill*         0x0000000020010442        0x2 
  .rodata.ullu.str1.4
-                0x00000000200103dc        0xb /tmp/ccptQwVe.o
- *fill*         0x00000000200103e7        0x1 
+                0x0000000020010444        0xb /tmp/cc3tveY2.o
+ *fill*         0x000000002001044f        0x1 
  .rodata.aes256_ecb_keyexp.str1.4
-                0x00000000200103e8       0x1c /tmp/ccfSlXVX.o
+                0x0000000020010450       0x1c /tmp/cc1lNCze.o
  .rodata.br_Rcon
-                0x0000000020010404        0xa /tmp/ccfSlXVX.o
- *fill*         0x000000002001040e        0x2 
+                0x000000002001046c        0xa /tmp/cc1lNCze.o
+ *fill*         0x0000000020010476        0x2 
  .rodata.crypto_hashblocks_sha512.cst8
-                0x0000000020010410      0x280 /tmp/cce6nmIQ.o
+                0x0000000020010478      0x280 /tmp/ccTlLnpG.o
  .rodata.iv_256
-                0x0000000020010690       0x20 /tmp/cce6nmIQ.o
+                0x00000000200106f8       0x20 /tmp/ccTlLnpG.o
  .rodata.iv_512
-                0x00000000200106b0       0x40 /tmp/cce6nmIQ.o
- .rodata.seed   0x00000000200106f0       0x80 /tmp/ccSAOzgg.o
+                0x0000000020010718       0x40 /tmp/ccTlLnpG.o
+ .rodata.seed   0x0000000020010758       0x80 /tmp/cckgJnBQ.o
  .rodata.__sf_fake_stderr
-                0x0000000020010770       0x20 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
-                0x0000000020010770                __sf_fake_stderr
+                0x00000000200107d8       0x20 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x00000000200107d8                __sf_fake_stderr
  .rodata.__sf_fake_stdin
-                0x0000000020010790       0x20 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
-                0x0000000020010790                __sf_fake_stdin
+                0x00000000200107f8       0x20 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x00000000200107f8                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x00000000200107b0       0x20 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
-                0x00000000200107b0                __sf_fake_stdout
+                0x0000000020010818       0x20 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x0000000020010818                __sf_fake_stdout
  .rodata._vfprintf_r.str1.4
-                0x00000000200107d0       0x13 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
- *fill*         0x00000000200107e3        0x1 
+                0x0000000020010838       0x13 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+ *fill*         0x000000002001084b        0x1 
  .rodata._printf_i.str1.4
-                0x00000000200107e4       0x28 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000002001084c       0x28 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
                                          0x25 (size before relaxing)
- .rodata        0x000000002001080c      0x100 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_clz.o)
-                0x000000002001080c                __clz_tab
+ .rodata        0x0000000020010874      0x100 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_clz.o)
+                0x0000000020010874                __clz_tab
  .rodata.libgloss.start
-                0x000000002001090c       0x11 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(crt0.o)
- *fill*         0x000000002001091d        0x3 
+                0x0000000020010974       0x11 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(crt0.o)
+ *fill*         0x0000000020010985        0x3 
  .rodata.__metal_driver_vtable_riscv_clint0
-                0x0000000020010920       0x64 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
-                0x0000000020010920                __metal_driver_vtable_riscv_clint0
+                0x0000000020010988       0x64 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
+                0x0000000020010988                __metal_driver_vtable_riscv_clint0
  .rodata.__metal_driver_riscv_cpu_controller_interrupt_register
-                0x0000000020010984       0x74 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x00000000200109ec       0x74 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
  .rodata.__metal_driver_riscv_cpu_controller_interrupt_disable
-                0x00000000200109f8       0x80 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020010a60       0x80 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
  .rodata.__metal_driver_riscv_cpu_controller_interrupt_enable
-                0x0000000020010a78       0x80 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020010ae0       0x80 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
  .rodata.CSWTCH.18
-                0x0000000020010af8        0xc /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020010b60        0xc /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
  .rodata.__metal_driver_vtable_cpu
-                0x0000000020010b04       0x44 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020010b04                __metal_driver_vtable_cpu
+                0x0000000020010b6c       0x44 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020010b6c                __metal_driver_vtable_cpu
  .rodata.__metal_driver_vtable_riscv_cpu_intc
-                0x0000000020010b48       0x64 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020010b48                __metal_driver_vtable_riscv_cpu_intc
+                0x0000000020010bb0       0x64 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020010bb0                __metal_driver_vtable_riscv_cpu_intc
  .rodata.__metal_driver_vtable_riscv_plic0
-                0x0000000020010bac       0x64 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
-                0x0000000020010bac                __metal_driver_vtable_riscv_plic0
+                0x0000000020010c14       0x64 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000020010c14                __metal_driver_vtable_riscv_plic0
  .rodata.__metal_driver_vtable_sifive_fe310_g000_pll
-                0x0000000020010c10        0xc /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
-                0x0000000020010c10                __metal_driver_vtable_sifive_fe310_g000_pll
+                0x0000000020010c78        0xc /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
+                0x0000000020010c78                __metal_driver_vtable_sifive_fe310_g000_pll
  .rodata.pll_configs
-                0x0000000020010c1c      0x880 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
+                0x0000000020010c84      0x880 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
  .rodata.__metal_driver_sifive_gpio0_config_int
-                0x000000002001149c       0x20 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x0000000020011504       0x20 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
  .rodata.__metal_driver_sifive_gpio0_clear_int
-                0x00000000200114bc       0x20 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x0000000020011524       0x20 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
  .rodata.__metal_driver_vtable_sifive_gpio0
-                0x00000000200114dc       0x3c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x00000000200114dc                __metal_driver_vtable_sifive_gpio0
+                0x0000000020011544       0x3c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x0000000020011544                __metal_driver_vtable_sifive_gpio0
  .rodata.__metal_driver_vtable_sifive_uart0
-                0x0000000020011518       0x40 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x0000000020011518                __metal_driver_vtable_sifive_uart0
+                0x0000000020011580       0x40 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020011580                __metal_driver_vtable_sifive_uart0
  *(.gnu.linkonce.r.*)
-                0x0000000020011558                . = ALIGN (0x8)
+                0x00000000200115c0                . = ALIGN (0x8)
  *(.srodata.cst16)
  *(.srodata.cst8)
  *(.srodata.cst4)
  *(.srodata.cst2)
  *(.srodata .srodata.*)
 
-.itim           0x0000000008000000        0x0 load address 0x0000000020011558
+.itim           0x0000000008000000        0x0 load address 0x00000000200115c0
  *(.itim .itim.*)
-                0x0000000020011558                PROVIDE (metal_segment_itim_source_start = LOADADDR (.itim))
+                0x00000000200115c0                PROVIDE (metal_segment_itim_source_start = LOADADDR (.itim))
                 0x0000000008000000                PROVIDE (metal_segment_itim_target_start = ADDR (.itim))
                 0x0000000008000000                PROVIDE (metal_segment_itim_target_end = (ADDR (.itim) + SIZEOF (.itim)))
 
-.lim            0x0000000080000000        0x0 load address 0x0000000020011558
+.lim            0x0000000080000000        0x0 load address 0x00000000200115c0
  *(.lim .lim.*)
-                0x0000000020011558                PROVIDE (metal_segment_lim_source_start = LOADADDR (.lim))
+                0x00000000200115c0                PROVIDE (metal_segment_lim_source_start = LOADADDR (.lim))
                 0x0000000080000000                PROVIDE (metal_segment_lim_target_start = ADDR (.lim))
                 0x0000000080000000                PROVIDE (metal_segment_lim_target_end = (ADDR (.lim) + SIZEOF (.lim)))
 
-.text           0x0000000020011580    0x15f9c
+.text           0x0000000020011600    0x16a9c
  *(.text.unlikely .text.unlikely.*)
  *(.text.startup .text.startup.*)
  .text.startup.main
-                0x0000000020011580       0x2c /tmp/ccptQwVe.o
-                0x0000000020011580                main
+                0x0000000020011600       0x2c /tmp/cc3tveY2.o
+                0x0000000020011600                main
  *(.text .text.*)
- .text.ullu     0x00000000200115ac       0x76 /tmp/ccptQwVe.o
+ .text.ullu     0x000000002001162c       0x76 /tmp/cc3tveY2.o
  .text.speedKEM
-                0x0000000020011622      0x152 /tmp/ccptQwVe.o
-                0x0000000020011622                speedKEM
+                0x00000000200116a2      0x162 /tmp/cc3tveY2.o
+                0x00000000200116a2                speedKEM
  .text.speedNTT
-                0x0000000020011774      0x120 /tmp/ccptQwVe.o
-                0x0000000020011774                speedNTT
+                0x0000000020011804      0x290 /tmp/cc3tveY2.o
+                0x0000000020011804                speedNTT
  .text.br_range_dec32le
-                0x0000000020011894       0x34 /tmp/ccfSlXVX.o
+                0x0000000020011a94       0x34 /tmp/cc1lNCze.o
  .text.br_aes_ct64_bitslice_Sbox
-                0x00000000200118c8      0x55e /tmp/ccfSlXVX.o
+                0x0000000020011ac8      0x55e /tmp/cc1lNCze.o
  .text.br_aes_ct64_ortho
-                0x0000000020011e26      0x446 /tmp/ccfSlXVX.o
+                0x0000000020012026      0x446 /tmp/cc1lNCze.o
  .text.br_aes_ct64_interleave_in
-                0x000000002001226c      0x11a /tmp/ccfSlXVX.o
+                0x000000002001246c      0x11a /tmp/cc1lNCze.o
  .text.br_aes_ct64_skey_expand
-                0x0000000020012386      0x10c /tmp/ccfSlXVX.o
+                0x0000000020012586      0x10c /tmp/cc1lNCze.o
  .text.br_add_round_key
-                0x0000000020012492       0x82 /tmp/ccfSlXVX.o
+                0x0000000020012692       0x82 /tmp/cc1lNCze.o
  .text.br_shift_rows
-                0x0000000020012514       0x80 /tmp/ccfSlXVX.o
+                0x0000000020012714       0x80 /tmp/cc1lNCze.o
  .text.br_sub_word
-                0x0000000020012594       0x34 /tmp/ccfSlXVX.o
+                0x0000000020012794       0x34 /tmp/cc1lNCze.o
  .text.br_aes_ct64_keysched
-                0x00000000200125c8      0x1d4 /tmp/ccfSlXVX.o
+                0x00000000200127c8      0x1d4 /tmp/cc1lNCze.o
  .text.aes_ecb4x
-                0x000000002001279c      0x3f6 /tmp/ccfSlXVX.o
- .text.aes_ecb  0x0000000020012b92       0x9a /tmp/ccfSlXVX.o
+                0x000000002001299c      0x3f6 /tmp/cc1lNCze.o
+ .text.aes_ecb  0x0000000020012d92       0x9a /tmp/cc1lNCze.o
  .text.br_inc4_be
-                0x0000000020012c2c       0x44 /tmp/ccfSlXVX.o
- .text.aes_ctr  0x0000000020012c70       0xc6 /tmp/ccfSlXVX.o
+                0x0000000020012e2c       0x44 /tmp/cc1lNCze.o
+ .text.aes_ctr  0x0000000020012e70       0xc6 /tmp/cc1lNCze.o
  .text.aes256_ecb_keyexp
-                0x0000000020012d36       0x50 /tmp/ccfSlXVX.o
-                0x0000000020012d36                aes256_ecb_keyexp
+                0x0000000020012f36       0x50 /tmp/cc1lNCze.o
+                0x0000000020012f36                aes256_ecb_keyexp
  .text.aes256_ctr_keyexp
-                0x0000000020012d86        0x2 /tmp/ccfSlXVX.o
-                0x0000000020012d86                aes256_ctr_keyexp
+                0x0000000020012f86        0x2 /tmp/cc1lNCze.o
+                0x0000000020012f86                aes256_ctr_keyexp
  .text.aes256_ecb
-                0x0000000020012d88        0x6 /tmp/ccfSlXVX.o
-                0x0000000020012d88                aes256_ecb
+                0x0000000020012f88        0x6 /tmp/cc1lNCze.o
+                0x0000000020012f88                aes256_ecb
  .text.aes256_ctr
-                0x0000000020012d8e        0x6 /tmp/ccfSlXVX.o
-                0x0000000020012d8e                aes256_ctr
+                0x0000000020012f8e        0x6 /tmp/cc1lNCze.o
+                0x0000000020012f8e                aes256_ctr
  .text.aes256_ctx_release
-                0x0000000020012d94        0x6 /tmp/ccfSlXVX.o
-                0x0000000020012d94                aes256_ctx_release
+                0x0000000020012f94        0x6 /tmp/cc1lNCze.o
+                0x0000000020012f94                aes256_ctx_release
  .text.load_bigendian_32
-                0x0000000020012d9a       0x1e /tmp/cce6nmIQ.o
+                0x0000000020012f9a       0x1e /tmp/ccTlLnpG.o
  .text.load_bigendian_64
-                0x0000000020012db8       0x3c /tmp/cce6nmIQ.o
+                0x0000000020012fb8       0x3c /tmp/ccTlLnpG.o
  .text.store_bigendian_64
-                0x0000000020012df4       0x36 /tmp/cce6nmIQ.o
+                0x0000000020012ff4       0x36 /tmp/ccTlLnpG.o
  .text.crypto_hashblocks_sha512
-                0x0000000020012e2a     0xa300 /tmp/cce6nmIQ.o
+                0x000000002001302a     0xa300 /tmp/ccTlLnpG.o
  .text.crypto_hashblocks_sha256
-                0x000000002001d12a     0x3536 /tmp/cce6nmIQ.o
+                0x000000002001d32a     0x3536 /tmp/ccTlLnpG.o
  .text.sha256_inc_init
-                0x0000000020020660       0x46 /tmp/cce6nmIQ.o
-                0x0000000020020660                sha256_inc_init
+                0x0000000020020860       0x46 /tmp/ccTlLnpG.o
+                0x0000000020020860                sha256_inc_init
  .text.sha512_inc_init
-                0x00000000200206a6       0x46 /tmp/cce6nmIQ.o
-                0x00000000200206a6                sha512_inc_init
+                0x00000000200208a6       0x46 /tmp/ccTlLnpG.o
+                0x00000000200208a6                sha512_inc_init
  .text.sha256_inc_finalize
-                0x00000000200206ec      0x158 /tmp/cce6nmIQ.o
-                0x00000000200206ec                sha256_inc_finalize
+                0x00000000200208ec      0x158 /tmp/ccTlLnpG.o
+                0x00000000200208ec                sha256_inc_finalize
  .text.sha512_inc_finalize
-                0x0000000020020844      0x186 /tmp/cce6nmIQ.o
-                0x0000000020020844                sha512_inc_finalize
- .text.sha256   0x00000000200209ca       0x24 /tmp/cce6nmIQ.o
-                0x00000000200209ca                sha256
- .text.sha512   0x00000000200209ee       0x24 /tmp/cce6nmIQ.o
-                0x00000000200209ee                sha512
+                0x0000000020020a44      0x186 /tmp/ccTlLnpG.o
+                0x0000000020020a44                sha512_inc_finalize
+ .text.sha256   0x0000000020020bca       0x24 /tmp/ccTlLnpG.o
+                0x0000000020020bca                sha256
+ .text.sha512   0x0000000020020bee       0x24 /tmp/ccTlLnpG.o
+                0x0000000020020bee                sha512
  .text.randombytes
-                0x0000000020020a12      0x288 /tmp/ccSAOzgg.o
-                0x0000000020020a12                randombytes
- .text.cbd_eta1
-                0x0000000020020c9a       0x72 /tmp/ccFUCVyE.o
-                0x0000000020020c9a                cbd_eta1
- .text.cbd_eta2
-                0x0000000020020d0c       0x84 /tmp/ccFUCVyE.o
-                0x0000000020020d0c                cbd_eta2
- .text.matacc   0x0000000020020d90      0x17c /tmp/ccobnKcu.o
+                0x0000000020020c12      0x288 /tmp/cckgJnBQ.o
+                0x0000000020020c12                randombytes
+ .text.cbd      0x0000000020020e9a       0x84 /tmp/ccnoZA8J.o
+                0x0000000020020e9a                cbd
  .text.indcpa_keypair
-                0x0000000020020f0c       0xcc /tmp/ccobnKcu.o
-                0x0000000020020f0c                indcpa_keypair
+                0x0000000020020f1e      0x17a /tmp/ccO0kTYU.o
+                0x0000000020020f1e                indcpa_keypair
  .text.indcpa_enc
-                0x0000000020020fd8      0x10a /tmp/ccobnKcu.o
-                0x0000000020020fd8                indcpa_enc
+                0x0000000020021098      0x208 /tmp/ccO0kTYU.o
+                0x0000000020021098                indcpa_enc
  .text.indcpa_enc_cmp
-                0x00000000200210e2      0x13e /tmp/ccobnKcu.o
-                0x00000000200210e2                indcpa_enc_cmp
+                0x00000000200212a0      0x232 /tmp/ccO0kTYU.o
+                0x00000000200212a0                indcpa_enc_cmp
  .text.indcpa_dec
-                0x0000000020021220       0x7a /tmp/ccobnKcu.o
-                0x0000000020021220                indcpa_dec
+                0x00000000200214d2       0xb6 /tmp/ccO0kTYU.o
+                0x00000000200214d2                indcpa_dec
  .text.crypto_kem_keypair
-                0x000000002002129a       0x50 /tmp/ccNvuzTZ.o
-                0x000000002002129a                crypto_kem_keypair
+                0x0000000020021588       0x5c /tmp/ccBhTznn.o
+                0x0000000020021588                crypto_kem_keypair
  .text.crypto_kem_enc
-                0x00000000200212ea       0x6e /tmp/ccNvuzTZ.o
-                0x00000000200212ea                crypto_kem_enc
+                0x00000000200215e4       0x70 /tmp/ccBhTznn.o
+                0x00000000200215e4                crypto_kem_enc
  .text.crypto_kem_dec
-                0x0000000020021358       0x86 /tmp/ccNvuzTZ.o
-                0x0000000020021358                crypto_kem_dec
- .text.ntt      0x00000000200213de        0xc /tmp/ccv44QDw.o
-                0x00000000200213de                ntt
- .text.invntt   0x00000000200213ea        0xc /tmp/ccv44QDw.o
-                0x00000000200213ea                invntt
+                0x0000000020021654       0x90 /tmp/ccBhTznn.o
+                0x0000000020021654                crypto_kem_dec
+ .text.matacc_cache_32
+                0x00000000200216e4      0x19a /tmp/ccRtqMiI.o
+                0x00000000200216e4                matacc_cache_32
+ .text.matacc_opt_32
+                0x000000002002187e      0x18a /tmp/ccRtqMiI.o
+                0x000000002002187e                matacc_opt_32
+ .text.matacc_cache32
+                0x0000000020021a08      0x108 /tmp/ccRtqMiI.o
+                0x0000000020021a08                matacc_cache32
+ .text.matacc_opt32
+                0x0000000020021b10       0xde /tmp/ccRtqMiI.o
+                0x0000000020021b10                matacc_opt32
+ .text.ntt      0x0000000020021bee        0xc /tmp/cc3mZZ97.o
+                0x0000000020021bee                ntt
+ .text.invntt   0x0000000020021bfa        0xc /tmp/cc3mZZ97.o
+                0x0000000020021bfa                invntt
  .text.poly_compress
-                0x00000000200213f6       0x80 /tmp/ccdWMSXX.o
-                0x00000000200213f6                poly_compress
+                0x0000000020021c06       0x80 /tmp/ccAYUKwz.o
+                0x0000000020021c06                poly_compress
  .text.poly_decompress
-                0x0000000020021476       0xa4 /tmp/ccdWMSXX.o
-                0x0000000020021476                poly_decompress
+                0x0000000020021c86       0xa4 /tmp/ccAYUKwz.o
+                0x0000000020021c86                poly_decompress
  .text.poly_packcompress
-                0x000000002002151a       0x90 /tmp/ccdWMSXX.o
-                0x000000002002151a                poly_packcompress
+                0x0000000020021d2a       0x90 /tmp/ccAYUKwz.o
+                0x0000000020021d2a                poly_packcompress
  .text.poly_unpackdecompress
-                0x00000000200215aa       0x98 /tmp/ccdWMSXX.o
-                0x00000000200215aa                poly_unpackdecompress
+                0x0000000020021dba       0x98 /tmp/ccAYUKwz.o
+                0x0000000020021dba                poly_unpackdecompress
  .text.cmp_poly_compress
-                0x0000000020021642       0x9c /tmp/ccdWMSXX.o
-                0x0000000020021642                cmp_poly_compress
+                0x0000000020021e52       0x9c /tmp/ccAYUKwz.o
+                0x0000000020021e52                cmp_poly_compress
  .text.cmp_poly_packcompress
-                0x00000000200216de       0xb4 /tmp/ccdWMSXX.o
-                0x00000000200216de                cmp_poly_packcompress
+                0x0000000020021eee       0xb4 /tmp/ccAYUKwz.o
+                0x0000000020021eee                cmp_poly_packcompress
  .text.poly_tobytes
-                0x0000000020021792       0x4a /tmp/ccdWMSXX.o
-                0x0000000020021792                poly_tobytes
+                0x0000000020021fa2       0x4a /tmp/ccAYUKwz.o
+                0x0000000020021fa2                poly_tobytes
  .text.poly_frombytes
-                0x00000000200217dc       0x3a /tmp/ccdWMSXX.o
-                0x00000000200217dc                poly_frombytes
+                0x0000000020021fec       0x3a /tmp/ccAYUKwz.o
+                0x0000000020021fec                poly_frombytes
  .text.poly_frombytes_mul
-                0x0000000020021816       0x92 /tmp/ccdWMSXX.o
-                0x0000000020021816                poly_frombytes_mul
- .text.poly_noise_eta1
-                0x00000000200218a8       0x2c /tmp/ccdWMSXX.o
-                0x00000000200218a8                poly_noise_eta1
- .text.poly_noise_eta2
-                0x00000000200218d4       0x2c /tmp/ccdWMSXX.o
-                0x00000000200218d4                poly_noise_eta2
+                0x0000000020022026       0x92 /tmp/ccAYUKwz.o
+                0x0000000020022026                poly_frombytes_mul
+ .text.poly_noise
+                0x00000000200220b8       0x2c /tmp/ccAYUKwz.o
+                0x00000000200220b8                poly_noise
  .text.poly_ntt
-                0x0000000020021900        0x4 /tmp/ccdWMSXX.o
-                0x0000000020021900                poly_ntt
+                0x00000000200220e4        0x4 /tmp/ccAYUKwz.o
+                0x00000000200220e4                poly_ntt
  .text.poly_invntt
-                0x0000000020021904        0x4 /tmp/ccdWMSXX.o
-                0x0000000020021904                poly_invntt
- .text.poly_basemul
-                0x0000000020021908        0xc /tmp/ccdWMSXX.o
-                0x0000000020021908                poly_basemul
- .text.poly_basemul_acc
-                0x0000000020021914        0xc /tmp/ccdWMSXX.o
-                0x0000000020021914                poly_basemul_acc
+                0x00000000200220e8        0x4 /tmp/ccAYUKwz.o
+                0x00000000200220e8                poly_invntt
+ .text.poly_basemul_opt_16_32
+                0x00000000200220ec        0x2 /tmp/ccAYUKwz.o
+                0x00000000200220ec                poly_basemul_opt_16_32
+ .text.poly_basemul_acc_opt_32_32
+                0x00000000200220ee        0x2 /tmp/ccAYUKwz.o
+                0x00000000200220ee                poly_basemul_acc_opt_32_32
+ .text.poly_basemul_acc_opt_32_16
+                0x00000000200220f0        0x2 /tmp/ccAYUKwz.o
+                0x00000000200220f0                poly_basemul_acc_opt_32_16
  .text.poly_reduce
-                0x0000000020021920        0x4 /tmp/ccdWMSXX.o
-                0x0000000020021920                poly_reduce
+                0x00000000200220f2        0x4 /tmp/ccAYUKwz.o
+                0x00000000200220f2                poly_reduce
  .text.poly_add
-                0x0000000020021924        0x2 /tmp/ccdWMSXX.o
-                0x0000000020021924                poly_add
+                0x00000000200220f6        0x2 /tmp/ccAYUKwz.o
+                0x00000000200220f6                poly_add
  .text.poly_sub
-                0x0000000020021926        0x2 /tmp/ccdWMSXX.o
-                0x0000000020021926                poly_sub
+                0x00000000200220f8        0x2 /tmp/ccAYUKwz.o
+                0x00000000200220f8                poly_sub
  .text.poly_frommsg
-                0x0000000020021928       0x32 /tmp/ccdWMSXX.o
-                0x0000000020021928                poly_frommsg
+                0x00000000200220fa       0x32 /tmp/ccAYUKwz.o
+                0x00000000200220fa                poly_frommsg
  .text.poly_tomsg
-                0x000000002002195a       0x46 /tmp/ccdWMSXX.o
-                0x000000002002195a                poly_tomsg
- .text.poly_zeroize
-                0x00000000200219a0       0x10 /tmp/ccdWMSXX.o
-                0x00000000200219a0                poly_zeroize
+                0x000000002002212c       0x46 /tmp/ccAYUKwz.o
+                0x000000002002212c                poly_tomsg
  .text.polyvec_tobytes
-                0x00000000200219b0       0x20 /tmp/cc5dZcpt.o
-                0x00000000200219b0                polyvec_tobytes
+                0x0000000020022172       0x2a /tmp/ccScaVJL.o
+                0x0000000020022172                polyvec_tobytes
  .text.polyvec_ntt
-                0x00000000200219d0       0x16 /tmp/cc5dZcpt.o
-                0x00000000200219d0                polyvec_ntt
+                0x000000002002219c       0x1c /tmp/ccScaVJL.o
+                0x000000002002219c                polyvec_ntt
  .text.aes256ctr_prf
-                0x00000000200219e6       0x46 /tmp/ccKopl6v.o
-                0x00000000200219e6                aes256ctr_prf
+                0x00000000200221b8       0x46 /tmp/ccgt1gcj.o
+                0x00000000200221b8                aes256ctr_prf
  .text.aes256xof_absorb
-                0x0000000020021a2c       0x3a /tmp/ccKopl6v.o
-                0x0000000020021a2c                aes256xof_absorb
+                0x00000000200221fe       0x3a /tmp/ccgt1gcj.o
+                0x00000000200221fe                aes256xof_absorb
  .text.aes256xof_squeezeblocks
-                0x0000000020021a66       0xda /tmp/ccKopl6v.o
-                0x0000000020021a66                aes256xof_squeezeblocks
+                0x0000000020022238       0xda /tmp/ccgt1gcj.o
+                0x0000000020022238                aes256xof_squeezeblocks
  .text.aes256xof_ctx_release
-                0x0000000020021b40        0x4 /tmp/ccKopl6v.o
-                0x0000000020021b40                aes256xof_ctx_release
- .text.cmov     0x0000000020021b44       0x32 /tmp/cchMAUUI.o
-                0x0000000020021b44                cmov
- *fill*         0x0000000020021b76        0x2 
- .text          0x0000000020021b78       0x12 /tmp/ccSnWkg4.o
-                0x0000000020021b78                cpucycles
- *fill*         0x0000000020021b8a        0x2 
- .text          0x0000000020021b8c      0x33a /tmp/ccRIc5XP.o
-                0x0000000020021b8c                pointwise_sub
-                0x0000000020021d3c                pointwise_add
- *fill*         0x0000000020021ec6        0x2 
- .text          0x0000000020021ec8      0x66a /tmp/cce4XZmG.o
-                0x0000000020021ec8                invntt_fast
- *fill*         0x0000000020022532        0x2 
- .text          0x0000000020022534      0x626 /tmp/cckbR6wS.o
-                0x0000000020022534                ntt_fast
- *fill*         0x0000000020022b5a        0x2 
- .text          0x0000000020022b5c      0x358 /tmp/cctvnLeW.o
-                0x0000000020022b5c                doublebasemul_asm
-                0x0000000020022c1c                doublebasemul_asm_acc
-                0x0000000020022cf4                basemul_asm
-                0x0000000020022dc8                basemul_asm_acc
- .text          0x0000000020022eb4      0x34e /tmp/ccp1I8iG.o
-                0x0000000020022eb4                asm_barrett_reduce
- .text.exit     0x0000000020023202       0x2e /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
-                0x0000000020023202                exit
- .text.malloc   0x0000000020023230        0xe /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-malloc.o)
-                0x0000000020023230                malloc
- .text.free     0x000000002002323e        0xe /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-malloc.o)
-                0x000000002002323e                free
- .text          0x000000002002324c       0x16 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memcpy-asm.o)
-                0x000000002002324c                memcpy
- .text          0x0000000020023262       0x10 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memset.o)
-                0x0000000020023262                memset
- .text._free_r  0x0000000020023272       0xb0 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-freer.o)
-                0x0000000020023272                _free_r
+                0x0000000020022312        0x4 /tmp/ccgt1gcj.o
+                0x0000000020022312                aes256xof_ctx_release
+ .text.cmov     0x0000000020022316       0x32 /tmp/ccxkTuCW.o
+                0x0000000020022316                cmov
+ *fill*         0x0000000020022348        0x0 
+ .text          0x0000000020022348       0x12 /tmp/ccpV9K2k.o
+                0x0000000020022348                cpucycles
+ *fill*         0x000000002002235a        0x2 
+ .text          0x000000002002235c      0x33a /tmp/ccklq0DG.o
+                0x000000002002235c                pointwise_sub
+                0x000000002002250c                pointwise_add
+ *fill*         0x0000000020022696        0x2 
+ .text          0x0000000020022698      0x1da /tmp/ccVSIkwH.o
+                0x0000000020022698                basemul_asm_opt_16_32
+                0x0000000020022710                basemul_asm_acc_opt_32_32
+                0x00000000200227a0                basemul_asm_acc_opt_32_16
+ *fill*         0x0000000020022872        0x2 
+ .text          0x0000000020022874      0x66a /tmp/ccw3uivW.o
+                0x0000000020022874                invntt_fast
+ *fill*         0x0000000020022ede        0x2 
+ .text          0x0000000020022ee0      0x626 /tmp/ccJk2X3K.o
+                0x0000000020022ee0                ntt_fast
+ *fill*         0x0000000020023506        0x2 
+ .text          0x0000000020023508      0x196 /tmp/ccJlvNt0.o
+                0x0000000020023508                doublebasemul_asm
+                0x00000000200235c8                doublebasemul_asm_acc
+ *fill*         0x000000002002369e        0x2 
+ .text          0x00000000200236a0      0x3ae /tmp/ccIze48H.o
+                0x00000000200236a0                doublebasemul_asm_cache_16_32
+                0x0000000020023728                doublebasemul_asm_acc_cache_32_32
+                0x00000000200237c8                doublebasemul_asm_acc_cache_32_16
+                0x00000000200238a8                doublebasemul_asm_opt_16_32
+                0x0000000020023910                doublebasemul_asm_acc_opt_32_32
+                0x0000000020023990                doublebasemul_asm_acc_opt_32_16
+ *fill*         0x0000000020023a4e        0x2 
+ .text          0x0000000020023a50      0x34e /tmp/cc4YXf1h.o
+                0x0000000020023a50                asm_barrett_reduce
+ .text.exit     0x0000000020023d9e       0x2e /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
+                0x0000000020023d9e                exit
+ .text.malloc   0x0000000020023dcc        0xe /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-malloc.o)
+                0x0000000020023dcc                malloc
+ .text.free     0x0000000020023dda        0xe /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-malloc.o)
+                0x0000000020023dda                free
+ .text          0x0000000020023de8       0x16 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memcpy-asm.o)
+                0x0000000020023de8                memcpy
+ .text          0x0000000020023dfe       0x10 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memset.o)
+                0x0000000020023dfe                memset
+ .text._free_r  0x0000000020023e0e       0xb0 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-freer.o)
+                0x0000000020023e0e                _free_r
  .text._malloc_r
-                0x0000000020023322       0xe4 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-mallocr.o)
-                0x0000000020023322                _malloc_r
- .text.printf   0x0000000020023406       0x44 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
-                0x0000000020023406                printf
-                0x0000000020023406                iprintf
- .text._puts_r  0x000000002002344a       0xda /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
-                0x000000002002344a                _puts_r
- .text.puts     0x0000000020023524        0xe /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
-                0x0000000020023524                puts
- .text._sbrk_r  0x0000000020023532       0x2a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-sbrkr.o)
-                0x0000000020023532                _sbrk_r
+                0x0000000020023ebe       0xe4 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020023ebe                _malloc_r
+ .text.printf   0x0000000020023fa2       0x44 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
+                0x0000000020023fa2                printf
+                0x0000000020023fa2                iprintf
+ .text._puts_r  0x0000000020023fe6       0xda /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
+                0x0000000020023fe6                _puts_r
+ .text.puts     0x00000000200240c0        0xe /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
+                0x00000000200240c0                puts
+ .text._sbrk_r  0x00000000200240ce       0x2a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-sbrkr.o)
+                0x00000000200240ce                _sbrk_r
  .text.__swbuf_r
-                0x000000002002355c       0xc0 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
-                0x000000002002355c                __swbuf_r
+                0x00000000200240f8       0xc0 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
+                0x00000000200240f8                __swbuf_r
  .text.__swsetup_r
-                0x000000002002361c      0x112 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o)
-                0x000000002002361c                __swsetup_r
+                0x00000000200241b8      0x112 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o)
+                0x00000000200241b8                __swsetup_r
  .text.__sflush_r
-                0x000000002002372e      0x14c /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
-                0x000000002002372e                __sflush_r
+                0x00000000200242ca      0x14c /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
+                0x00000000200242ca                __sflush_r
  .text._fflush_r
-                0x000000002002387a       0x64 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
-                0x000000002002387a                _fflush_r
- .text.std      0x00000000200238de       0x6a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x0000000020024416       0x66 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
+                0x0000000020024416                _fflush_r
+ .text.std      0x000000002002447c       0x6a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
  .text._cleanup_r
-                0x0000000020023948        0xa /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
-                0x0000000020023948                _cleanup_r
+                0x00000000200244e6        0xa /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x00000000200244e6                _cleanup_r
  .text.__sfmoreglue
-                0x0000000020023952       0x48 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
-                0x0000000020023952                __sfmoreglue
- .text.__sinit  0x000000002002399a       0x6a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
-                0x000000002002399a                __sinit
- .text.__sfp    0x0000000020023a04       0xa0 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
-                0x0000000020023a04                __sfp
+                0x00000000200244f0       0x48 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x00000000200244f0                __sfmoreglue
+ .text.__sinit  0x0000000020024538       0x6a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x0000000020024538                __sinit
+ .text.__sfp    0x00000000200245a2       0xa2 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x00000000200245a2                __sfp
  .text._fwalk_reent
-                0x0000000020023aa4       0x6c /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fwalk.o)
-                0x0000000020023aa4                _fwalk_reent
+                0x0000000020024644       0x6c /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fwalk.o)
+                0x0000000020024644                _fwalk_reent
  .text.__swhatbuf_r
-                0x0000000020023b10       0x58 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
-                0x0000000020023b10                __swhatbuf_r
+                0x00000000200246b0       0x58 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
+                0x00000000200246b0                __swhatbuf_r
  .text.__smakebuf_r
-                0x0000000020023b68       0x9e /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
-                0x0000000020023b68                __smakebuf_r
+                0x0000000020024708       0x9e /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
+                0x0000000020024708                __smakebuf_r
  .text.__malloc_lock
-                0x0000000020023c06        0x2 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-mlock.o)
-                0x0000000020023c06                __malloc_lock
+                0x00000000200247a6        0x2 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-mlock.o)
+                0x00000000200247a6                __malloc_lock
  .text.__malloc_unlock
-                0x0000000020023c08        0x2 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-mlock.o)
-                0x0000000020023c08                __malloc_unlock
+                0x00000000200247a8        0x2 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-mlock.o)
+                0x00000000200247a8                __malloc_unlock
  .text.__sfputc_r
-                0x0000000020023c0a       0x2a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x00000000200247aa       0x2a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x0000000020023c34       0x42 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x0000000020023c34                __sfputs_r
+                0x00000000200247d4       0x42 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x00000000200247d4                __sfputs_r
  .text._vfprintf_r
-                0x0000000020023c76      0x29a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x0000000020023c76                _vfiprintf_r
-                0x0000000020023c76                _vfprintf_r
- .text.__sread  0x0000000020023f10       0x30 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
-                0x0000000020023f10                __sread
+                0x0000000020024816      0x29a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000020024816                _vfiprintf_r
+                0x0000000020024816                _vfprintf_r
+ .text.__sread  0x0000000020024ab0       0x30 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+                0x0000000020024ab0                __sread
  .text.__swrite
-                0x0000000020023f40       0x4e /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
-                0x0000000020023f40                __swrite
- .text.__sseek  0x0000000020023f8e       0x36 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
-                0x0000000020023f8e                __sseek
+                0x0000000020024ae0       0x4e /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+                0x0000000020024ae0                __swrite
+ .text.__sseek  0x0000000020024b2e       0x36 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+                0x0000000020024b2e                __sseek
  .text.__sclose
-                0x0000000020023fc4        0x6 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
-                0x0000000020023fc4                __sclose
+                0x0000000020024b64        0x6 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+                0x0000000020024b64                __sclose
  .text._write_r
-                0x0000000020023fca       0x2e /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-writer.o)
-                0x0000000020023fca                _write_r
+                0x0000000020024b6a       0x2e /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-writer.o)
+                0x0000000020024b6a                _write_r
  .text._close_r
-                0x0000000020023ff8       0x2a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-closer.o)
-                0x0000000020023ff8                _close_r
+                0x0000000020024b98       0x2a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-closer.o)
+                0x0000000020024b98                _close_r
  .text._fstat_r
-                0x0000000020024022       0x2c /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fstatr.o)
-                0x0000000020024022                _fstat_r
+                0x0000000020024bc2       0x2c /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fstatr.o)
+                0x0000000020024bc2                _fstat_r
  .text._isatty_r
-                0x000000002002404e       0x2a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-isattyr.o)
-                0x000000002002404e                _isatty_r
+                0x0000000020024bee       0x2a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-isattyr.o)
+                0x0000000020024bee                _isatty_r
  .text._lseek_r
-                0x0000000020024078       0x2e /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-lseekr.o)
-                0x0000000020024078                _lseek_r
- .text.memchr   0x00000000200240a6       0x1a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memchr.o)
-                0x00000000200240a6                memchr
+                0x0000000020024c18       0x2e /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-lseekr.o)
+                0x0000000020024c18                _lseek_r
+ .text.memchr   0x0000000020024c46       0x1a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memchr.o)
+                0x0000000020024c46                memchr
  .text._printf_common
-                0x00000000200240c0      0x10c /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x00000000200240c0                _printf_common
+                0x0000000020024c60      0x10c /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000020024c60                _printf_common
  .text._printf_i
-                0x00000000200241cc      0x2a6 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x00000000200241cc                _printf_i
- .text._read_r  0x0000000020024472       0x2c /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-readr.o)
-                0x0000000020024472                _read_r
- .text          0x000000002002449e      0x35e /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
-                0x000000002002449e                __udivdi3
- .text          0x00000000200247fc      0x352 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_umoddi3.o)
-                0x00000000200247fc                __umoddi3
- .text._close   0x0000000020024b4e       0x14 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_close.o)
-                0x0000000020024b4e                _close
- .text._exit    0x0000000020024b62        0x6 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_exit.o)
-                0x0000000020024b62                _exit
- .text._fstat   0x0000000020024b68       0x14 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_fstat.o)
-                0x0000000020024b68                _fstat
- .text._isatty  0x0000000020024b7c        0x8 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_isatty.o)
-                0x0000000020024b7c                _isatty
- .text._lseek   0x0000000020024b84       0x14 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_lseek.o)
-                0x0000000020024b84                _lseek
- .text._read    0x0000000020024b98       0x14 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_read.o)
-                0x0000000020024b98                _read
- .text._sbrk    0x0000000020024bac       0x56 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_sbrk.o)
-                0x0000000020024bac                _sbrk
- .text._write   0x0000000020024c02       0x3a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_write.o)
-                0x0000000020024c02                write
-                0x0000000020024c02                _write
- .text.atexit   0x0000000020024c3c        0xa /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-atexit.o)
-                0x0000000020024c3c                atexit
- .text.__errno  0x0000000020024c46        0xc /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-errno.o)
-                0x0000000020024c46                __errno
+                0x0000000020024d6c      0x2a6 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000020024d6c                _printf_i
+ .text._read_r  0x0000000020025012       0x2c /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-readr.o)
+                0x0000000020025012                _read_r
+ .text          0x000000002002503e      0x35e /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+                0x000000002002503e                __udivdi3
+ .text          0x000000002002539c      0x352 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_umoddi3.o)
+                0x000000002002539c                __umoddi3
+ .text._close   0x00000000200256ee       0x14 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_close.o)
+                0x00000000200256ee                _close
+ .text._exit    0x0000000020025702        0x6 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_exit.o)
+                0x0000000020025702                _exit
+ .text._fstat   0x0000000020025708       0x14 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_fstat.o)
+                0x0000000020025708                _fstat
+ .text._isatty  0x000000002002571c        0x8 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_isatty.o)
+                0x000000002002571c                _isatty
+ .text._lseek   0x0000000020025724       0x14 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_lseek.o)
+                0x0000000020025724                _lseek
+ .text._read    0x0000000020025738       0x14 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_read.o)
+                0x0000000020025738                _read
+ .text._sbrk    0x000000002002574c       0x56 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_sbrk.o)
+                0x000000002002574c                _sbrk
+ .text._write   0x00000000200257a2       0x3a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_write.o)
+                0x00000000200257a2                write
+                0x00000000200257a2                _write
+ .text.atexit   0x00000000200257dc        0xa /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-atexit.o)
+                0x00000000200257dc                atexit
+ .text.__errno  0x00000000200257e6        0xc /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-errno.o)
+                0x00000000200257e6                __errno
  .text.__libc_fini_array
-                0x0000000020024c52       0x38 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fini.o)
-                0x0000000020024c52                __libc_fini_array
+                0x00000000200257f2       0x38 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fini.o)
+                0x00000000200257f2                __libc_fini_array
  .text.__libc_init_array
-                0x0000000020024c8a       0x6a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-init.o)
-                0x0000000020024c8a                __libc_init_array
+                0x000000002002582a       0x6a /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-init.o)
+                0x000000002002582a                __libc_init_array
  .text.__register_exitproc
-                0x0000000020024cf4       0x84 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__atexit.o)
-                0x0000000020024cf4                __register_exitproc
+                0x0000000020025894       0x84 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__atexit.o)
+                0x0000000020025894                __register_exitproc
  .text.__call_exitprocs
-                0x0000000020024d78       0xc8 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__call_atexit.o)
-                0x0000000020024d78                __call_exitprocs
+                0x0000000020025918       0xc8 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__call_atexit.o)
+                0x0000000020025918                __call_exitprocs
  .text.metal_init_run
-                0x0000000020024e40       0x4a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(init.o)
-                0x0000000020024e40                metal_init_run
+                0x00000000200259e0       0x4a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(init.o)
+                0x00000000200259e0                metal_init_run
  .text.metal_fini_run
-                0x0000000020024e8a       0x4a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(init.o)
-                0x0000000020024e8a                metal_fini_run
+                0x0000000020025a2a       0x4a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(init.o)
+                0x0000000020025a2a                metal_fini_run
  .text.metal_shutdown
-                0x0000000020024ed4        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(shutdown.o)
-                0x0000000020024ed4                metal_shutdown
+                0x0000000020025a74        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(shutdown.o)
+                0x0000000020025a74                metal_shutdown
  .text.metal_tty_putc
-                0x0000000020024ed8       0x14 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(tty.o)
-                0x0000000020024ed8                metal_tty_putc
+                0x0000000020025a78       0x14 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(tty.o)
+                0x0000000020025a78                metal_tty_putc
  .text.__metal_driver_riscv_clint0_mtimecmp_set
-                0x0000000020024eec       0x2a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
-                0x0000000020024eec                __metal_driver_riscv_clint0_mtimecmp_set
+                0x0000000020025a8c       0x2a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
+                0x0000000020025a8c                __metal_driver_riscv_clint0_mtimecmp_set
  .text.__metal_driver_riscv_clint0_init
-                0x0000000020024f16       0x66 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
-                0x0000000020024f16                __metal_driver_riscv_clint0_init
+                0x0000000020025ab6       0x66 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
+                0x0000000020025ab6                __metal_driver_riscv_clint0_init
  .text.__metal_driver_riscv_clint0_vector_register
-                0x0000000020024f7c        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
-                0x0000000020024f7c                __metal_driver_riscv_clint0_vector_register
+                0x0000000020025b1c        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
+                0x0000000020025b1c                __metal_driver_riscv_clint0_vector_register
  .text.__metal_driver_riscv_clint0_command_request
-                0x0000000020024f80       0x92 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
-                0x0000000020024f80                __metal_driver_riscv_clint0_command_request
+                0x0000000020025b20       0x92 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
+                0x0000000020025b20                __metal_driver_riscv_clint0_command_request
  .text.__metal_driver_riscv_clint0_get_vector_mode
-                0x0000000020025012        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
-                0x0000000020025012                __metal_driver_riscv_clint0_get_vector_mode
+                0x0000000020025bb2        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
+                0x0000000020025bb2                __metal_driver_riscv_clint0_get_vector_mode
  .text.__metal_driver_riscv_clint0_register
-                0x0000000020025016       0x86 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
-                0x0000000020025016                __metal_driver_riscv_clint0_register
+                0x0000000020025bb6       0x86 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
+                0x0000000020025bb6                __metal_driver_riscv_clint0_register
  .text.__metal_driver_riscv_clint0_clear_interrupt
-                0x000000002002509c       0x30 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
-                0x000000002002509c                __metal_driver_riscv_clint0_clear_interrupt
+                0x0000000020025c3c       0x30 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
+                0x0000000020025c3c                __metal_driver_riscv_clint0_clear_interrupt
  .text.__metal_driver_riscv_clint0_set_interrupt
-                0x00000000200250cc       0x36 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
-                0x00000000200250cc                __metal_driver_riscv_clint0_set_interrupt
+                0x0000000020025c6c       0x36 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
+                0x0000000020025c6c                __metal_driver_riscv_clint0_set_interrupt
  .text.__metal_driver_riscv_clint0_set_vector_mode
-                0x0000000020025102       0x38 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
-                0x0000000020025102                __metal_driver_riscv_clint0_set_vector_mode
+                0x0000000020025ca2       0x38 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
+                0x0000000020025ca2                __metal_driver_riscv_clint0_set_vector_mode
  .text.__metal_driver_riscv_clint0_enable
-                0x000000002002513a       0x66 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
-                0x000000002002513a                __metal_driver_riscv_clint0_enable
+                0x0000000020025cda       0x66 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
+                0x0000000020025cda                __metal_driver_riscv_clint0_enable
  .text.__metal_driver_riscv_clint0_disable
-                0x00000000200251a0       0x66 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
-                0x00000000200251a0                __metal_driver_riscv_clint0_disable
+                0x0000000020025d40       0x66 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
+                0x0000000020025d40                __metal_driver_riscv_clint0_disable
  .text.__metal_default_sw_handler
-                0x0000000020025206       0x44 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025206                __metal_default_sw_handler
+                0x0000000020025da6       0x44 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020025da6                __metal_default_sw_handler
  .text.__metal_default_beu_handler
-                0x000000002002524a        0x2 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x000000002002524a                __metal_default_beu_handler
- *fill*         0x000000002002524c       0x34 
+                0x0000000020025dea        0x2 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020025dea                __metal_default_beu_handler
+ *fill*         0x0000000020025dec       0x14 
  .text.__metal_exception_handler
-                0x0000000020025280       0xfa /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025280                __metal_exception_handler
+                0x0000000020025e00       0xfa /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020025e00                __metal_exception_handler
  .text.__metal_driver_riscv_cpu_controller_get_vector_mode
-                0x000000002002537a       0x22 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x000000002002537a                __metal_driver_riscv_cpu_controller_get_vector_mode
+                0x0000000020025efa       0x22 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020025efa                __metal_driver_riscv_cpu_controller_get_vector_mode
  .text.__metal_driver_riscv_cpu_controller_command_request
-                0x000000002002539c        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x000000002002539c                __metal_driver_riscv_cpu_controller_command_request
+                0x0000000020025f1c        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020025f1c                __metal_driver_riscv_cpu_controller_command_request
  .text.__metal_driver_cpu_mcycle_get
-                0x00000000200253a0       0x12 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200253a0                __metal_driver_cpu_mcycle_get
+                0x0000000020025f20       0x12 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020025f20                __metal_driver_cpu_mcycle_get
  .text.__metal_driver_cpu_timebase_get
-                0x00000000200253b2       0x1c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200253b2                __metal_driver_cpu_timebase_get
+                0x0000000020025f32       0x1c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020025f32                __metal_driver_cpu_timebase_get
  .text.__metal_driver_cpu_mtime_get
-                0x00000000200253ce       0x42 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200253ce                __metal_driver_cpu_mtime_get
+                0x0000000020025f4e       0x42 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020025f4e                __metal_driver_cpu_mtime_get
  .text.__metal_driver_cpu_timer_controller_interrupt
-                0x0000000020025410        0xa /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025410                __metal_driver_cpu_timer_controller_interrupt
+                0x0000000020025f90        0xa /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020025f90                __metal_driver_cpu_timer_controller_interrupt
  .text.__metal_driver_cpu_get_timer_interrupt_id
-                0x000000002002541a        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x000000002002541a                __metal_driver_cpu_get_timer_interrupt_id
+                0x0000000020025f9a        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020025f9a                __metal_driver_cpu_get_timer_interrupt_id
  .text.__metal_driver_cpu_get_sw_interrupt_id
-                0x000000002002541e        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x000000002002541e                __metal_driver_cpu_get_sw_interrupt_id
+                0x0000000020025f9e        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020025f9e                __metal_driver_cpu_get_sw_interrupt_id
  .text.__metal_driver_cpu_set_sw_ipi
-                0x0000000020025422       0x30 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025422                __metal_driver_cpu_set_sw_ipi
+                0x0000000020025fa2       0x30 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020025fa2                __metal_driver_cpu_set_sw_ipi
  .text.__metal_driver_cpu_clear_sw_ipi
-                0x0000000020025452       0x30 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025452                __metal_driver_cpu_clear_sw_ipi
+                0x0000000020025fd2       0x30 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020025fd2                __metal_driver_cpu_clear_sw_ipi
  .text.__metal_driver_cpu_get_msip
-                0x0000000020025482       0x34 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025482                __metal_driver_cpu_get_msip
+                0x0000000020026002       0x34 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026002                __metal_driver_cpu_get_msip
  .text.__metal_driver_cpu_controller_interrupt
-                0x00000000200254b6       0x16 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200254b6                __metal_driver_cpu_controller_interrupt
+                0x0000000020026036       0x16 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026036                __metal_driver_cpu_controller_interrupt
  .text.__metal_driver_cpu_get_instruction_length
-                0x00000000200254cc       0x12 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200254cc                __metal_driver_cpu_get_instruction_length
+                0x000000002002604c       0x12 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x000000002002604c                __metal_driver_cpu_get_instruction_length
  .text.__metal_driver_cpu_get_exception_pc
-                0x00000000200254de        0x6 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200254de                __metal_driver_cpu_get_exception_pc
+                0x000000002002605e        0x6 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x000000002002605e                __metal_driver_cpu_get_exception_pc
  .text.__metal_driver_cpu_set_exception_pc
-                0x00000000200254e4        0x8 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200254e4                __metal_driver_cpu_set_exception_pc
+                0x0000000020026064        0x8 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026064                __metal_driver_cpu_set_exception_pc
  .text.__metal_driver_cpu_get_buserror
-                0x00000000200254ec        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200254ec                __metal_driver_cpu_get_buserror
+                0x000000002002606c        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x000000002002606c                __metal_driver_cpu_get_buserror
  .text.__metal_default_exception_handler
-                0x00000000200254f0        0xc /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200254f0                __metal_default_exception_handler
+                0x0000000020026070        0xc /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026070                __metal_default_exception_handler
  .text.__metal_default_interrupt_handler
-                0x00000000200254fc        0xc /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200254fc                __metal_default_interrupt_handler
+                0x000000002002607c        0xc /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x000000002002607c                __metal_default_interrupt_handler
  .text.__metal_default_timer_handler
-                0x0000000020025508       0x66 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025508                __metal_default_timer_handler
+                0x0000000020026088       0x66 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026088                __metal_default_timer_handler
  .text.__metal_driver_riscv_cpu_controller_interrupt_init
-                0x000000002002556e       0x84 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x000000002002556e                __metal_driver_riscv_cpu_controller_interrupt_init
+                0x00000000200260ee       0x84 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x00000000200260ee                __metal_driver_riscv_cpu_controller_interrupt_init
  .text.__metal_driver_riscv_cpu_controller_interrupt_register
-                0x00000000200255f2      0x100 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200255f2                __metal_driver_riscv_cpu_controller_interrupt_register
+                0x0000000020026172      0x100 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026172                __metal_driver_riscv_cpu_controller_interrupt_register
  .text.__metal_driver_cpu_exception_register
-                0x00000000200256f2       0x2a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200256f2                __metal_driver_cpu_exception_register
+                0x0000000020026272       0x2a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026272                __metal_driver_cpu_exception_register
  .text.__metal_driver_cpu_sw_controller_interrupt
-                0x000000002002571c        0xa /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x000000002002571c                __metal_driver_cpu_sw_controller_interrupt
+                0x000000002002629c        0xa /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x000000002002629c                __metal_driver_cpu_sw_controller_interrupt
  .text.__metal_driver_riscv_cpu_controller_set_vector_mode
-                0x0000000020025726       0x3a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025726                __metal_driver_riscv_cpu_controller_set_vector_mode
+                0x00000000200262a6       0x3a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x00000000200262a6                __metal_driver_riscv_cpu_controller_set_vector_mode
  .text.__metal_driver_cpu_mtimecmp_set
-                0x0000000020025760       0x24 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025760                __metal_driver_cpu_mtimecmp_set
+                0x00000000200262e0       0x24 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x00000000200262e0                __metal_driver_cpu_mtimecmp_set
  .text.__metal_driver_riscv_cpu_controller_interrupt_disable
-                0x0000000020025784       0x5a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025784                __metal_driver_riscv_cpu_controller_interrupt_disable
+                0x0000000020026304       0x5a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026304                __metal_driver_riscv_cpu_controller_interrupt_disable
  .text.__metal_driver_riscv_cpu_controller_interrupt_enable
-                0x00000000200257de       0x5a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200257de                __metal_driver_riscv_cpu_controller_interrupt_enable
+                0x000000002002635e       0x5a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x000000002002635e                __metal_driver_riscv_cpu_controller_interrupt_enable
  .text.__metal_myhart_id
-                0x0000000020025838        0x6 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025838                __metal_myhart_id
+                0x00000000200263b8        0x6 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x00000000200263b8                __metal_myhart_id
  .text.metal_interrupt_vector_handler
-                0x000000002002583e       0x2a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x000000002002583e                metal_interrupt_vector_handler
+                0x00000000200263be       0x2a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x00000000200263be                metal_interrupt_vector_handler
  .text.metal_software_interrupt_vector_handler
-                0x0000000020025868       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025868                metal_software_interrupt_vector_handler
+                0x00000000200263e8       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x00000000200263e8                metal_software_interrupt_vector_handler
  .text.metal_timer_interrupt_vector_handler
-                0x00000000200258e4       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200258e4                metal_timer_interrupt_vector_handler
+                0x0000000020026464       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026464                metal_timer_interrupt_vector_handler
  .text.metal_lc0_interrupt_vector_handler
-                0x0000000020025960       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025960                metal_lc0_interrupt_vector_handler
+                0x00000000200264e0       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x00000000200264e0                metal_lc0_interrupt_vector_handler
  .text.metal_lc1_interrupt_vector_handler
-                0x00000000200259dc       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200259dc                metal_lc1_interrupt_vector_handler
+                0x000000002002655c       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x000000002002655c                metal_lc1_interrupt_vector_handler
  .text.metal_lc2_interrupt_vector_handler
-                0x0000000020025a58       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025a58                metal_lc2_interrupt_vector_handler
+                0x00000000200265d8       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x00000000200265d8                metal_lc2_interrupt_vector_handler
  .text.metal_lc3_interrupt_vector_handler
-                0x0000000020025ad4       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025ad4                metal_lc3_interrupt_vector_handler
+                0x0000000020026654       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026654                metal_lc3_interrupt_vector_handler
  .text.metal_lc4_interrupt_vector_handler
-                0x0000000020025b50       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025b50                metal_lc4_interrupt_vector_handler
+                0x00000000200266d0       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x00000000200266d0                metal_lc4_interrupt_vector_handler
  .text.metal_lc5_interrupt_vector_handler
-                0x0000000020025bcc       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025bcc                metal_lc5_interrupt_vector_handler
+                0x000000002002674c       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x000000002002674c                metal_lc5_interrupt_vector_handler
  .text.metal_lc6_interrupt_vector_handler
-                0x0000000020025c48       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025c48                metal_lc6_interrupt_vector_handler
+                0x00000000200267c8       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x00000000200267c8                metal_lc6_interrupt_vector_handler
  .text.metal_lc7_interrupt_vector_handler
-                0x0000000020025cc4       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025cc4                metal_lc7_interrupt_vector_handler
+                0x0000000020026844       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026844                metal_lc7_interrupt_vector_handler
  .text.metal_lc8_interrupt_vector_handler
-                0x0000000020025d40       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025d40                metal_lc8_interrupt_vector_handler
+                0x00000000200268c0       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x00000000200268c0                metal_lc8_interrupt_vector_handler
  .text.metal_lc9_interrupt_vector_handler
-                0x0000000020025dbc       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025dbc                metal_lc9_interrupt_vector_handler
+                0x000000002002693c       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x000000002002693c                metal_lc9_interrupt_vector_handler
  .text.metal_lc10_interrupt_vector_handler
-                0x0000000020025e38       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025e38                metal_lc10_interrupt_vector_handler
+                0x00000000200269b8       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x00000000200269b8                metal_lc10_interrupt_vector_handler
  .text.metal_lc11_interrupt_vector_handler
-                0x0000000020025eb4       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025eb4                metal_lc11_interrupt_vector_handler
+                0x0000000020026a34       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026a34                metal_lc11_interrupt_vector_handler
  .text.metal_lc12_interrupt_vector_handler
-                0x0000000020025f30       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025f30                metal_lc12_interrupt_vector_handler
+                0x0000000020026ab0       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026ab0                metal_lc12_interrupt_vector_handler
  .text.metal_lc13_interrupt_vector_handler
-                0x0000000020025fac       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020025fac                metal_lc13_interrupt_vector_handler
+                0x0000000020026b2c       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026b2c                metal_lc13_interrupt_vector_handler
  .text.metal_lc14_interrupt_vector_handler
-                0x0000000020026028       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020026028                metal_lc14_interrupt_vector_handler
+                0x0000000020026ba8       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026ba8                metal_lc14_interrupt_vector_handler
  .text.metal_lc15_interrupt_vector_handler
-                0x00000000200260a4       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x00000000200260a4                metal_lc15_interrupt_vector_handler
+                0x0000000020026c24       0x7c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026c24                metal_lc15_interrupt_vector_handler
  .text.__metal_controller_interrupt_vector_mode
-                0x0000000020026120       0x22 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
-                0x0000000020026120                __metal_controller_interrupt_vector_mode
+                0x0000000020026ca0       0x22 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000020026ca0                __metal_controller_interrupt_vector_mode
  .text.__metal_driver_riscv_plic0_set_priority
-                0x0000000020026142       0x24 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
-                0x0000000020026142                __metal_driver_riscv_plic0_set_priority
+                0x0000000020026cc2       0x24 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000020026cc2                __metal_driver_riscv_plic0_set_priority
  .text.__metal_driver_riscv_plic0_get_priority
-                0x0000000020026166       0x22 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
-                0x0000000020026166                __metal_driver_riscv_plic0_get_priority
+                0x0000000020026ce6       0x22 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000020026ce6                __metal_driver_riscv_plic0_get_priority
  .text.__metal_driver_riscv_plic0_register
-                0x0000000020026188       0x7a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
-                0x0000000020026188                __metal_driver_riscv_plic0_register
+                0x0000000020026d08       0x7a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000020026d08                __metal_driver_riscv_plic0_register
  .text.__metal_driver_riscv_plic0_affinity_enable
-                0x0000000020026202       0x5e /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
-                0x0000000020026202                __metal_driver_riscv_plic0_affinity_enable
+                0x0000000020026d82       0x5e /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000020026d82                __metal_driver_riscv_plic0_affinity_enable
  .text.__metal_driver_riscv_plic0_affinity_disable
-                0x0000000020026260       0x60 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
-                0x0000000020026260                __metal_driver_riscv_plic0_affinity_disable
+                0x0000000020026de0       0x60 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000020026de0                __metal_driver_riscv_plic0_affinity_disable
  .text.__metal_driver_riscv_plic0_affinity_set_threshold
-                0x00000000200262c0       0x2e /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
-                0x00000000200262c0                __metal_driver_riscv_plic0_affinity_set_threshold
+                0x0000000020026e40       0x2e /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000020026e40                __metal_driver_riscv_plic0_affinity_set_threshold
  .text.__metal_driver_riscv_plic0_affinity_get_threshold
-                0x00000000200262ee       0x28 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
-                0x00000000200262ee                __metal_driver_riscv_plic0_affinity_get_threshold
+                0x0000000020026e6e       0x28 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000020026e6e                __metal_driver_riscv_plic0_affinity_get_threshold
  .text.__metal_plic0_default_handler
-                0x0000000020026316        0xc /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
-                0x0000000020026316                __metal_plic0_default_handler
+                0x0000000020026e96        0xc /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000020026e96                __metal_plic0_default_handler
  .text.__metal_plic0_handler
-                0x0000000020026322       0x7a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
-                0x0000000020026322                __metal_plic0_handler
+                0x0000000020026ea2       0x7a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000020026ea2                __metal_plic0_handler
  .text.__metal_driver_riscv_plic0_set_threshold
-                0x000000002002639c       0x40 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
-                0x000000002002639c                __metal_driver_riscv_plic0_set_threshold
+                0x0000000020026f1c       0x40 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000020026f1c                __metal_driver_riscv_plic0_set_threshold
  .text.__metal_driver_riscv_plic0_get_threshold
-                0x00000000200263dc       0x34 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
-                0x00000000200263dc                __metal_driver_riscv_plic0_get_threshold
+                0x0000000020026f5c       0x34 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000020026f5c                __metal_driver_riscv_plic0_get_threshold
  .text.__metal_driver_riscv_plic0_enable
-                0x0000000020026410       0x5a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
-                0x0000000020026410                __metal_driver_riscv_plic0_enable
+                0x0000000020026f90       0x5a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000020026f90                __metal_driver_riscv_plic0_enable
  .text.__metal_driver_riscv_plic0_disable
-                0x000000002002646a       0x5e /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
-                0x000000002002646a                __metal_driver_riscv_plic0_disable
+                0x0000000020026fea       0x5e /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000020026fea                __metal_driver_riscv_plic0_disable
  .text.__metal_driver_riscv_plic0_init
-                0x00000000200264c8      0x112 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
-                0x00000000200264c8                __metal_driver_riscv_plic0_init
+                0x0000000020027048      0x112 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000020027048                __metal_driver_riscv_plic0_init
  .text.__metal_driver_sifive_fe310_g000_hfrosc_get_rate_hz
-                0x00000000200265da       0x46 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_hfrosc.o)
-                0x00000000200265da                __metal_driver_sifive_fe310_g000_hfrosc_get_rate_hz
+                0x000000002002715a       0x46 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_hfrosc.o)
+                0x000000002002715a                __metal_driver_sifive_fe310_g000_hfrosc_get_rate_hz
  .text.__metal_driver_sifive_fe310_g000_hfrosc_set_rate_hz
-                0x0000000020026620       0x46 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_hfrosc.o)
-                0x0000000020026620                __metal_driver_sifive_fe310_g000_hfrosc_set_rate_hz
+                0x00000000200271a0       0x46 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_hfrosc.o)
+                0x00000000200271a0                __metal_driver_sifive_fe310_g000_hfrosc_set_rate_hz
  .text.__metal_driver_sifive_fe310_g000_hfxosc_get_rate_hz
-                0x0000000020026666       0x3a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_hfxosc.o)
-                0x0000000020026666                __metal_driver_sifive_fe310_g000_hfxosc_get_rate_hz
+                0x00000000200271e6       0x3a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_hfxosc.o)
+                0x00000000200271e6                __metal_driver_sifive_fe310_g000_hfxosc_get_rate_hz
  .text.__metal_driver_sifive_fe310_g000_hfxosc_set_rate_hz
-                0x00000000200266a0       0x3a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_hfxosc.o)
-                0x00000000200266a0                __metal_driver_sifive_fe310_g000_hfxosc_set_rate_hz
+                0x0000000020027220       0x3a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_hfxosc.o)
+                0x0000000020027220                __metal_driver_sifive_fe310_g000_hfxosc_set_rate_hz
  .text.__metal_driver_sifive_fe310_g000_pll_config_base
-                0x00000000200266da        0x6 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
+                0x000000002002725a        0x6 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
  .text.__metal_driver_sifive_fe310_g000_pll_config_offset
-                0x00000000200266e0        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
+                0x0000000020027260        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
  .text.__metal_driver_sifive_fe310_g000_pll_init
-                0x00000000200266e4       0x66 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
-                0x00000000200266e4                __metal_driver_sifive_fe310_g000_pll_init
+                0x0000000020027264       0x66 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
+                0x0000000020027264                __metal_driver_sifive_fe310_g000_pll_init
  .text.__metal_driver_sifive_fe310_g000_pll_get_rate_hz
-                0x000000002002674a       0xca /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
-                0x000000002002674a                __metal_driver_sifive_fe310_g000_pll_get_rate_hz
+                0x00000000200272ca       0xca /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
+                0x00000000200272ca                __metal_driver_sifive_fe310_g000_pll_get_rate_hz
  .text.__metal_driver_sifive_fe310_g000_pll_set_rate_hz
-                0x0000000020026814      0x1f8 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
-                0x0000000020026814                __metal_driver_sifive_fe310_g000_pll_set_rate_hz
+                0x0000000020027394      0x1f8 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
+                0x0000000020027394                __metal_driver_sifive_fe310_g000_pll_set_rate_hz
  .text.__metal_driver_sifive_fe310_g000_prci_get_reg
-                0x0000000020026a0c        0xa /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_prci.o)
-                0x0000000020026a0c                __metal_driver_sifive_fe310_g000_prci_get_reg
+                0x000000002002758c        0xa /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_prci.o)
+                0x000000002002758c                __metal_driver_sifive_fe310_g000_prci_get_reg
  .text.__metal_driver_sifive_fe310_g000_prci_set_reg
-                0x0000000020026a16        0xc /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_prci.o)
-                0x0000000020026a16                __metal_driver_sifive_fe310_g000_prci_set_reg
+                0x0000000020027596        0xc /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_prci.o)
+                0x0000000020027596                __metal_driver_sifive_fe310_g000_prci_set_reg
  .text.__metal_driver_sifive_gpio0_enable_input
-                0x0000000020026a22       0x24 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x0000000020026a22                __metal_driver_sifive_gpio0_enable_input
+                0x00000000200275a2       0x24 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x00000000200275a2                __metal_driver_sifive_gpio0_enable_input
  .text.__metal_driver_sifive_gpio0_disable_input
-                0x0000000020026a46       0x2c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x0000000020026a46                __metal_driver_sifive_gpio0_disable_input
+                0x00000000200275c6       0x2c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x00000000200275c6                __metal_driver_sifive_gpio0_disable_input
  .text.__metal_driver_sifive_gpio0_input
-                0x0000000020026a72       0x16 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x0000000020026a72                __metal_driver_sifive_gpio0_input
+                0x00000000200275f2       0x16 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x00000000200275f2                __metal_driver_sifive_gpio0_input
  .text.__metal_driver_sifive_gpio0_output
-                0x0000000020026a88       0x18 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x0000000020026a88                __metal_driver_sifive_gpio0_output
+                0x0000000020027608       0x18 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x0000000020027608                __metal_driver_sifive_gpio0_output
  .text.__metal_driver_sifive_gpio0_disable_output
-                0x0000000020026aa0       0x2c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x0000000020026aa0                __metal_driver_sifive_gpio0_disable_output
+                0x0000000020027620       0x2c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x0000000020027620                __metal_driver_sifive_gpio0_disable_output
  .text.__metal_driver_sifive_gpio0_enable_output
-                0x0000000020026acc       0x24 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x0000000020026acc                __metal_driver_sifive_gpio0_enable_output
+                0x000000002002764c       0x24 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x000000002002764c                __metal_driver_sifive_gpio0_enable_output
  .text.__metal_driver_sifive_gpio0_output_set
-                0x0000000020026af0       0x24 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x0000000020026af0                __metal_driver_sifive_gpio0_output_set
+                0x0000000020027670       0x24 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x0000000020027670                __metal_driver_sifive_gpio0_output_set
  .text.__metal_driver_sifive_gpio0_output_clear
-                0x0000000020026b14       0x2c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x0000000020026b14                __metal_driver_sifive_gpio0_output_clear
+                0x0000000020027694       0x2c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x0000000020027694                __metal_driver_sifive_gpio0_output_clear
  .text.__metal_driver_sifive_gpio0_output_toggle
-                0x0000000020026b40       0x24 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x0000000020026b40                __metal_driver_sifive_gpio0_output_toggle
+                0x00000000200276c0       0x24 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x00000000200276c0                __metal_driver_sifive_gpio0_output_toggle
  .text.__metal_driver_sifive_gpio0_enable_io
-                0x0000000020026b64       0x3c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x0000000020026b64                __metal_driver_sifive_gpio0_enable_io
+                0x00000000200276e4       0x3c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x00000000200276e4                __metal_driver_sifive_gpio0_enable_io
  .text.__metal_driver_sifive_gpio0_disable_io
-                0x0000000020026ba0       0x30 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x0000000020026ba0                __metal_driver_sifive_gpio0_disable_io
+                0x0000000020027720       0x30 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x0000000020027720                __metal_driver_sifive_gpio0_disable_io
  .text.__metal_driver_sifive_gpio0_config_int
-                0x0000000020026bd0       0xa8 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x0000000020026bd0                __metal_driver_sifive_gpio0_config_int
+                0x0000000020027750       0xa8 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x0000000020027750                __metal_driver_sifive_gpio0_config_int
  .text.__metal_driver_sifive_gpio0_clear_int
-                0x0000000020026c78       0x88 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x0000000020026c78                __metal_driver_sifive_gpio0_clear_int
+                0x00000000200277f8       0x88 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x00000000200277f8                __metal_driver_sifive_gpio0_clear_int
  .text.__metal_driver_gpio_interrupt_controller
-                0x0000000020026d00       0x16 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x0000000020026d00                __metal_driver_gpio_interrupt_controller
+                0x0000000020027880       0x16 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x0000000020027880                __metal_driver_gpio_interrupt_controller
  .text.__metal_driver_gpio_get_interrupt_id
-                0x0000000020026d16      0x146 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
-                0x0000000020026d16                __metal_driver_gpio_get_interrupt_id
+                0x0000000020027896      0x146 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x0000000020027896                __metal_driver_gpio_get_interrupt_id
  .text.__metal_driver_sifive_uart0_interrupt_controller
-                0x0000000020026e5c       0x26 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x0000000020026e5c                __metal_driver_sifive_uart0_interrupt_controller
+                0x00000000200279dc       0x26 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x00000000200279dc                __metal_driver_sifive_uart0_interrupt_controller
  .text.__metal_driver_sifive_uart0_get_interrupt_id
-                0x0000000020026e82       0x22 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x0000000020026e82                __metal_driver_sifive_uart0_get_interrupt_id
+                0x0000000020027a02       0x22 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027a02                __metal_driver_sifive_uart0_get_interrupt_id
  .text.__metal_driver_sifive_uart0_tx_interrupt_enable
-                0x0000000020026ea4       0x4a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x0000000020026ea4                __metal_driver_sifive_uart0_tx_interrupt_enable
+                0x0000000020027a24       0x4a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027a24                __metal_driver_sifive_uart0_tx_interrupt_enable
  .text.__metal_driver_sifive_uart0_tx_interrupt_disable
-                0x0000000020026eee       0x44 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x0000000020026eee                __metal_driver_sifive_uart0_tx_interrupt_disable
+                0x0000000020027a6e       0x44 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027a6e                __metal_driver_sifive_uart0_tx_interrupt_disable
  .text.__metal_driver_sifive_uart0_rx_interrupt_enable
-                0x0000000020026f32       0x4a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x0000000020026f32                __metal_driver_sifive_uart0_rx_interrupt_enable
+                0x0000000020027ab2       0x4a /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027ab2                __metal_driver_sifive_uart0_rx_interrupt_enable
  .text.__metal_driver_sifive_uart0_rx_interrupt_disable
-                0x0000000020026f7c       0x44 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x0000000020026f7c                __metal_driver_sifive_uart0_rx_interrupt_disable
+                0x0000000020027afc       0x44 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027afc                __metal_driver_sifive_uart0_rx_interrupt_disable
  .text.__metal_driver_sifive_uart0_txready
-                0x0000000020026fc0       0x34 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x0000000020026fc0                __metal_driver_sifive_uart0_txready
+                0x0000000020027b40       0x34 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027b40                __metal_driver_sifive_uart0_txready
  .text.__metal_driver_sifive_uart0_set_tx_watermark
-                0x0000000020026ff4       0x5c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x0000000020026ff4                __metal_driver_sifive_uart0_set_tx_watermark
+                0x0000000020027b74       0x5c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027b74                __metal_driver_sifive_uart0_set_tx_watermark
  .text.__metal_driver_sifive_uart0_get_tx_watermark
-                0x0000000020027050       0x3e /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x0000000020027050                __metal_driver_sifive_uart0_get_tx_watermark
+                0x0000000020027bd0       0x3e /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027bd0                __metal_driver_sifive_uart0_get_tx_watermark
  .text.__metal_driver_sifive_uart0_set_rx_watermark
-                0x000000002002708e       0x5c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x000000002002708e                __metal_driver_sifive_uart0_set_rx_watermark
+                0x0000000020027c0e       0x5c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027c0e                __metal_driver_sifive_uart0_set_rx_watermark
  .text.__metal_driver_sifive_uart0_get_rx_watermark
-                0x00000000200270ea       0x3e /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x00000000200270ea                __metal_driver_sifive_uart0_get_rx_watermark
+                0x0000000020027c6a       0x3e /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027c6a                __metal_driver_sifive_uart0_get_rx_watermark
  .text.__metal_driver_sifive_uart0_putc
-                0x0000000020027128       0x50 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x0000000020027128                __metal_driver_sifive_uart0_putc
+                0x0000000020027ca8       0x50 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027ca8                __metal_driver_sifive_uart0_putc
  .text.__metal_driver_sifive_uart0_getc
-                0x0000000020027178       0x3c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x0000000020027178                __metal_driver_sifive_uart0_getc
+                0x0000000020027cf8       0x3c /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027cf8                __metal_driver_sifive_uart0_getc
  .text.__metal_driver_sifive_uart0_get_baud_rate
-                0x00000000200271b4        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x00000000200271b4                __metal_driver_sifive_uart0_get_baud_rate
+                0x0000000020027d34        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027d34                __metal_driver_sifive_uart0_get_baud_rate
  .text.__metal_driver_sifive_uart0_set_baud_rate
-                0x00000000200271b8       0x98 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x00000000200271b8                __metal_driver_sifive_uart0_set_baud_rate
+                0x0000000020027d38       0x98 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027d38                __metal_driver_sifive_uart0_set_baud_rate
  .text.pre_rate_change_callback_func
-                0x0000000020027250       0xa4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027dd0       0xa4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
  .text.post_rate_change_callback_func
-                0x00000000200272f4        0xa /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027e74        0xa /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
  .text.__metal_driver_sifive_uart0_init
-                0x00000000200272fe       0xd2 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
-                0x00000000200272fe                __metal_driver_sifive_uart0_init
+                0x0000000020027e7e       0xd2 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000020027e7e                __metal_driver_sifive_uart0_init
  .text.metal_cpu_get
-                0x00000000200273d0        0xc /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(cpu.o)
-                0x00000000200273d0                metal_cpu_get
+                0x0000000020027f50        0xc /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(cpu.o)
+                0x0000000020027f50                metal_cpu_get
  .text.metal_cpu_get_current_hartid
-                0x00000000200273dc        0x6 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(cpu.o)
-                0x00000000200273dc                metal_cpu_get_current_hartid
- *fill*         0x00000000200273e2       0x1e 
- .text          0x0000000020027400       0x80 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(vector.o)
-                0x0000000020027400                __metal_vector_table
+                0x0000000020027f5c        0x6 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(cpu.o)
+                0x0000000020027f5c                metal_cpu_get_current_hartid
+ *fill*         0x0000000020027f62       0x1e 
+ .text          0x0000000020027f80       0x80 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(vector.o)
+                0x0000000020027f80                __metal_vector_table
  .text.__metal_driver_fixed_clock_get_rate_hz
-                0x0000000020027480       0x4e /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(fixed-clock.o)
-                0x0000000020027480                __metal_driver_fixed_clock_get_rate_hz
+                0x0000000020028000       0x4e /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(fixed-clock.o)
+                0x0000000020028000                __metal_driver_fixed_clock_get_rate_hz
  .text.__metal_driver_fixed_clock_set_rate_hz
-                0x00000000200274ce       0x4e /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(fixed-clock.o)
-                0x00000000200274ce                __metal_driver_fixed_clock_set_rate_hz
+                0x000000002002804e       0x4e /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(fixed-clock.o)
+                0x000000002002804e                __metal_driver_fixed_clock_set_rate_hz
  *(.gnu.linkonce.t.*)
 
-.rela.dyn       0x000000002002751c        0x0
+.rela.dyn       0x000000002002809c        0x0
  .rela.text._sbrk_r
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text._vfprintf_r
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text._write_r
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text._close_r
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text._fstat_r
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text._isatty_r
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text._lseek_r
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text._read_r
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text.metal.init.enter
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text.metal.init.scrub
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text.libgloss.start
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text._sbrk
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.sdata.__brk
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text.__libc_fini_array
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text.__libc_init_array
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text.__register_exitproc
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text.metal_init_run
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
  .rela.text.metal_fini_run
-                0x000000002002751c        0x0 /tmp/ccptQwVe.o
- .rela.text     0x000000002002751c        0x0 /tmp/ccptQwVe.o
+                0x000000002002809c        0x0 /tmp/cc3tveY2.o
+ .rela.text     0x000000002002809c        0x0 /tmp/cc3tveY2.o
 
-.data           0x0000000080000000      0xfec load address 0x0000000020027520
+.data           0x0000000080000000      0xfec load address 0x00000000200280a0
  *(.data .data.*)
- .data.zetas    0x0000000080000000      0x100 /tmp/ccv44QDw.o
+ .data.zetas    0x0000000080000000      0x100 /tmp/cc3mZZ97.o
                 0x0000000080000000                zetas
  .data.zetas_asm
-                0x0000000080000100      0x200 /tmp/ccv44QDw.o
+                0x0000000080000100      0x200 /tmp/cc3mZZ97.o
                 0x0000000080000100                zetas_asm
  .data.zetas_inv_asm
-                0x0000000080000300      0x200 /tmp/ccv44QDw.o
+                0x0000000080000300      0x200 /tmp/cc3mZZ97.o
                 0x0000000080000300                zetas_inv_asm
  .data.impure_data
                 0x0000000080000500       0x60 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-impure.o)
@@ -2713,12 +2735,12 @@ END GROUP
                 0x0000000080000fe4                __metal_driver_vtable_fixed_clock
  *(.gnu.linkonce.s.*)
 
-.tdata          0x0000000080000ff0        0x0 load address 0x0000000020028510
+.tdata          0x0000000080000ff0        0x0 load address 0x0000000020029090
                 0x0000000080000ff0                PROVIDE (__tls_base = .)
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 [!provide]                        PROVIDE (__tdata_source = LOADADDR (.tdata))
                 [!provide]                        PROVIDE (__tdata_size = SIZEOF (.tdata))
-                0x0000000020027520                PROVIDE (metal_segment_data_source_start = LOADADDR (.data))
+                0x00000000200280a0                PROVIDE (metal_segment_data_source_start = LOADADDR (.data))
                 0x0000000080000000                PROVIDE (metal_segment_data_target_start = ADDR (.data))
                 0x0000000080000ff0                PROVIDE (metal_segment_data_target_end = (ADDR (.tdata) + SIZEOF (.tdata)))
 
@@ -2734,7 +2756,7 @@ END GROUP
 
 .bss            0x0000000080000ff0      0x110
  *(.sbss*)
- .sbss.outleft  0x0000000080000ff0        0x4 /tmp/ccSAOzgg.o
+ .sbss.outleft  0x0000000080000ff0        0x4 /tmp/cckgJnBQ.o
  .sbss.__malloc_free_list
                 0x0000000080000ff4        0x4 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-mallocr.o)
                 0x0000000080000ff4                __malloc_free_list
@@ -2750,10 +2772,10 @@ END GROUP
                 0x0000000080001004        0x4 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(init.o)
  *(.gnu.linkonce.sb.*)
  *(.bss .bss.*)
- .bss.buf.3183  0x0000000080001008       0x15 /tmp/ccptQwVe.o
+ .bss.buf.3190  0x0000000080001008       0x15 /tmp/cc3tveY2.o
  *fill*         0x000000008000101d        0x3 
- .bss.in        0x0000000080001020       0x30 /tmp/ccSAOzgg.o
- .bss.out       0x0000000080001050       0x20 /tmp/ccSAOzgg.o
+ .bss.in        0x0000000080001020       0x30 /tmp/cckgJnBQ.o
+ .bss.out       0x0000000080001050       0x20 /tmp/cckgJnBQ.o
  .bss._global_atexit0
                 0x0000000080001070       0x8c /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__atexit.o)
  *(.gnu.linkonce.b.*)
@@ -2764,41 +2786,42 @@ END GROUP
                 0x0000000080000ff0                PROVIDE (metal_segment_bss_target_start = ADDR (.tbss))
                 0x0000000080001100                PROVIDE (metal_segment_bss_target_end = (ADDR (.bss) + SIZEOF (.bss)))
 
-.stack          0x0000000080001100     0x2000
+.stack          0x0000000080001100     0x2600
                 [!provide]                        PROVIDE (metal_segment_stack_begin = .)
-                0x0000000080003100                . = (. + __stack_size)
- *fill*         0x0000000080001100     0x2000 
-                0x0000000080003100                PROVIDE (_sp = .)
+                0x0000000080003700                . = (. + __stack_size)
+ *fill*         0x0000000080001100     0x2600 
+                0x0000000080003700                PROVIDE (_sp = .)
                 [!provide]                        PROVIDE (metal_segment_stack_end = .)
 
-.heap           0x0000000080003100      0xf00
+.heap           0x0000000080003700      0x900
                 [!provide]                        PROVIDE (__end = .)
                 [!provide]                        PROVIDE (__heap_start = .)
-                0x0000000080003100                PROVIDE (metal_segment_heap_target_start = .)
-                0x0000000000000f00                . = DEFINED (__heap_max)?MIN ((LENGTH (ram) - (. - ORIGIN (ram))), 0x10000000):__heap_size
- *fill*         0x0000000080003100      0xf00 
+                0x0000000080003700                PROVIDE (metal_segment_heap_target_start = .)
+                0x0000000000000900                . = DEFINED (__heap_max)?MIN ((LENGTH (ram) - (. - ORIGIN (ram))), 0x10000000):__heap_size
+ *fill*         0x0000000080003700      0x900 
                 0x0000000080004000                PROVIDE (metal_segment_heap_target_end = .)
                 [!provide]                        PROVIDE (_heap_end = .)
                 [!provide]                        PROVIDE (__heap_end = .)
 
 /DISCARD/
  *(.eh_frame .eh_frame.*)
-OUTPUT(elf/crypto_kem_kyber512-90s_fstack_speed.elf elf32-littleriscv)
+OUTPUT(elf/crypto_kem_kyber768-90s_fspeed_speed.elf elf32-littleriscv)
 
 .comment        0x0000000000000000       0x28
- .comment       0x0000000000000000       0x28 /tmp/ccptQwVe.o
+ .comment       0x0000000000000000       0x28 /tmp/cc3tveY2.o
                                          0x29 (size before relaxing)
- .comment       0x0000000000000028       0x29 /tmp/ccfSlXVX.o
- .comment       0x0000000000000028       0x29 /tmp/cce6nmIQ.o
- .comment       0x0000000000000028       0x29 /tmp/ccSAOzgg.o
- .comment       0x0000000000000028       0x29 /tmp/ccFUCVyE.o
- .comment       0x0000000000000028       0x29 /tmp/ccobnKcu.o
- .comment       0x0000000000000028       0x29 /tmp/ccNvuzTZ.o
- .comment       0x0000000000000028       0x29 /tmp/ccv44QDw.o
- .comment       0x0000000000000028       0x29 /tmp/ccdWMSXX.o
- .comment       0x0000000000000028       0x29 /tmp/cc5dZcpt.o
- .comment       0x0000000000000028       0x29 /tmp/ccKopl6v.o
- .comment       0x0000000000000028       0x29 /tmp/cchMAUUI.o
+ .comment       0x0000000000000028       0x29 /tmp/cc1lNCze.o
+ .comment       0x0000000000000028       0x29 /tmp/ccTlLnpG.o
+ .comment       0x0000000000000028       0x29 /tmp/cckgJnBQ.o
+ .comment       0x0000000000000028       0x29 /tmp/ccnoZA8J.o
+ .comment       0x0000000000000028       0x29 /tmp/ccO0kTYU.o
+ .comment       0x0000000000000028       0x29 /tmp/ccBhTznn.o
+ .comment       0x0000000000000028       0x29 /tmp/ccRtqMiI.o
+ .comment       0x0000000000000028       0x29 /tmp/cc3mZZ97.o
+ .comment       0x0000000000000028       0x29 /tmp/ccAYUKwz.o
+ .comment       0x0000000000000028       0x29 /tmp/ccScaVJL.o
+ .comment       0x0000000000000028       0x29 /tmp/ccgt1gcj.o
+ .comment       0x0000000000000028       0x29 /tmp/ccxkTuCW.o
  .comment       0x0000000000000028       0x29 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
  .comment       0x0000000000000028       0x29 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-impure.o)
  .comment       0x0000000000000028       0x29 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-malloc.o)
@@ -2862,173 +2885,179 @@ OUTPUT(elf/crypto_kem_kyber512-90s_fstack_speed.elf elf32-littleriscv)
 .riscv.attributes
                 0x0000000000000000       0x2b
  .riscv.attributes
-                0x0000000000000000       0x2b /tmp/ccptQwVe.o
+                0x0000000000000000       0x2b /tmp/cc3tveY2.o
  .riscv.attributes
-                0x000000000000002b       0x2b /tmp/ccfSlXVX.o
+                0x000000000000002b       0x2b /tmp/cc1lNCze.o
  .riscv.attributes
-                0x0000000000000056       0x2b /tmp/cce6nmIQ.o
+                0x0000000000000056       0x2b /tmp/ccTlLnpG.o
  .riscv.attributes
-                0x0000000000000081       0x2b /tmp/ccSAOzgg.o
+                0x0000000000000081       0x2b /tmp/cckgJnBQ.o
  .riscv.attributes
-                0x00000000000000ac       0x2b /tmp/ccFUCVyE.o
+                0x00000000000000ac       0x2b /tmp/ccnoZA8J.o
  .riscv.attributes
-                0x00000000000000d7       0x2b /tmp/ccobnKcu.o
+                0x00000000000000d7       0x2b /tmp/ccO0kTYU.o
  .riscv.attributes
-                0x0000000000000102       0x2b /tmp/ccNvuzTZ.o
+                0x0000000000000102       0x2b /tmp/ccBhTznn.o
  .riscv.attributes
-                0x000000000000012d       0x2b /tmp/ccv44QDw.o
+                0x000000000000012d       0x2b /tmp/ccRtqMiI.o
  .riscv.attributes
-                0x0000000000000158       0x2b /tmp/ccdWMSXX.o
+                0x0000000000000158       0x2b /tmp/cc3mZZ97.o
  .riscv.attributes
-                0x0000000000000183       0x2b /tmp/cc5dZcpt.o
+                0x0000000000000183       0x2b /tmp/ccAYUKwz.o
  .riscv.attributes
-                0x00000000000001ae       0x2b /tmp/ccKopl6v.o
+                0x00000000000001ae       0x2b /tmp/ccScaVJL.o
  .riscv.attributes
-                0x00000000000001d9       0x2b /tmp/cchMAUUI.o
+                0x00000000000001d9       0x2b /tmp/ccgt1gcj.o
  .riscv.attributes
-                0x0000000000000204       0x29 /tmp/ccSnWkg4.o
+                0x0000000000000204       0x2b /tmp/ccxkTuCW.o
  .riscv.attributes
-                0x000000000000022d       0x29 /tmp/ccRIc5XP.o
+                0x000000000000022f       0x29 /tmp/ccpV9K2k.o
  .riscv.attributes
-                0x0000000000000256       0x29 /tmp/cce4XZmG.o
+                0x0000000000000258       0x29 /tmp/ccklq0DG.o
  .riscv.attributes
-                0x000000000000027f       0x29 /tmp/cckbR6wS.o
+                0x0000000000000281       0x29 /tmp/ccVSIkwH.o
  .riscv.attributes
-                0x00000000000002a8       0x29 /tmp/cctvnLeW.o
+                0x00000000000002aa       0x29 /tmp/ccw3uivW.o
  .riscv.attributes
-                0x00000000000002d1       0x29 /tmp/ccp1I8iG.o
+                0x00000000000002d3       0x29 /tmp/ccJk2X3K.o
  .riscv.attributes
-                0x00000000000002fa       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
+                0x00000000000002fc       0x29 /tmp/ccJlvNt0.o
  .riscv.attributes
-                0x0000000000000325       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-impure.o)
+                0x0000000000000325       0x29 /tmp/ccIze48H.o
  .riscv.attributes
-                0x0000000000000350       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-malloc.o)
+                0x000000000000034e       0x29 /tmp/cc4YXf1h.o
  .riscv.attributes
-                0x000000000000037b       0x29 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memcpy-asm.o)
+                0x0000000000000377       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
  .riscv.attributes
-                0x00000000000003a4       0x29 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memset.o)
+                0x00000000000003a2       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-impure.o)
  .riscv.attributes
-                0x00000000000003cd       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-freer.o)
+                0x00000000000003cd       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-malloc.o)
  .riscv.attributes
-                0x00000000000003f8       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-mallocr.o)
+                0x00000000000003f8       0x29 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memcpy-asm.o)
  .riscv.attributes
-                0x0000000000000423       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
+                0x0000000000000421       0x29 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memset.o)
  .riscv.attributes
-                0x000000000000044e       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
+                0x000000000000044a       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-freer.o)
  .riscv.attributes
-                0x0000000000000479       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-sbrkr.o)
+                0x0000000000000475       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-mallocr.o)
  .riscv.attributes
-                0x00000000000004a4       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
+                0x00000000000004a0       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
  .riscv.attributes
-                0x00000000000004cf       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o)
+                0x00000000000004cb       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
  .riscv.attributes
-                0x00000000000004fa       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
+                0x00000000000004f6       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-sbrkr.o)
  .riscv.attributes
-                0x0000000000000525       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x0000000000000521       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
  .riscv.attributes
-                0x0000000000000550       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fwalk.o)
+                0x000000000000054c       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o)
  .riscv.attributes
-                0x000000000000057b       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
+                0x0000000000000577       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
  .riscv.attributes
-                0x00000000000005a6       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-mlock.o)
+                0x00000000000005a2       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
  .riscv.attributes
-                0x00000000000005d1       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x00000000000005cd       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fwalk.o)
  .riscv.attributes
-                0x00000000000005fc       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-reent.o)
+                0x00000000000005f8       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
  .riscv.attributes
-                0x0000000000000627       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+                0x0000000000000623       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-mlock.o)
  .riscv.attributes
-                0x0000000000000652       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-writer.o)
+                0x000000000000064e       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
  .riscv.attributes
-                0x000000000000067d       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-closer.o)
+                0x0000000000000679       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-reent.o)
  .riscv.attributes
-                0x00000000000006a8       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fstatr.o)
+                0x00000000000006a4       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
  .riscv.attributes
-                0x00000000000006d3       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-isattyr.o)
+                0x00000000000006cf       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-writer.o)
  .riscv.attributes
-                0x00000000000006fe       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-lseekr.o)
+                0x00000000000006fa       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-closer.o)
  .riscv.attributes
-                0x0000000000000729       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memchr.o)
+                0x0000000000000725       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fstatr.o)
  .riscv.attributes
-                0x0000000000000754       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000000000750       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-isattyr.o)
  .riscv.attributes
-                0x000000000000077f       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-readr.o)
+                0x000000000000077b       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-lseekr.o)
  .riscv.attributes
-                0x00000000000007aa       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+                0x00000000000007a6       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memchr.o)
  .riscv.attributes
-                0x00000000000007d5       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_umoddi3.o)
+                0x00000000000007d1       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
  .riscv.attributes
-                0x0000000000000800       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_clz.o)
+                0x00000000000007fc       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-readr.o)
  .riscv.attributes
-                0x000000000000082b       0x29 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(entry.o)
+                0x0000000000000827       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
  .riscv.attributes
-                0x0000000000000854       0x29 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(scrub.o)
+                0x0000000000000852       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_umoddi3.o)
  .riscv.attributes
-                0x000000000000087d       0x29 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(trap.o)
+                0x000000000000087d       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_clz.o)
  .riscv.attributes
-                0x00000000000008a6       0x29 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(crt0.o)
+                0x00000000000008a8       0x29 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(entry.o)
  .riscv.attributes
-                0x00000000000008cf       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_close.o)
+                0x00000000000008d1       0x29 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(scrub.o)
  .riscv.attributes
-                0x00000000000008fa       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_exit.o)
+                0x00000000000008fa       0x29 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(trap.o)
  .riscv.attributes
-                0x0000000000000925       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_fstat.o)
+                0x0000000000000923       0x29 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(crt0.o)
  .riscv.attributes
-                0x0000000000000950       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_isatty.o)
+                0x000000000000094c       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_close.o)
  .riscv.attributes
-                0x000000000000097b       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_lseek.o)
+                0x0000000000000977       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_exit.o)
  .riscv.attributes
-                0x00000000000009a6       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_read.o)
+                0x00000000000009a2       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_fstat.o)
  .riscv.attributes
-                0x00000000000009d1       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_sbrk.o)
+                0x00000000000009cd       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_isatty.o)
  .riscv.attributes
-                0x00000000000009fc       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_write.o)
+                0x00000000000009f8       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_lseek.o)
  .riscv.attributes
-                0x0000000000000a27       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-atexit.o)
+                0x0000000000000a23       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_read.o)
  .riscv.attributes
-                0x0000000000000a52       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-errno.o)
+                0x0000000000000a4e       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_sbrk.o)
  .riscv.attributes
-                0x0000000000000a7d       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fini.o)
+                0x0000000000000a79       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal-gloss.a(sys_write.o)
  .riscv.attributes
-                0x0000000000000aa8       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-init.o)
+                0x0000000000000aa4       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-atexit.o)
  .riscv.attributes
-                0x0000000000000ad3       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__atexit.o)
+                0x0000000000000acf       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-errno.o)
  .riscv.attributes
-                0x0000000000000afe       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__call_atexit.o)
+                0x0000000000000afa       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fini.o)
  .riscv.attributes
-                0x0000000000000b29       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(init.o)
+                0x0000000000000b25       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-init.o)
  .riscv.attributes
-                0x0000000000000b54       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(shutdown.o)
+                0x0000000000000b50       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__atexit.o)
  .riscv.attributes
-                0x0000000000000b7f       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(synchronize_harts.o)
+                0x0000000000000b7b       0x2b /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__call_atexit.o)
  .riscv.attributes
-                0x0000000000000baa       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(tty.o)
+                0x0000000000000ba6       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(init.o)
  .riscv.attributes
-                0x0000000000000bd5       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(inline.o)
+                0x0000000000000bd1       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(shutdown.o)
  .riscv.attributes
-                0x0000000000000c00       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
+                0x0000000000000bfc       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(synchronize_harts.o)
  .riscv.attributes
-                0x0000000000000c2b       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
+                0x0000000000000c27       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(tty.o)
  .riscv.attributes
-                0x0000000000000c56       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
+                0x0000000000000c52       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(inline.o)
  .riscv.attributes
-                0x0000000000000c81       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_hfrosc.o)
+                0x0000000000000c7d       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_clint0.o)
  .riscv.attributes
-                0x0000000000000cac       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_hfxosc.o)
+                0x0000000000000ca8       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_cpu.o)
  .riscv.attributes
-                0x0000000000000cd7       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
+                0x0000000000000cd3       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(riscv_plic0.o)
  .riscv.attributes
-                0x0000000000000d02       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_prci.o)
+                0x0000000000000cfe       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_hfrosc.o)
  .riscv.attributes
-                0x0000000000000d2d       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
+                0x0000000000000d29       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_hfxosc.o)
  .riscv.attributes
-                0x0000000000000d58       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+                0x0000000000000d54       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_pll.o)
  .riscv.attributes
-                0x0000000000000d83       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(cpu.o)
+                0x0000000000000d7f       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_fe310-g000_prci.o)
  .riscv.attributes
-                0x0000000000000dae       0x29 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(vector.o)
+                0x0000000000000daa       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_gpio0.o)
  .riscv.attributes
-                0x0000000000000dd7       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(fixed-clock.o)
+                0x0000000000000dd5       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(sifive_uart0.o)
+ .riscv.attributes
+                0x0000000000000e00       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(cpu.o)
+ .riscv.attributes
+                0x0000000000000e2b       0x29 /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(vector.o)
+ .riscv.attributes
+                0x0000000000000e54       0x2b /home/hjh/Documents/Kyber_RV_M3/RISC-V/common//libmetal.a(fixed-clock.o)
 
 .debug_info     0x0000000000000000     0x3052
  .debug_info    0x0000000000000000     0x1245 /home/hjh/RISC-V/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)

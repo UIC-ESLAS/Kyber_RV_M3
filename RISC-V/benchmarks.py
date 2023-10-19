@@ -26,9 +26,9 @@ def toMacro(name, value, k=None):
 
 def run_bench(scheme_path, scheme_name, scheme_type, iterations):
     subprocess.check_call(f"make clean", shell=True)
-    subprocess.check_call(f"make CRYPTO_PATH={scheme_path} bin/{scheme_path}_speed.hex CRYPTO_ITERATIONS={iterations}", shell=True)
+    subprocess.check_call(f"make CRYPTO_PATH={scheme_path} bin/{scheme_name}_speed.hex CRYPTO_ITERATIONS={iterations}", shell=True)
     try:
-        subprocess.check_call(f"make run", shell=True)
+        subprocess.check_call(f"make run bin/{scheme_name}_speed.hex", shell=True)
     except:
         print("flash failed --> retry")
         return run_bench(scheme_path, scheme_name, scheme_type, iterations)
@@ -116,7 +116,7 @@ def bench(scheme_path, scheme_name, scheme_type, iterations, outfile, ignoreErro
 with open(f"benchmarks.txt", "a") as outfile:
 
     now = datetime.datetime.now(datetime.timezone.utc)
-    iterations = 100 # defines the number of measurements to perform
+    iterations = 1 # defines the number of measurements to perform
     print(f"% Benchmarking measurements written on {now}, Iterations={iterations}\n", file=outfile)
 
     subprocess.check_call(f"make clean", shell=True)
@@ -128,11 +128,9 @@ with open(f"benchmarks.txt", "a") as outfile:
         # "crypto_kem/kyber768/fstack",
         # "crypto_kem/kyber768/fspeed",
         # "crypto_kem/kyber1024/fstack",
-        "crypto_kem/kyber512-90s/fstack",
-        "crypto_kem/kyber512-90s/fspeed",
+        # "crypto_kem/kyber512-90s/fstack",
+        # "crypto_kem/kyber512-90s/fspeed",
         "crypto_kem/kyber768-90s/fstack",
-        "crypto_kem/kyber768-90s/fspeed",
-        "crypto_kem/kyber1024-90s/fstack"
     ]:
         scheme_name = scheme_path.replace("/", "_")
         scheme_type = re.search('crypto_(.*?)_', scheme_name).group(1)

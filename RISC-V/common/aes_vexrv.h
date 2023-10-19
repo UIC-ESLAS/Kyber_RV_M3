@@ -1,5 +1,5 @@
-#ifndef AES_H
-#define AES_H
+#ifndef AES_VEXRV_H
+#define AES_VEXRV_H
 
 #include <stdint.h>
 #include <stdlib.h>

@@ -87,232 +87,236 @@ keypair stack: 5032
 encaps stack: 5608 
 decaps stack: 5656
 
-sbt "runMain mupq.PQVexRiscvSim --init ../Kyber_RISC_V_Thesis/bin/crypto_kem_kyber512_kyber512ref2_speed.bin"
-keypair cycles: 3810146
-encaps cycles: 5116793
-decaps cycles: 4977580
-NTT cycles: 1043740
-iNTT: 1539120
-sbt "runMain mupq.PQVexRiscvSim --init ../Kyber_RISC_V_Thesis/bin/crypto_kem_kyber512_kyber512ref2_stack.bin"
-key gen stack usage 6632
-encaps stack usage 9288
-decaps stack usage 10072
-NTT stack usage 76
-INTT stack usage 60
-sbt "runMain mupq.PQVexRiscvSim --init ../Kyber_RISC_V_Thesis/bin/crypto_kem_kyber768_kyber768ref2_speed.bin"
-keypair cycles: 7081318
-encaps cycles: 8770986
-decaps cycles: 8523416
-NTT cycles: 1043740
-iNTT: 1539120
-sbt "runMain mupq.PQVexRiscvSim --init ../Kyber_RISC_V_Thesis/bin/crypto_kem_kyber768_kyber768ref2_stack.bin"
-key gen stack usage 10728
-encaps stack usage 13896
-decaps stack usage 15032
-NTT stack usage 76
-INTT stack usage 60
-sbt "runMain mupq.PQVexRiscvSim --init ../Kyber_RISC_V_Thesis/bin/crypto_kem_kyber1024_kyber1024ref2_speed.bin"
-keypair cycles: 11324747
-encaps cycles: 13399609
-decaps cycles: 13052685
-NTT cycles: 1043740
-iNTT: 1539120
-sbt "runMain mupq.PQVexRiscvSim --init ../Kyber_RISC_V_Thesis/bin/crypto_kem_kyber1024_kyber1024ref2_stack.bin"
-key gen stack usage 15848
-encaps stack usage 19528
-decaps stack usage 21144
-NTT stack usage 76
-INTT stack usage 60
 
-sbt "runMain mupq.PQVexRiscvSim --init ../Kyber_RISC_V_Thesis/bin/crypto_kem_kyber512_kyber512r2_speed.bin"
-keypair cycles: 3506318
-encaps cycles: 4631051
-decaps cycles: 4228648
-NTT cycles: 28417
-iNTT: 42636
-sbt "runMain mupq.PQVexRiscvSim --init ../Kyber_RISC_V_Thesis/bin/crypto_kem_kyber512_kyber512r2_stack.bin"
-key gen stack usage 6632
-encaps stack usage 9288
-decaps stack usage 10072
-NTT stack usage 64
-INTT stack usage 64
-sbt "runMain mupq.PQVexRiscvSim --init ../Kyber_RISC_V_Thesis/bin/crypto_kem_kyber768_kyber768r2_speed.bin"
-keypair cycles: 6625576
-encaps cycles: 8098011
-decaps cycles: 7511294
-NTT cycles: 284170
-iNTT: 426360
-sbt "runMain mupq.PQVexRiscvSim --init ../Kyber_RISC_V_Thesis/bin/crypto_kem_kyber768_kyber768r2_stack.bin"
-key gen stack usage 10728
-encaps stack usage 13896
-decaps stack usage 15032
-NTT stack usage 64
-INTT stack usage 64
-sbt "runMain mupq.PQVexRiscvSim --init ../Kyber_RISC_V_Thesis/bin/crypto_kem_kyber1024_kyber1024r2_speed.bin"
-keypair cycles: 10717091
-encaps cycles: 12539401
-decaps cycles: 11777373
-NTT cycles: 284170
-iNTT: 426360
-sbt "runMain mupq.PQVexRiscvSim --init ../Kyber_RISC_V_Thesis/bin/crypto_kem_kyber1024_kyber1024r2_stack.bin"
-key gen stack usage 15848
-encaps stack usage 19528
-decaps stack usage 21144
-NTT stack usage 64
-INTT stack usage 64
-
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber1024-90s_fstack_stack.bin"
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/our/crypto_kem_kyber512-90s_fspeed_stack.bin"
 keypair stack:
-4204 
+3744 
 encaps stack:
-4268 
+4216 
 decaps stack:
-4284
+4232
 
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber512-90s_fstack_stack.bin"
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/our/crypto_kem_kyber512-90s_fstack_stack.bin"
 keypair stack:
-3180 
+2704 
 encaps stack:
-3260 
+2616 
 decaps stack:
-3292
+2648 
 
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber768-90s_fstack_stack.bin"
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/our/crypto_kem_kyber768-90s_fspeed_stack.bin"
 keypair stack:
-3692 
+4528 
 encaps stack:
-3756 
+5000 
 decaps stack:
-3772
+5032 
 
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber1024-90s_fspeed_stack.bin"
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/our/crypto_kem_kyber768-90s_fstack_stack.bin"
 keypair stack:
-5772 
+3248 
 encaps stack:
-6348 
+3144 
 decaps stack:
-6396
+3160 
 
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber512-90s_fspeed_stack.bin"
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/our/crypto_kem_kyber1024-90s_fspeed_stack.bin"
 keypair stack:
-4220 
+5296 
 encaps stack:
-4812 
+5752 
 decaps stack:
-4828
+5800
 
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber768-90s_fspeed_stack.bin"
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/our/crypto_kem_kyber1024-90s_fstack_stack.bin"
 keypair stack:
-5004 
+3760 
 encaps stack:
-5596 
+3656 
 decaps stack:
-5628
+3672
 
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber1024-90s_fspeed_speed_vexrv.bin"
-keypair cycles: 32197272 
-encaps cycles: 32778779 
-decaps cycles: 32703417 
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/our/crypto_kem_kyber512-90s_fspeed_speed_vexrv.bin"
+keypair cycles: 2654431 
+encaps cycles: 2836579 
+decaps cycles: 2788724 
 ntt cycles: 21975 
 poly_basemul_opt_16_32 cycles: 7747 
 poly_basemul_acc_opt_32_32 cycles: 9795 
 poly_basemul_acc_opt_32_16 cycles: 13068 
+invntt cycles: 23666 
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/our/crypto_kem_kyber512-90s_fstack_speed_vexrv.bin"
+keypair cycles: 2667153 
+encaps cycles: 2902320 
+decaps cycles: 2854497 
+ntt cycles: 21975 
+basemul cycles: 12236 
 invntt cycles: 23666
 
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber512-90s_fspeed_speed_vexrv.bin"
-keypair cycles: 8960224 
-encaps cycles: 9266412 
-decaps cycles: 9218557 
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/our/crypto_kem_kyber768-90s_fspeed_speed_vexrv.bin"
+keypair cycles: 5081729 
+encaps cycles: 5379057 
+decaps cycles: 5314829 
 ntt cycles: 21975 
 poly_basemul_opt_16_32 cycles: 7747 
 poly_basemul_acc_opt_32_32 cycles: 9795 
 poly_basemul_acc_opt_32_16 cycles: 13068 
-invntt cycles: 23666
+invntt cycles: 23666 
 
-
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber768-90s_fspeed_speed_vexrv.bin"
-keypair cycles: 18608983 
-encaps cycles: 19092320 
-decaps cycles: 19028092 
-ntt cycles: 21975 
-poly_basemul_opt_16_32 cycles: 7747 
-poly_basemul_acc_opt_32_32 cycles: 9795 
-poly_basemul_acc_opt_32_16 cycles: 13068 
-invntt cycles: 23666
-
-
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber1024-90s_fspeed_speed_vexrv.bin"
-keypair cycles: 32197272 
-encaps cycles: 32778779 
-decaps cycles: 32703417 
-ntt cycles: 21975 
-poly_basemul_opt_16_32 cycles: 7747 
-poly_basemul_acc_opt_32_32 cycles: 9795 
-poly_basemul_acc_opt_32_16 cycles: 13068 
-invntt cycles: 23666
-
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber512-90s_fspeed_speed_vexrv.bin"
-keypair cycles: 8960224 
-encaps cycles: 9266412 
-decaps cycles: 9218557 
-ntt cycles: 21975 
-poly_basemul_opt_16_32 cycles: 7747 
-poly_basemul_acc_opt_32_32 cycles: 9795 
-poly_basemul_acc_opt_32_16 cycles: 13068 
-invntt cycles: 23666
-
-
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber768-90s_fspeed_speed_vexrv.bin"
-keypair cycles: 18608983 
-encaps cycles: 19092320 
-decaps cycles: 19028092 
-ntt cycles: 21975 
-poly_basemul_opt_16_32 cycles: 7747 
-poly_basemul_acc_opt_32_32 cycles: 9795 
-poly_basemul_acc_opt_32_16 cycles: 13068 
-invntt cycles: 23666
-
-
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber1024-90s_fstack_speed_vexrv.bin"
-keypair cycles: 32276970 
-encaps cycles: 32873629 
-decaps cycles: 32798705 
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/our/crypto_kem_kyber768-90s_fstack_speed_vexrv.bin"
+keypair cycles: 5126173 
+encaps cycles: 5434015 
+decaps cycles: 5370239 
 ntt cycles: 21975 
 basemul cycles: 12236 
 invntt cycles: 24146
 
-
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber512-90s_fstack_speed_vexrv.bin"
-keypair cycles: 8978679 
-encaps cycles: 9281904 
-decaps cycles: 9234081 
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/our/crypto_kem_kyber1024-90s_fspeed_speed_vexrv.bin"
+keypair cycles: 8499223 
+encaps cycles: 8888843 
+decaps cycles: 8813481 
 ntt cycles: 21975 
-basemul cycles: 12236 
+poly_basemul_opt_16_32 cycles: 7747 
+poly_basemul_acc_opt_32_32 cycles: 9795 
+poly_basemul_acc_opt_32_16 cycles: 13068 
 invntt cycles: 23666
 
-
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber768-90s_fstack_speed_vexrv.bin"
-keypair cycles: 18653414 
-encaps cycles: 19147158 
-decaps cycles: 19083382 
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/our/crypto_kem_kyber1024-90s_fstack_speed_vexrv.bin"
+keypair cycles: 8578896 
+encaps cycles: 8983646 
+decaps cycles: 8908722 
 ntt cycles: 21975 
 basemul cycles: 12236 
-invntt cycles: 24146
+invntt cycles: 24146 
 
 
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber1024-90s_fstack_stack.bin"
-keypair stack:
-4204 
-encaps stack:
-4268 
-decaps stack:
-4284
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/ref/crypto_kem_kyber512_kyber512r2_stack.bin"
+key gen stack usage
+6544
+encaps stack usage
+9200
+decaps stack usage
+9984
 
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/ref/crypto_kem_kyber768_kyber768r2_stack.bin"
+key gen stack usage
+10640
+encaps stack usage
+13808
+decaps stack usage
+14944
 
-sbt "runMain mupq.PQVexRiscvSim --init bin/crypto_kem_kyber512-90s_fstack_stack.bin"
-keypair stack:
-3180 
-encaps stack:
-3260 
-decaps stack:
-3292
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/ref/crypto_kem_kyber1024_kyber1024r2_stack.bin"
+key gen stack usage
+15760
+encaps stack usage
+19440
+decaps stack usage
+21056
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/ref/crypto_kem_kyber512-90s_kyber512r2_stack.bin"
+key gen stack usage
+6656
+encaps stack usage
+9312
+decaps stack usage
+10096
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/ref/crypto_kem_kyber768-90s_kyber768r2_stack.bin"
+key gen stack usage
+10752
+
+encaps stack usage
+13920
+
+decaps stack usage
+15056
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/ref/crypto_kem_kyber1024-90s_kyber1024r2_stack.bin"
+key gen stack usage
+15872
+
+encaps stack usage
+19552
+
+decaps stack usage
+21168
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/ref/crypto_kem_kyber512_kyber512r2_speed.bin"
+keypair cycles:
+2229360
+encaps cycles: 
+2927933
+decaps cycles: 
+2856664
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/ref/crypto_kem_kyber768_kyber768r2_speed.bin"
+keypair cycles:
+4166912
+encaps cycles: 
+5071107
+decaps cycles: 
+4957448
+NTT cycles: 
+28417
+
+iNTT: 
+42636
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/ref/crypto_kem_kyber1024_kyber1024r2_speed.bin"
+keypair cycles:
+6696790
+encaps cycles: 
+7809265
+decaps cycles: 
+7662216
+
+NTT cycles: 
+28417
+
+iNTT: 
+42636
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/ref/crypto_kem_kyber512-90s_kyber512r2_speed.bin"
+keypair cycles:
+3042801
+encaps cycles: 
+3491130
+decaps cycles: 
+3627258
+
+NTT cycles: 
+28417
+
+iNTT: 
+42636
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/ref/crypto_kem_kyber768-90s_kyber768r2_speed.bin"
+keypair cycles:
+6106983
+encaps cycles: 
+6677275
+decaps cycles: 
+6854779
+
+NTT cycles: 
+28417
+
+iNTT: 
+42636
+
+sbt "runMain mupq.PQVexRiscvSim --init bin/Desktop/ref/crypto_kem_kyber1024-90s_kyber1024r2_speed.bin"
+keypair cycles:
+10246713
+encaps cycles: 
+10953388
+decaps cycles: 
+11181268
+
+NTT cycles: 
+28417
+
+iNTT: 
+42636

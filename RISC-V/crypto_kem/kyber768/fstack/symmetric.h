@@ -13,6 +13,7 @@ void shake256_prf(unsigned char *output, size_t outlen, const unsigned char *key
 #define hash_g(OUT, IN, INBYTES) sha3_512(OUT, IN, INBYTES)
 #define xof_absorb(STATE, IN, X, Y) kyber_shake128_absorb(STATE, IN, X, Y)
 #define xof_squeezeblocks(OUT, OUTBLOCKS, STATE) kyber_shake128_squeezeblocks(OUT, OUTBLOCKS, STATE)
+#define xof_ctx_release(STATE) 
 #define prf(OUT, OUTBYTES, KEY, NONCE) shake256_prf(OUT, OUTBYTES, KEY, NONCE)
 #define kdf(OUT, IN, INBYTES) shake256(OUT, KYBER_SSBYTES, IN, INBYTES)
 
