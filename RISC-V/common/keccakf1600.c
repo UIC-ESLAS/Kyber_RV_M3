@@ -32,13 +32,6 @@ void KeccakF1600_StateXORBytes(uint64_t *state, const unsigned char *data, unsig
     }
 }
 
-#ifdef PQRISCV_PLATFORM
-extern void keccakf1600(uint32_t *lanes);
-void KeccakF1600_StatePermute(uint64_t *state)
-{
-    keccakf1600((uint32_t*)state);
-}
-#else
 static const uint64_t KeccakF_RoundConstants[NROUNDS] =
 {
     (uint64_t)0x0000000000000001ULL,
@@ -332,5 +325,3 @@ void KeccakF1600_StatePermute(uint64_t * state)
 
         #undef    round
 }
-
-#endif

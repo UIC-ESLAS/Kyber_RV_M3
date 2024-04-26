@@ -110,7 +110,6 @@ void indcpa_keypair(unsigned char *pk, unsigned char *sk) {
 
         poly_addnoise_eta1(&pkp, noiseseed, nonce++);
         poly_ntt(&pkp);
-
         poly_tobytes(pk+i*KYBER_POLYBYTES, &pkp);
     }
 

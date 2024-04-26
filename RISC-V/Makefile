@@ -9,7 +9,7 @@ ifndef CRYPTO_PATH
 CRYPTO_PATH = crypto_kem/kyber768/fspeed
 endif
 ifndef CRYPTO_ITERATIONS
-CRYPTO_ITERATIONS = 1
+CRYPTO_ITERATIONS = 100
 endif
 
 
@@ -48,9 +48,9 @@ ifdef (,$(findstring stack.hex, $(MAKECMDGOALS)))
 	STACK_SIZE:=0x1a00
 else
 	ifeq ($(shell expr $(SCHEME_TYPE) == 1024), 1)
-		STACK_SIZE:=0x2800
+		STACK_SIZE:=0x2900
 	else ifeq ($(shell expr $(SCHEME_TYPE) == 768), 1)
-		STACK_SIZE:=0x2600
+		STACK_SIZE:=0x2900
 	else
 		STACK_SIZE:=0x2000
 	endif

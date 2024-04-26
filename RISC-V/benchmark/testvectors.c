@@ -39,23 +39,23 @@ int main(void)
     // Key-pair generation
     crypto_kem_keypair(pk, sk_a);
 
-    printf("pk:\n");
+    printf("Public Key: \n");
     printbytes(pk,CRYPTO_PUBLICKEYBYTES);
-    // printf("sk_a:\n");
-    // printbytes(sk_a,CRYPTO_SECRETKEYBYTES);
+    printf("Secret Key: \n");
+    printbytes(sk_a,CRYPTO_SECRETKEYBYTES);
 
     // Encapsulation
     crypto_kem_enc(sendb, key_b, pk);
 
-    printf("sendb:\n");
+    printf("Ciphertext: \n");
     printbytes(sendb,CRYPTO_CIPHERTEXTBYTES);
-    printf("key_b:\n");
+    printf("Shared Secret B: ");
     printbytes(key_b,CRYPTO_BYTES);
 
     // Decapsulation
     crypto_kem_dec(key_a, sendb, sk_a);
 
-    printf("key_a:\n");
+    printf("Shared Secret A: ");
     printbytes(key_a,CRYPTO_BYTES);
 
     for(j=0;j<CRYPTO_BYTES;j++)

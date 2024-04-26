@@ -325,7 +325,7 @@ int cmp_poly_packcompress(const unsigned char *r, poly *a, int i) {
 void poly_tobytes(unsigned char *r, poly *a) {
     int i;
     uint16_t t0, t1;
-
+    poly_reduce(a);
     poly_reduce(a);
 
     for (i = 0; i < KYBER_N / 2; i++) {
