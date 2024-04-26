@@ -92,7 +92,7 @@ python3 listen.py
 ```bash
 riscv64-unknown-elf-nm bin/crypto_kem_kyber768_fstack_speed.elf --print-size --size-sort --radix=d | \
 grep -v '\<_\|\<metal\|\<pll_configs' | \
-awk '{sum+=$2 ; print $0} END{print "Total size =", sum, "bytes =", sum/1024, "kB"}'
+awk '{sum+=2;print2 ; print 0} END{print "Total size =", sum, "bytes =", sum/1024, "kB"}'
 ```
 
 ## RISC-V: PQRISCV
@@ -177,3 +177,7 @@ The following files are the main files we used in this paper
    - `results_vexriscv.txt`: results for PQRISCV
    - `listen.py`: receives output from the SiFive board
    - `jlink.sh`: flashes the binary to the SiFive board
+
+## License
+Each subdirectory containing implementations contains a LICENSE or COPYING file stating under what license that specific implementation is released. The files in common contain licensing information at the top of the file (and are currently either public domain or MIT). All other code in this repository is licensed under the conditions of [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0).
+  #
